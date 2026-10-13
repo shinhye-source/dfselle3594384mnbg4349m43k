@@ -271,7 +271,7 @@ dialog .ft{padding:14px 22px;border-top:1px solid var(--line);display:flex;justi
         <div id="members"></div>
         <button type="button" class="btn small" id="addMember">멤버 추가</button>
       </div>
-      <div class="field"><label for="f-reason">수정 사유 *</label><input id="f-reason" required placeholder="예: 활동명 변경 공지 반영"><div class="help">GitHub 커밋 메시지로 들어갑니다.</div></div>
+      <div class="field"><label for="f-reason">메모 <span style="font-weight:400;color:var(--ink-3)">(선택)</span></label><input id="f-reason" placeholder="예: 활동명 변경 공지 반영, 신규 데뷔"><div class="help">적으면 GitHub 커밋 메시지에 함께 남습니다.</div></div>
       <div id="dupWarn"></div>
       <div class="err" id="formErr"></div>
     </div>
@@ -471,7 +471,7 @@ function save(){
   if(!d.nameEn||!d.nameKo){ err.textContent='정식 영문 표기와 한글명은 꼭 적어 주세요.'; return; }
   if(d.members.some(m=>!m.nameEn)){ err.textContent='멤버 영문명이 비어 있는 줄이 있어요.'; return; }
   d.aliases=d.aliases.filter(x=>x!==d.nameEn);
-  const reason=$('#f-reason').value.trim(); if(!reason){ err.textContent='수정 사유를 적어 주세요. 커밋 메시지로 남습니다.'; return; }
+  const reason=$('#f-reason').value.trim();
   const c=conflicts(d,S.editing?.id); if(c.hard.length){ err.textContent=c.hard[0]; return; }
   if(c.soft.length&&$('#dupWarn').dataset.ack!=='1'){ $('#dupWarn').innerHTML=`<div class="warn">${c.soft.map(esc).join('<br>')}<br>그래도 진행하려면 한 번 더 눌러 주세요.</div>`; $('#dupWarn').dataset.ack='1'; return; }
   if(S.editing){
@@ -484,8 +484,8 @@ function save(){
   $('#dlg').close(); afterChange(); toast('변경에 추가했어요. 아래 ‘GitHub에 반영하기’로 저장하세요.');
 }
 function remove(a){
-  const reason=prompt(`${a.nameEn}을(를) 사전에서 삭제할까요?\n삭제 사유를 적어 주세요. (커밋 메시지로 남습니다)`);
-  if(reason===null) return; if(!reason.trim()){ toast('삭제 사유를 적어야 삭제돼요'); return; }
+  const reason=prompt(`${a.nameEn}을(를) 사전에서 삭제할까요?\n메모를 남기려면 적어 주세요. (선택)`);
+  if(reason===null) return;
   S.list=S.list.filter(x=>x.id!==a.id); S.changes.push({action:'삭제',name:a.nameEn,reason:reason.trim()});
   closeDrawer(); afterChange(); toast('삭제를 변경에 추가했어요');
 }
@@ -496,8 +496,8 @@ function renderPending(){
 }
 function commitMessage(){
   const c=S.changes; if(!c.length) return '';
-  const title=c.length===1?`${c[0].action}: ${c[0].name} - ${c[0].reason}`:`표기 사전 변경 ${c.length}건`;
-  return c.length===1?title:title+'\n\n'+c.map(x=>`- ${x.action}: ${x.name} - ${x.reason}`).join('\n');
+  const line=x=>`${x.action}: ${x.name}${x.reason?` - ${x.reason}`:''}`;
+  return c.length===1?line(c[0]):`표기 사전 변경 ${c.length}건\n\n`+c.map(x=>'- '+line(x)).join('\n');
 }
 function serialize(){ return JSON.stringify(S.list.map(a=>({id:a.id,nameEn:a.nameEn,nameKo:a.nameKo,type:a.type,labels:a.labels||[],aliases:a.aliases||[],note:a.note||'',members:(a.members||[]).map(m=>({nameEn:m.nameEn,nameKo:m.nameKo||''}))})),null,2)+'\n'; }
 function download(name,text,type){ const u=URL.createObjectURL(new Blob([text],{type})); const l=document.createElement('a'); l.href=u; l.download=name; document.body.appendChild(l); l.click(); l.remove(); setTimeout(()=>URL.revokeObjectURL(u),1000); }
