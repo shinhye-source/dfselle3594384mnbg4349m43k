@@ -196,6 +196,156 @@
     ]
   },
   {
+    "id": "bss",
+    "nameEn": "BSS",
+    "nameKo": "부석순",
+    "type": "유닛",
+    "parent": "seventeen",
+    "labels": [
+      "PLEDIS Entertainment"
+    ],
+    "aliases": [
+      "BooSeokSoon",
+      "부석순(BSS)"
+    ],
+    "note": "SEVENTEEN 유닛. 멤버 표기는 SEVENTEEN 멤버 표기를 그대로 따름.\n유닛명은 승관(부승관)·도겸(이석민)·호시(권순영) 본명에서 한 글자씩 딴 것.",
+    "members": [
+      {
+        "nameEn": "SEUNGKWAN",
+        "nameKo": "승관"
+      },
+      {
+        "nameEn": "DK",
+        "nameKo": "도겸"
+      },
+      {
+        "nameEn": "HOSHI",
+        "nameKo": "호시"
+      }
+    ]
+  },
+  {
+    "id": "jeonghan-x-wonwoo",
+    "nameEn": "JEONGHAN X WONWOO",
+    "nameKo": "정한X원우",
+    "type": "유닛",
+    "parent": "seventeen",
+    "labels": [
+      "PLEDIS Entertainment"
+    ],
+    "aliases": [
+      "JxW"
+    ],
+    "note": "SEVENTEEN 유닛. 멤버 표기는 SEVENTEEN 멤버 표기를 그대로 따름.\n'JxW'는 약칭이라 기획안에는 풀네임 사용 (협의 필요).",
+    "members": [
+      {
+        "nameEn": "JEONGHAN",
+        "nameKo": "정한"
+      },
+      {
+        "nameEn": "WONWOO",
+        "nameKo": "원우"
+      }
+    ]
+  },
+  {
+    "id": "hoshi-x-woozi",
+    "nameEn": "HOSHI X WOOZI",
+    "nameKo": "호시X우지",
+    "type": "유닛",
+    "parent": "seventeen",
+    "labels": [
+      "PLEDIS Entertainment"
+    ],
+    "aliases": [
+      "HxW"
+    ],
+    "note": "SEVENTEEN 유닛. 멤버 표기는 SEVENTEEN 멤버 표기를 그대로 따름.\n'HxW'는 약칭이라 기획안에는 풀네임 사용 (협의 필요).",
+    "members": [
+      {
+        "nameEn": "HOSHI",
+        "nameKo": "호시"
+      },
+      {
+        "nameEn": "WOOZI",
+        "nameKo": "우지"
+      }
+    ]
+  },
+  {
+    "id": "s-coups-x-mingyu",
+    "nameEn": "S.COUPS X MINGYU",
+    "nameKo": "에스쿱스X민규",
+    "type": "유닛",
+    "parent": "seventeen",
+    "labels": [
+      "PLEDIS Entertainment"
+    ],
+    "aliases": [
+      "CxM"
+    ],
+    "note": "SEVENTEEN 유닛. 멤버 표기는 SEVENTEEN 멤버 표기를 그대로 따름.\n'CxM'은 약칭이라 기획안에는 풀네임 사용 (협의 필요).",
+    "members": [
+      {
+        "nameEn": "S.COUPS",
+        "nameKo": "에스쿱스"
+      },
+      {
+        "nameEn": "MINGYU",
+        "nameKo": "민규"
+      }
+    ]
+  },
+  {
+    "id": "dk-x-seungkwan",
+    "nameEn": "DK X SEUNGKWAN",
+    "nameKo": "도겸X승관",
+    "type": "유닛",
+    "parent": "seventeen",
+    "labels": [
+      "PLEDIS Entertainment"
+    ],
+    "aliases": [
+      "DxS"
+    ],
+    "note": "SEVENTEEN 유닛. 멤버 표기는 SEVENTEEN 멤버 표기를 그대로 따름.\n'DxS'는 약칭이라 기획안에는 풀네임 사용 (협의 필요).",
+    "members": [
+      {
+        "nameEn": "DK",
+        "nameKo": "도겸"
+      },
+      {
+        "nameEn": "SEUNGKWAN",
+        "nameKo": "승관"
+      }
+    ]
+  },
+  {
+    "id": "v8",
+    "nameEn": "V8",
+    "nameKo": "V8",
+    "type": "유닛",
+    "parent": "seventeen",
+    "labels": [
+      "PLEDIS Entertainment"
+    ],
+    "aliases": [
+      "디에잇X버논",
+      "THE 8 X VERNON"
+    ],
+    "note": "SEVENTEEN 유닛. 멤버 표기는 SEVENTEEN 멤버 표기를 그대로 따름.\n2026년 6월 29일 데뷔. 유닛명은 VERNON의 V와 THE 8의 8에서 따옴.",
+    "members": [
+      {
+        "nameEn": "THE 8",
+        "nameKo": "디에잇"
+      },
+      {
+        "nameEn": "VERNON",
+        "nameKo": "버논"
+      }
+    ]
+  },
+  {
     "id": "enhypen",
     "nameEn": "ENHYPEN",
     "nameKo": "ENHYPEN",
@@ -3727,6 +3877,7 @@
     "nameEn": "ONEW",
     "nameKo": "온유",
     "type": "솔로",
+    "parent": "shinee",
     "labels": [
       "GRIFFIN Entertainment"
     ],
@@ -3918,6 +4069,7 @@
     "nameEn": "BAEKHYUN",
     "nameKo": "백현",
     "type": "솔로",
+    "parent": "exo",
     "labels": [
       "INB100"
     ],
@@ -3930,6 +4082,7 @@
     "nameEn": "XIUMIN",
     "nameKo": "시우민",
     "type": "솔로",
+    "parent": "exo",
     "labels": [
       "INB100"
     ],
@@ -3942,6 +4095,7 @@
     "nameEn": "CHEN",
     "nameKo": "첸",
     "type": "솔로",
+    "parent": "exo",
     "labels": [
       "INB100"
     ],
@@ -4338,6 +4492,7 @@
     "nameEn": "JENNIE",
     "nameKo": "JENNIE",
     "type": "솔로",
+    "parent": "blackpink",
     "labels": [
       "OA ENTERTAINMENT"
     ],

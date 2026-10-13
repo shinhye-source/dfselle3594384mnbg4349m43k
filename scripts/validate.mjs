@@ -32,5 +32,14 @@ list.forEach((a, i) => {
 });
 
 warnings.forEach(w => console.log('! ' + w));
+// 소속 그룹 연결 검사
+list.forEach((a, i) => {
+  if (a && a.parent !== undefined) {
+    const at = `${i + 1}번째 항목 (${a.nameEn})`;
+    if (a.parent === a.id) errors.push(`${at}: 자기 자신을 소속 그룹으로 지정할 수 없어요.`);
+    else if (!ids.has(a.parent)) errors.push(`${at}: 소속 그룹 id '${a.parent}'가 없어요.`);
+  }
+});
+
 if (errors.length) { errors.forEach(e => console.error('✗ ' + e)); process.exit(1); }
 console.log(`✓ ${list.length}팀 검사 통과${warnings.length ? ` (확인 필요 ${warnings.length}건)` : ''}`);
