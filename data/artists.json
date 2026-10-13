@@ -1,0 +1,6518 @@
+[
+  {
+    "id": "bts",
+    "nameEn": "BTS",
+    "nameKo": "방탄소년단",
+    "type": "그룹",
+    "labels": [
+      "BIGHIT MUSIC"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 빅히트 뮤직",
+    "members": [
+      {
+        "nameEn": "RM",
+        "nameKo": "RM"
+      },
+      {
+        "nameEn": "Jin",
+        "nameKo": "진"
+      },
+      {
+        "nameEn": "SUGA",
+        "nameKo": "슈가"
+      },
+      {
+        "nameEn": "j-hope",
+        "nameKo": "제이홉"
+      },
+      {
+        "nameEn": "Jimin",
+        "nameKo": "지민"
+      },
+      {
+        "nameEn": "V",
+        "nameKo": "뷔"
+      },
+      {
+        "nameEn": "Jung Kook",
+        "nameKo": "정국"
+      }
+    ]
+  },
+  {
+    "id": "tomorrow-x-together",
+    "nameEn": "TOMORROW X TOGETHER",
+    "nameKo": "투모로우바이투게더",
+    "type": "그룹",
+    "labels": [
+      "BIGHIT MUSIC"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 빅히트 뮤직",
+    "members": [
+      {
+        "nameEn": "SOOBIN",
+        "nameKo": "수빈"
+      },
+      {
+        "nameEn": "YEONJUN",
+        "nameKo": "연준"
+      },
+      {
+        "nameEn": "BEOMGYU",
+        "nameKo": "범규"
+      },
+      {
+        "nameEn": "TAEHYUN",
+        "nameKo": "태현"
+      },
+      {
+        "nameEn": "HUENINGKAI",
+        "nameKo": "휴닝카이"
+      }
+    ]
+  },
+  {
+    "id": "cortis",
+    "nameEn": "CORTIS",
+    "nameKo": "코르티스",
+    "type": "그룹",
+    "labels": [
+      "BIGHIT MUSIC"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 빅히트 뮤직\n시트에 그룹 대표 행이 없어 그룹명 열을 영문 표기로 사용함. 한글명 확인 필요.",
+    "members": [
+      {
+        "nameEn": "MARTIN",
+        "nameKo": "마틴"
+      },
+      {
+        "nameEn": "JAMES",
+        "nameKo": "제임스"
+      },
+      {
+        "nameEn": "JUHOON",
+        "nameKo": "주훈"
+      },
+      {
+        "nameEn": "SEONGHYEON",
+        "nameKo": "성현"
+      },
+      {
+        "nameEn": "KEONHO",
+        "nameKo": "건호"
+      }
+    ]
+  },
+  {
+    "id": "baekho",
+    "nameEn": "BAEKHO",
+    "nameKo": "백호",
+    "type": "솔로",
+    "labels": [
+      "PLEDIS Entertainment"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "hwang-min-hyun",
+    "nameEn": "HWANG MIN HYUN",
+    "nameKo": "황민현",
+    "type": "솔로",
+    "labels": [
+      "PLEDIS Entertainment"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "seventeen",
+    "nameEn": "SEVENTEEN",
+    "nameKo": "세븐틴",
+    "type": "그룹",
+    "labels": [
+      "PLEDIS Entertainment"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "S.COUPS",
+        "nameKo": "에스쿱스"
+      },
+      {
+        "nameEn": "JEONGHAN",
+        "nameKo": "정한"
+      },
+      {
+        "nameEn": "JOSHUA",
+        "nameKo": "조슈아"
+      },
+      {
+        "nameEn": "JUN",
+        "nameKo": "준"
+      },
+      {
+        "nameEn": "HOSHI",
+        "nameKo": "호시"
+      },
+      {
+        "nameEn": "WONWOO",
+        "nameKo": "원우"
+      },
+      {
+        "nameEn": "WOOZI",
+        "nameKo": "우지"
+      },
+      {
+        "nameEn": "THE 8",
+        "nameKo": "디에잇"
+      },
+      {
+        "nameEn": "MINGYU",
+        "nameKo": "민규"
+      },
+      {
+        "nameEn": "DK",
+        "nameKo": "도겸"
+      },
+      {
+        "nameEn": "SEUNGKWAN",
+        "nameKo": "승관"
+      },
+      {
+        "nameEn": "VERNON",
+        "nameKo": "버논"
+      },
+      {
+        "nameEn": "DINO",
+        "nameKo": "디노"
+      }
+    ]
+  },
+  {
+    "id": "enhypen",
+    "nameEn": "ENHYPEN",
+    "nameKo": "ENHYPEN",
+    "type": "그룹",
+    "labels": [
+      "BELIFT LAB"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 빌리프랩",
+    "members": [
+      {
+        "nameEn": "JUNGWON",
+        "nameKo": "정원"
+      },
+      {
+        "nameEn": "JAY",
+        "nameKo": "제이"
+      },
+      {
+        "nameEn": "JAKE",
+        "nameKo": "제이크"
+      },
+      {
+        "nameEn": "SUNGHOON",
+        "nameKo": "성훈"
+      },
+      {
+        "nameEn": "SUNOO",
+        "nameKo": "선우"
+      },
+      {
+        "nameEn": "NI-KI",
+        "nameKo": "니키"
+      }
+    ]
+  },
+  {
+    "id": "evan",
+    "nameEn": "EVAN",
+    "nameKo": "에반",
+    "type": "솔로",
+    "labels": [
+      "BELIFT LAB"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 빌리프랩",
+    "members": []
+  },
+  {
+    "id": "illit",
+    "nameEn": "ILLIT",
+    "nameKo": "아일릿",
+    "type": "그룹",
+    "labels": [
+      "BELIFT LAB"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 빌리프랩",
+    "members": [
+      {
+        "nameEn": "YUNAH",
+        "nameKo": "윤아"
+      },
+      {
+        "nameEn": "MINJU",
+        "nameKo": "민주"
+      },
+      {
+        "nameEn": "MOKA",
+        "nameKo": "모카"
+      },
+      {
+        "nameEn": "WONHEE",
+        "nameKo": "원희"
+      },
+      {
+        "nameEn": "IROHA",
+        "nameKo": "이로하"
+      }
+    ]
+  },
+  {
+    "id": "le-sserafim",
+    "nameEn": "LE SSERAFIM",
+    "nameKo": "르세라핌",
+    "type": "그룹",
+    "labels": [
+      "SOURCE MUSIC"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 쏘스뮤직",
+    "members": [
+      {
+        "nameEn": "KIM CHAEWON",
+        "nameKo": "김채원"
+      },
+      {
+        "nameEn": "SAKURA",
+        "nameKo": "사쿠라"
+      },
+      {
+        "nameEn": "HUH YUNJIN",
+        "nameKo": "허윤진"
+      },
+      {
+        "nameEn": "KAZUHA",
+        "nameKo": "카즈하"
+      },
+      {
+        "nameEn": "HONG EUNCHAE",
+        "nameKo": "홍은채"
+      }
+    ]
+  },
+  {
+    "id": "newjeans",
+    "nameEn": "NewJeans",
+    "nameKo": "뉴진스",
+    "type": "그룹",
+    "labels": [
+      "ADOR"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "MINJI",
+        "nameKo": "민지"
+      },
+      {
+        "nameEn": "HANNI",
+        "nameKo": "하니"
+      },
+      {
+        "nameEn": "HAERIN",
+        "nameKo": "해린"
+      },
+      {
+        "nameEn": "HYEIN",
+        "nameKo": "혜인"
+      }
+    ]
+  },
+  {
+    "id": "team",
+    "nameEn": "&TEAM",
+    "nameKo": "앤팀",
+    "type": "그룹",
+    "labels": [
+      "HYBE LABELS JAPAN"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "K",
+        "nameKo": "케이"
+      },
+      {
+        "nameEn": "FUMA",
+        "nameKo": "후마"
+      },
+      {
+        "nameEn": "NICHOLAS",
+        "nameKo": "니콜라스"
+      },
+      {
+        "nameEn": "EJ",
+        "nameKo": "의주"
+      },
+      {
+        "nameEn": "YUMA",
+        "nameKo": "유마"
+      },
+      {
+        "nameEn": "JO",
+        "nameKo": "조"
+      },
+      {
+        "nameEn": "HARUA",
+        "nameKo": "하루아"
+      },
+      {
+        "nameEn": "TAKI",
+        "nameKo": "타키"
+      },
+      {
+        "nameEn": "MAKI",
+        "nameKo": "마키"
+      }
+    ]
+  },
+  {
+    "id": "treasure",
+    "nameEn": "TREASURE",
+    "nameKo": "트레저",
+    "type": "그룹",
+    "labels": [
+      "YG Entertainment"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "CHOI HYUN SUK",
+        "nameKo": "최현석"
+      },
+      {
+        "nameEn": "JIHOON",
+        "nameKo": "지훈"
+      },
+      {
+        "nameEn": "YOSHI",
+        "nameKo": "요시"
+      },
+      {
+        "nameEn": "JUNKYU",
+        "nameKo": "준규"
+      },
+      {
+        "nameEn": "YOON JAE HYUK",
+        "nameKo": "윤재혁"
+      },
+      {
+        "nameEn": "ASAHI",
+        "nameKo": "아사히"
+      },
+      {
+        "nameEn": "DOYOUNG",
+        "nameKo": "도영"
+      },
+      {
+        "nameEn": "HARUTO",
+        "nameKo": "하루토"
+      },
+      {
+        "nameEn": "PARK JEONG WOO",
+        "nameKo": "박정우"
+      },
+      {
+        "nameEn": "SO JUNG HWAN",
+        "nameKo": "소정환"
+      }
+    ]
+  },
+  {
+    "id": "mirae",
+    "nameEn": "MIRAE",
+    "nameKo": "미래소년",
+    "type": "그룹",
+    "labels": [
+      "DSP MEDIA"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: DSP미디어",
+    "members": [
+      {
+        "nameEn": "JUNHYUK",
+        "nameKo": "이준혁"
+      },
+      {
+        "nameEn": "LIEN",
+        "nameKo": "리안"
+      },
+      {
+        "nameEn": "DOUHYUN",
+        "nameKo": "유도현"
+      },
+      {
+        "nameEn": "KHAEL",
+        "nameKo": "카엘"
+      },
+      {
+        "nameEn": "DONGPYO",
+        "nameKo": "손동표"
+      },
+      {
+        "nameEn": "SIYOUNG",
+        "nameKo": "박시영"
+      },
+      {
+        "nameEn": "YUBIN",
+        "nameKo": "장유빈"
+      }
+    ]
+  },
+  {
+    "id": "ftisland",
+    "nameEn": "FTISLAND",
+    "nameKo": "FT아일랜드",
+    "type": "그룹",
+    "labels": [
+      "FNC ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: FNC엔터테인먼트",
+    "members": [
+      {
+        "nameEn": "Lee Hong Gi",
+        "nameKo": "이홍기"
+      },
+      {
+        "nameEn": "Lee Jae Jin",
+        "nameKo": "이재진"
+      },
+      {
+        "nameEn": "Choi Min Hwan",
+        "nameKo": "최민환"
+      }
+    ]
+  },
+  {
+    "id": "everglow",
+    "nameEn": "EVERGLOW",
+    "nameKo": "에버글로우",
+    "type": "그룹",
+    "labels": [
+      "Yuehua Entertainment Korea"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 위에화엔터테인먼트코리아",
+    "members": [
+      {
+        "nameEn": "E:U",
+        "nameKo": "이유"
+      },
+      {
+        "nameEn": "SIHYEON",
+        "nameKo": "시현"
+      },
+      {
+        "nameEn": "MIA",
+        "nameKo": "미아"
+      },
+      {
+        "nameEn": "ONDA",
+        "nameKo": "온다"
+      },
+      {
+        "nameEn": "AISHA",
+        "nameKo": "아샤"
+      },
+      {
+        "nameEn": "YIREN",
+        "nameKo": "이런"
+      }
+    ]
+  },
+  {
+    "id": "woo-ah",
+    "nameEn": "woo!ah!",
+    "nameKo": "우아!",
+    "type": "그룹",
+    "labels": [
+      "NV ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: NV엔터테인먼트",
+    "members": [
+      {
+        "nameEn": "NANA",
+        "nameKo": "나나"
+      },
+      {
+        "nameEn": "WOOYEON",
+        "nameKo": "우연"
+      },
+      {
+        "nameEn": "SORA",
+        "nameKo": "소라"
+      },
+      {
+        "nameEn": "LUCY",
+        "nameKo": "루시"
+      },
+      {
+        "nameEn": "MINSEO",
+        "nameKo": "민서"
+      }
+    ]
+  },
+  {
+    "id": "ikon",
+    "nameEn": "iKON",
+    "nameKo": "아이콘",
+    "type": "그룹",
+    "labels": [
+      "YG Entertainment"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "JAY",
+        "nameKo": "김진환"
+      },
+      {
+        "nameEn": "BOBBY",
+        "nameKo": "BOBBY"
+      },
+      {
+        "nameEn": "SONG",
+        "nameKo": "송윤형"
+      },
+      {
+        "nameEn": "JU-NE",
+        "nameKo": "구준회"
+      },
+      {
+        "nameEn": "DK",
+        "nameKo": "김동혁"
+      },
+      {
+        "nameEn": "CHAN",
+        "nameKo": "정찬우"
+      }
+    ]
+  },
+  {
+    "id": "just-b",
+    "nameEn": "JUST B",
+    "nameKo": "저스트비",
+    "type": "그룹",
+    "labels": [
+      "Bluedot ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 블루닷엔터테인먼트",
+    "members": [
+      {
+        "nameEn": "LIM JIMIN",
+        "nameKo": "임지민"
+      },
+      {
+        "nameEn": "GEONU",
+        "nameKo": "이건우"
+      },
+      {
+        "nameEn": "Bain",
+        "nameKo": "배인"
+      },
+      {
+        "nameEn": "JM",
+        "nameKo": "JM"
+      },
+      {
+        "nameEn": "DY",
+        "nameKo": "전도염"
+      },
+      {
+        "nameEn": "SANGWOO",
+        "nameKo": "김상우"
+      }
+    ]
+  },
+  {
+    "id": "blackpink",
+    "nameEn": "BLACKPINK",
+    "nameKo": "BLACKPINK",
+    "type": "그룹",
+    "labels": [
+      "YG Entertainment"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "JISOO",
+        "nameKo": "JISOO"
+      },
+      {
+        "nameEn": "JENNIE",
+        "nameKo": "JENNIE"
+      },
+      {
+        "nameEn": "ROSÉ",
+        "nameKo": "ROSÉ"
+      },
+      {
+        "nameEn": "LISA",
+        "nameKo": "LISA"
+      }
+    ]
+  },
+  {
+    "id": "stayc",
+    "nameEn": "STAYC",
+    "nameKo": "스테이씨",
+    "type": "그룹",
+    "labels": [
+      "High Up Entertainment"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 하이업엔터테인먼트",
+    "members": [
+      {
+        "nameEn": "Sumin",
+        "nameKo": "수민"
+      },
+      {
+        "nameEn": "Sieun",
+        "nameKo": "시은"
+      },
+      {
+        "nameEn": "ISA",
+        "nameKo": "아이사"
+      },
+      {
+        "nameEn": "Seeun",
+        "nameKo": "세은"
+      },
+      {
+        "nameEn": "Yoon",
+        "nameKo": "윤"
+      },
+      {
+        "nameEn": "J",
+        "nameKo": "재이"
+      }
+    ]
+  },
+  {
+    "id": "fromis-9",
+    "nameEn": "fromis_9",
+    "nameKo": "프로미스나인",
+    "type": "그룹",
+    "labels": [
+      "PLEDIS Entertainment"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "LEE SAE ROM",
+        "nameKo": "이새롬"
+      },
+      {
+        "nameEn": "SONG HA YOUNG",
+        "nameKo": "송하영"
+      },
+      {
+        "nameEn": "JANG GYU RI",
+        "nameKo": "장규리"
+      },
+      {
+        "nameEn": "PARK JI WON",
+        "nameKo": "박지원"
+      },
+      {
+        "nameEn": "ROH JI SUN",
+        "nameKo": "노지선"
+      },
+      {
+        "nameEn": "LEE SEO YEON",
+        "nameKo": "이서연"
+      },
+      {
+        "nameEn": "LEE CHAE YOUNG",
+        "nameKo": "이채영"
+      },
+      {
+        "nameEn": "LEE NA GYUNG",
+        "nameKo": "이나경"
+      },
+      {
+        "nameEn": "BAEK JI HEON",
+        "nameKo": "백지헌"
+      }
+    ]
+  },
+  {
+    "id": "winner",
+    "nameEn": "WINNER",
+    "nameKo": "위너",
+    "type": "그룹",
+    "labels": [
+      "YG Entertainment"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "YOON",
+        "nameKo": "강승윤"
+      },
+      {
+        "nameEn": "JINU",
+        "nameKo": "김진우"
+      },
+      {
+        "nameEn": "MINO",
+        "nameKo": "송민호"
+      },
+      {
+        "nameEn": "HOONY",
+        "nameKo": "이승훈"
+      }
+    ]
+  },
+  {
+    "id": "kimjunsu",
+    "nameEn": "KIMJUNSU",
+    "nameKo": "김준수",
+    "type": "솔로",
+    "labels": [
+      "PALMTREE ISLAND"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "onlyoneof",
+    "nameEn": "OnlyOneOf",
+    "nameKo": "온리원오브",
+    "type": "그룹",
+    "labels": [
+      "8D ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "KB",
+        "nameKo": "규빈"
+      },
+      {
+        "nameEn": "Rie",
+        "nameKo": "리에"
+      },
+      {
+        "nameEn": "YooJung",
+        "nameKo": "유정"
+      },
+      {
+        "nameEn": "JunJi",
+        "nameKo": "준지"
+      },
+      {
+        "nameEn": "Mill",
+        "nameKo": "밀"
+      },
+      {
+        "nameEn": "Nine",
+        "nameKo": "나인"
+      }
+    ]
+  },
+  {
+    "id": "blitzers",
+    "nameEn": "BLITZERS",
+    "nameKo": "블리처스",
+    "type": "그룹",
+    "labels": [
+      "WUZO ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "JINHWA",
+        "nameKo": "진화"
+      },
+      {
+        "nameEn": "GO_U",
+        "nameKo": "고유"
+      },
+      {
+        "nameEn": "JUHAN",
+        "nameKo": "주한"
+      },
+      {
+        "nameEn": "SYA",
+        "nameKo": "샤"
+      },
+      {
+        "nameEn": "CHRIS",
+        "nameKo": "크리스"
+      },
+      {
+        "nameEn": "LUTAN",
+        "nameKo": "루탄"
+      },
+      {
+        "nameEn": "WOOJU",
+        "nameKo": "우주"
+      }
+    ]
+  },
+  {
+    "id": "yoon-jisung",
+    "nameEn": "Yoon Jisung",
+    "nameKo": "윤지성",
+    "type": "솔로",
+    "labels": [
+      "DG Entertainment"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "b-i-g",
+    "nameEn": "B.I.G",
+    "nameKo": "비아이지",
+    "type": "그룹",
+    "labels": [
+      "GH ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "GUNMIN",
+        "nameKo": "건민"
+      },
+      {
+        "nameEn": "J-HOON",
+        "nameKo": "제이훈"
+      },
+      {
+        "nameEn": "HEEDO",
+        "nameKo": "희도"
+      },
+      {
+        "nameEn": "JINSEOK",
+        "nameKo": "진석"
+      }
+    ]
+  },
+  {
+    "id": "3ye",
+    "nameEn": "3YE",
+    "nameKo": "써드아이",
+    "type": "그룹",
+    "labels": [
+      "GH ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "YUJI",
+        "nameKo": "유지"
+      },
+      {
+        "nameEn": "YURIM",
+        "nameKo": "유림"
+      },
+      {
+        "nameEn": "HAEUN",
+        "nameKo": "하은"
+      }
+    ]
+  },
+  {
+    "id": "kim-woo-seok",
+    "nameEn": "KIM WOO SEOK",
+    "nameKo": "김우석",
+    "type": "솔로",
+    "labels": [
+      "TOP MEDIA"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "whee-in",
+    "nameEn": "Whee In",
+    "nameKo": "휘인",
+    "type": "솔로",
+    "labels": [
+      "THE L1VE LABEL"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 더라이브레이블",
+    "members": []
+  },
+  {
+    "id": "tnx",
+    "nameEn": "TNX",
+    "nameKo": "TNX",
+    "type": "그룹",
+    "labels": [
+      "P NATION"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 피네이션 주식회사",
+    "members": [
+      {
+        "nameEn": "Tae Hun",
+        "nameKo": "최태훈"
+      },
+      {
+        "nameEn": "Hyun Soo",
+        "nameKo": "장현수"
+      },
+      {
+        "nameEn": "Jun Hyeok",
+        "nameKo": "천준혁"
+      },
+      {
+        "nameEn": "Hwi",
+        "nameKo": "은휘"
+      },
+      {
+        "nameEn": "Sung Jun",
+        "nameKo": "오성준"
+      }
+    ]
+  },
+  {
+    "id": "apink",
+    "nameEn": "Apink",
+    "nameKo": "에이핑크",
+    "type": "그룹",
+    "labels": [
+      "IST Entertainment"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "ChoRong",
+        "nameKo": "박초롱"
+      },
+      {
+        "nameEn": "BoMi",
+        "nameKo": "윤보미"
+      },
+      {
+        "nameEn": "EunJi",
+        "nameKo": "정은지"
+      },
+      {
+        "nameEn": "NamJoo",
+        "nameKo": "김남주"
+      },
+      {
+        "nameEn": "HaYoung",
+        "nameKo": "오하영"
+      }
+    ]
+  },
+  {
+    "id": "tri-be",
+    "nameEn": "TRI.BE",
+    "nameKo": "트라이비",
+    "type": "그룹",
+    "labels": [
+      "TR Entertainment"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "SongSun",
+        "nameKo": "송선"
+      },
+      {
+        "nameEn": "Kelly",
+        "nameKo": "켈리"
+      },
+      {
+        "nameEn": "JinHa",
+        "nameKo": "진하"
+      },
+      {
+        "nameEn": "HyunBin",
+        "nameKo": "현빈"
+      },
+      {
+        "nameEn": "Jia",
+        "nameKo": "지아"
+      },
+      {
+        "nameEn": "SoEun",
+        "nameKo": "소은"
+      },
+      {
+        "nameEn": "MiRe",
+        "nameKo": "미레"
+      }
+    ]
+  },
+  {
+    "id": "bambam",
+    "nameEn": "BamBam",
+    "nameKo": "뱀뱀",
+    "type": "솔로",
+    "labels": [
+      "HALO CORPORATION"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 헤일로코퍼레이션",
+    "members": []
+  },
+  {
+    "id": "hyolyn",
+    "nameEn": "HYOLYN",
+    "nameKo": "효린",
+    "type": "솔로",
+    "labels": [
+      "ReH entertainment"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: ReH엔터테인먼트",
+    "members": []
+  },
+  {
+    "id": "billlie",
+    "nameEn": "Billlie",
+    "nameKo": "빌리",
+    "type": "그룹",
+    "labels": [
+      "MYSTIC STORY"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 미스틱스토리",
+    "members": [
+      {
+        "nameEn": "HARAM",
+        "nameKo": "하람"
+      },
+      {
+        "nameEn": "HARUNA",
+        "nameKo": "하루나"
+      },
+      {
+        "nameEn": "MOON SUA",
+        "nameKo": "문수아"
+      },
+      {
+        "nameEn": "SIYOON",
+        "nameKo": "시윤"
+      },
+      {
+        "nameEn": "SHEON",
+        "nameKo": "션"
+      },
+      {
+        "nameEn": "SUHYEON",
+        "nameKo": "수현"
+      },
+      {
+        "nameEn": "TSUKI",
+        "nameKo": "츠키"
+      }
+    ]
+  },
+  {
+    "id": "oh-my-girl",
+    "nameEn": "OH MY GIRL",
+    "nameKo": "오마이걸",
+    "type": "그룹",
+    "labels": [
+      "WM Entertainment Inc."
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: WM 엔터테인먼트",
+    "members": [
+      {
+        "nameEn": "HyoJung",
+        "nameKo": "효정"
+      },
+      {
+        "nameEn": "MiMi",
+        "nameKo": "미미"
+      },
+      {
+        "nameEn": "YooA",
+        "nameKo": "유아"
+      },
+      {
+        "nameEn": "SeungHee",
+        "nameKo": "승희"
+      },
+      {
+        "nameEn": "Yubin",
+        "nameKo": "유빈"
+      },
+      {
+        "nameEn": "Arin",
+        "nameKo": "아린"
+      }
+    ]
+  },
+  {
+    "id": "vixx",
+    "nameEn": "VIXX",
+    "nameKo": "빅스",
+    "type": "그룹",
+    "labels": [
+      "JELLYFISH ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "LEO",
+        "nameKo": "레오"
+      },
+      {
+        "nameEn": "KEN",
+        "nameKo": "켄"
+      }
+    ]
+  },
+  {
+    "id": "b1a4",
+    "nameEn": "B1A4",
+    "nameKo": "비원에이포",
+    "type": "그룹",
+    "labels": [
+      "WM Entertainment Inc."
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: WM 엔터테인먼트",
+    "members": [
+      {
+        "nameEn": "CNU",
+        "nameKo": "신우"
+      },
+      {
+        "nameEn": "SANDEUL",
+        "nameKo": "산들"
+      },
+      {
+        "nameEn": "GONGCHAN",
+        "nameKo": "공찬"
+      }
+    ]
+  },
+  {
+    "id": "onf",
+    "nameEn": "ONF",
+    "nameKo": "온앤오프",
+    "type": "그룹",
+    "labels": [
+      "WM Entertainment Inc."
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: WM 엔터테인먼트",
+    "members": [
+      {
+        "nameEn": "HYOJIN",
+        "nameKo": "효진"
+      },
+      {
+        "nameEn": "E-TION",
+        "nameKo": "이션"
+      },
+      {
+        "nameEn": "J-US",
+        "nameKo": "제이어스"
+      },
+      {
+        "nameEn": "MK",
+        "nameKo": "MK"
+      },
+      {
+        "nameEn": "U",
+        "nameKo": "유"
+      }
+    ]
+  },
+  {
+    "id": "cl",
+    "nameEn": "CL",
+    "nameKo": "CL",
+    "type": "솔로",
+    "labels": [
+      "Very Cherry"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "p1harmony",
+    "nameEn": "P1Harmony",
+    "nameKo": "피원하모니",
+    "type": "그룹",
+    "labels": [
+      "FNC ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: (주) 에프엔씨엔터테인먼트",
+    "members": [
+      {
+        "nameEn": "KEEHO",
+        "nameKo": "기호"
+      },
+      {
+        "nameEn": "THEO",
+        "nameKo": "테오"
+      },
+      {
+        "nameEn": "JIUNG",
+        "nameKo": "지웅"
+      },
+      {
+        "nameEn": "INTAK",
+        "nameKo": "인탁"
+      },
+      {
+        "nameEn": "SOUL",
+        "nameKo": "소울"
+      },
+      {
+        "nameEn": "JONGSEOB",
+        "nameKo": "종섭"
+      }
+    ]
+  },
+  {
+    "id": "weeekly",
+    "nameEn": "Weeekly",
+    "nameKo": "위클리",
+    "type": "그룹",
+    "labels": [
+      "IST Entertainment"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "",
+        "nameKo": "조아"
+      },
+      {
+        "nameEn": "",
+        "nameKo": "이재희"
+      },
+      {
+        "nameEn": "",
+        "nameKo": "이수진"
+      },
+      {
+        "nameEn": "",
+        "nameKo": "먼데이"
+      },
+      {
+        "nameEn": "",
+        "nameKo": "박소은"
+      },
+      {
+        "nameEn": "",
+        "nameKo": "지한"
+      }
+    ]
+  },
+  {
+    "id": "sunmi",
+    "nameEn": "SUNMI",
+    "nameKo": "선미",
+    "type": "솔로",
+    "labels": [
+      "ABYSS Company"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 어비스컴퍼니",
+    "members": []
+  },
+  {
+    "id": "miiwan",
+    "nameEn": "MiiWAN",
+    "nameKo": "미완소년",
+    "type": "그룹",
+    "labels": [
+      "ABYSS Company"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 어비스컴퍼니",
+    "members": [
+      {
+        "nameEn": "MA HAJIN",
+        "nameKo": "마하진"
+      },
+      {
+        "nameEn": "AN SEOKWOO",
+        "nameKo": "안석우"
+      },
+      {
+        "nameEn": "IM ON",
+        "nameKo": "임온"
+      },
+      {
+        "nameEn": "WON JUYUL",
+        "nameKo": "원주율"
+      },
+      {
+        "nameEn": "NA ETHAN",
+        "nameKo": "나이선"
+      }
+    ]
+  },
+  {
+    "id": "henry",
+    "nameEn": "HENRY",
+    "nameKo": "헨리",
+    "type": "솔로",
+    "labels": [
+      "MONSTER ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 몬스터엔터테인먼트그룹",
+    "members": []
+  },
+  {
+    "id": "dreamcatcher",
+    "nameEn": "Dreamcatcher",
+    "nameKo": "드림캐쳐",
+    "type": "그룹",
+    "labels": [
+      "Dreamcatcher Company"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 드림캐쳐 컴퍼니",
+    "members": [
+      {
+        "nameEn": "JI U",
+        "nameKo": "지유"
+      },
+      {
+        "nameEn": "SU A",
+        "nameKo": "수아"
+      },
+      {
+        "nameEn": "SIYEON",
+        "nameKo": "시연"
+      },
+      {
+        "nameEn": "HANDONG",
+        "nameKo": "한동"
+      },
+      {
+        "nameEn": "YOOHYEON",
+        "nameKo": "유현"
+      },
+      {
+        "nameEn": "DAMI",
+        "nameKo": "다미"
+      },
+      {
+        "nameEn": "GAHYEON",
+        "nameKo": "가현"
+      }
+    ]
+  },
+  {
+    "id": "cherry-bullet",
+    "nameEn": "Cherry Bullet",
+    "nameKo": "체리블렛",
+    "type": "그룹",
+    "labels": [
+      "FNC ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: (주) 에프엔씨엔터테인먼트",
+    "members": [
+      {
+        "nameEn": "HAEYOON",
+        "nameKo": "해윤"
+      },
+      {
+        "nameEn": "YUJU",
+        "nameKo": "유주"
+      },
+      {
+        "nameEn": "BORA",
+        "nameKo": "보라"
+      },
+      {
+        "nameEn": "JIWON",
+        "nameKo": "지원"
+      },
+      {
+        "nameEn": "REMI",
+        "nameKo": "레미"
+      },
+      {
+        "nameEn": "CHAERIN",
+        "nameKo": "채린"
+      },
+      {
+        "nameEn": "MAY",
+        "nameKo": "메이"
+      }
+    ]
+  },
+  {
+    "id": "cnblue",
+    "nameEn": "CNBLUE",
+    "nameKo": "씨엔블루",
+    "type": "그룹",
+    "labels": [
+      "FNC ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: (주) 에프엔씨엔터테인먼트",
+    "members": [
+      {
+        "nameEn": "Jung Yonghwa",
+        "nameKo": "정용화"
+      },
+      {
+        "nameEn": "Kang Minhyuk",
+        "nameKo": "강민혁"
+      },
+      {
+        "nameEn": "Lee JungShin",
+        "nameKo": "이정신"
+      }
+    ]
+  },
+  {
+    "id": "purple-kiss",
+    "nameEn": "PURPLE KISS",
+    "nameKo": "퍼플키스",
+    "type": "그룹",
+    "labels": [
+      "RBW"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "Park Ji Eun",
+        "nameKo": "박지은"
+      },
+      {
+        "nameEn": "Na Go Eun",
+        "nameKo": "나고은"
+      },
+      {
+        "nameEn": "Dosie",
+        "nameKo": "도시"
+      },
+      {
+        "nameEn": "Ireh",
+        "nameKo": "이레"
+      },
+      {
+        "nameEn": "Yuki",
+        "nameKo": "유키"
+      },
+      {
+        "nameEn": "Chaein",
+        "nameKo": "채인"
+      },
+      {
+        "nameEn": "SWAN",
+        "nameKo": "수안"
+      }
+    ]
+  },
+  {
+    "id": "elast",
+    "nameEn": "ELAST",
+    "nameKo": "엘라스트",
+    "type": "그룹",
+    "labels": [
+      "E Entertainment"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "Choi In",
+        "nameKo": "최인"
+      },
+      {
+        "nameEn": "Seung Yeop",
+        "nameKo": "승엽"
+      },
+      {
+        "nameEn": "Rano",
+        "nameKo": "라노"
+      },
+      {
+        "nameEn": "Baek Gyeul",
+        "nameKo": "백결"
+      },
+      {
+        "nameEn": "Romin",
+        "nameKo": "로민"
+      },
+      {
+        "nameEn": "Won Hyuk",
+        "nameKo": "원혁"
+      },
+      {
+        "nameEn": "Won Jun",
+        "nameKo": "원준"
+      },
+      {
+        "nameEn": "Ye Jun",
+        "nameKo": "예준"
+      }
+    ]
+  },
+  {
+    "id": "drippin",
+    "nameEn": "DRIPPIN",
+    "nameKo": "드리핀",
+    "type": "그룹",
+    "labels": [
+      "Woollim Entertainment Co., Ltd."
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 울림엔터테인먼트",
+    "members": [
+      {
+        "nameEn": "LEE HYEOP",
+        "nameKo": "이협"
+      },
+      {
+        "nameEn": "HWANG YUNSEONG",
+        "nameKo": "황윤성"
+      },
+      {
+        "nameEn": "JOO CHANGUK",
+        "nameKo": "주창욱"
+      },
+      {
+        "nameEn": "KIM DONGYUN",
+        "nameKo": "김동윤"
+      },
+      {
+        "nameEn": "KIM MINSEO",
+        "nameKo": "김민서"
+      },
+      {
+        "nameEn": "CHA JUNHO",
+        "nameKo": "차준호"
+      }
+    ]
+  },
+  {
+    "id": "pentagon",
+    "nameEn": "PENTAGON",
+    "nameKo": "펜타곤",
+    "type": "그룹",
+    "labels": [
+      "CUBE Entertainment"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 큐브 엔터테인먼트",
+    "members": [
+      {
+        "nameEn": "JINHO",
+        "nameKo": "진호"
+      },
+      {
+        "nameEn": "HUI",
+        "nameKo": "후이"
+      },
+      {
+        "nameEn": "HONGSEOK",
+        "nameKo": "홍석"
+      },
+      {
+        "nameEn": "SHINWON",
+        "nameKo": "신원"
+      },
+      {
+        "nameEn": "YEOONE",
+        "nameKo": "여원"
+      },
+      {
+        "nameEn": "YANAN",
+        "nameKo": "옌안"
+      },
+      {
+        "nameEn": "YUTO",
+        "nameKo": "유토"
+      },
+      {
+        "nameEn": "KINO",
+        "nameKo": "키노"
+      },
+      {
+        "nameEn": "WOOSEOK",
+        "nameKo": "우석"
+      }
+    ]
+  },
+  {
+    "id": "btob",
+    "nameEn": "BTOB",
+    "nameKo": "비투비",
+    "type": "그룹",
+    "labels": [
+      "CUBE Entertainment"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 큐브 엔터테인먼트",
+    "members": [
+      {
+        "nameEn": "SEO EUNKWANG",
+        "nameKo": "서은광"
+      },
+      {
+        "nameEn": "LEE MINHYUK",
+        "nameKo": "이민혁"
+      },
+      {
+        "nameEn": "LEE CHANGSUB",
+        "nameKo": "이창섭"
+      },
+      {
+        "nameEn": "LIM HYUNSIK",
+        "nameKo": "임현식"
+      },
+      {
+        "nameEn": "PENIEL",
+        "nameKo": "프니엘"
+      },
+      {
+        "nameEn": "YOOK SUNGJAE",
+        "nameKo": "육성재"
+      }
+    ]
+  },
+  {
+    "id": "kwon-eun-bi",
+    "nameEn": "KWON EUN BI",
+    "nameKo": "권은비",
+    "type": "솔로",
+    "labels": [
+      "Woollim Entertainment Co., Ltd."
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 울림엔터테인먼트",
+    "members": []
+  },
+  {
+    "id": "moonbin-sanha",
+    "nameEn": "MOONBIN&SANHA",
+    "nameKo": "문빈&산하",
+    "type": "그룹",
+    "labels": [
+      "fantagio"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 판타지오\n시트에 그룹 대표 행이 없어 그룹명 열을 영문 표기로 사용함. 한글명 확인 필요.",
+    "members": [
+      {
+        "nameEn": "MOON BIN",
+        "nameKo": "문빈"
+      },
+      {
+        "nameEn": "SAN-HA",
+        "nameKo": "산하"
+      }
+    ]
+  },
+  {
+    "id": "g-i-dle",
+    "nameEn": "(G)I-DLE",
+    "nameKo": "(여자)아이들",
+    "type": "그룹",
+    "labels": [
+      "CUBE Entertainment"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 큐브 엔터테인먼트",
+    "members": [
+      {
+        "nameEn": "MIYEON",
+        "nameKo": "미연"
+      },
+      {
+        "nameEn": "MINNIE",
+        "nameKo": "민니"
+      },
+      {
+        "nameEn": "SOYEON",
+        "nameKo": "소연"
+      },
+      {
+        "nameEn": "YUQI",
+        "nameKo": "우기"
+      },
+      {
+        "nameEn": "SHUHUA",
+        "nameKo": "슈화"
+      }
+    ]
+  },
+  {
+    "id": "akb48",
+    "nameEn": "AKB48",
+    "nameKo": "AKB48",
+    "type": "그룹",
+    "labels": [
+      "DH"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "Momoka Onishi",
+        "nameKo": "오오니시 모모카"
+      },
+      {
+        "nameEn": "Maho Omori",
+        "nameKo": "오모리 마호"
+      },
+      {
+        "nameEn": "Rin Okabe",
+        "nameKo": "오카베 린"
+      },
+      {
+        "nameEn": "Yui Oguri",
+        "nameKo": "오구리 유이"
+      },
+      {
+        "nameEn": "Erina Oda",
+        "nameKo": "오다 에리나"
+      },
+      {
+        "nameEn": "Yuki Kashiwagi",
+        "nameKo": "카시와기 유키"
+      },
+      {
+        "nameEn": "Narumi Kuranoo",
+        "nameKo": "쿠라노오 나루미"
+      },
+      {
+        "nameEn": "Airi Sato",
+        "nameKo": "사토 아이리"
+      },
+      {
+        "nameEn": "Erii Chiba",
+        "nameKo": "치바 에리이"
+      },
+      {
+        "nameEn": "Yuki Hirata",
+        "nameKo": "히라타 유키"
+      },
+      {
+        "nameEn": "Hitomi Honda",
+        "nameKo": "혼다 히토미"
+      },
+      {
+        "nameEn": "Mion Mukaichi",
+        "nameKo": "무카이치 미온"
+      },
+      {
+        "nameEn": "Yuiri Murayama",
+        "nameKo": "무라야마 유이리"
+      },
+      {
+        "nameEn": "Shinobu Mogi",
+        "nameKo": "모기 시노부"
+      },
+      {
+        "nameEn": "Mizuki Yamauchi",
+        "nameKo": "야마우치 미즈키"
+      },
+      {
+        "nameEn": "Sora Yamazaki",
+        "nameKo": "야마자키 소라"
+      },
+      {
+        "nameEn": "Iwatate Saho",
+        "nameKo": "이와타테 사호"
+      },
+      {
+        "nameEn": "Otake Hitomi",
+        "nameKo": "오타케 히토미"
+      },
+      {
+        "nameEn": "Komiyama Haruka",
+        "nameKo": "코미야마 하루카"
+      },
+      {
+        "nameEn": "Saito Haruna",
+        "nameKo": "사이토 하루나"
+      },
+      {
+        "nameEn": "Nagano Serika",
+        "nameKo": "나가노 세리카"
+      },
+      {
+        "nameEn": "Fukuoka Seina",
+        "nameKo": "후쿠오카 세이나"
+      },
+      {
+        "nameEn": "Macyarin",
+        "nameKo": "마챠링"
+      },
+      {
+        "nameEn": "Muto Orin",
+        "nameKo": "무토 오린"
+      },
+      {
+        "nameEn": "Yoshihashi Yuzuka",
+        "nameKo": "요시하시 유즈카"
+      },
+      {
+        "nameEn": "Shimoguchi Hinana",
+        "nameKo": "시모구치 히나나"
+      },
+      {
+        "nameEn": "Takahashi Ayane",
+        "nameKo": "타카하시 아야네"
+      },
+      {
+        "nameEn": "Taguchi Manaka",
+        "nameKo": "타구치 마나카"
+      },
+      {
+        "nameEn": "Yamane Suzuha",
+        "nameKo": "야마네 스즈하"
+      },
+      {
+        "nameEn": "Asai Nanami",
+        "nameKo": "아사이 나나미"
+      },
+      {
+        "nameEn": "Sato Minami",
+        "nameKo": "사토 미나미"
+      },
+      {
+        "nameEn": "Shinozaki Ayana",
+        "nameKo": "시노자키 아야나"
+      },
+      {
+        "nameEn": "Suzuki Kurumi",
+        "nameKo": "스즈키 쿠루미"
+      },
+      {
+        "nameEn": "Tokunaga Remi",
+        "nameKo": "토쿠나가 레미"
+      },
+      {
+        "nameEn": "Hashimoto Haruna",
+        "nameKo": "하시모토 하루나"
+      },
+      {
+        "nameEn": "Yamada Kyoka",
+        "nameKo": "야마다 쿄카"
+      },
+      {
+        "nameEn": "Gyoten Yurina",
+        "nameKo": "교텐 유리나"
+      },
+      {
+        "nameEn": "Kurosu Haruka",
+        "nameKo": "쿠로스 하루카"
+      },
+      {
+        "nameEn": "Sakagawa Hiyuka",
+        "nameKo": "사카가와 히유카"
+      },
+      {
+        "nameEn": "Sasaki Yukari",
+        "nameKo": "사사키 유카리"
+      },
+      {
+        "nameEn": "Shitao Miu",
+        "nameKo": "시타오 미우"
+      },
+      {
+        "nameEn": "Taniguchi Megu",
+        "nameKo": "타니구치 메구"
+      },
+      {
+        "nameEn": "Nagatomo Ayami",
+        "nameKo": "나가토모 아야미"
+      },
+      {
+        "nameEn": "Ota Yuki",
+        "nameKo": "오타 유키"
+      },
+      {
+        "nameEn": "Kohama Kokone",
+        "nameKo": "코하마 코코네"
+      },
+      {
+        "nameEn": "Hashimoto Eriko",
+        "nameKo": "하시모토 에리코"
+      },
+      {
+        "nameEn": "Hatakeyama Nozomi",
+        "nameKo": "하타케야마 노조미"
+      },
+      {
+        "nameEn": "Hotei Moka",
+        "nameKo": "호테이 모카"
+      },
+      {
+        "nameEn": "Masai Mayuu",
+        "nameKo": "마사이 마유"
+      },
+      {
+        "nameEn": "Mizushima Miyuu",
+        "nameKo": "미즈시마 미유"
+      },
+      {
+        "nameEn": "Akiyama Yuna",
+        "nameKo": "아키야마 유나"
+      },
+      {
+        "nameEn": "Arai Sae",
+        "nameKo": "아라이 사에"
+      },
+      {
+        "nameEn": "Kudo Kasumi",
+        "nameKo": "쿠도 카스미"
+      },
+      {
+        "nameEn": "Kubo Hinano",
+        "nameKo": "쿠보 히나노"
+      },
+      {
+        "nameEn": "Sako Yumemi",
+        "nameKo": "사코 유메미"
+      },
+      {
+        "nameEn": "Narita Kohina",
+        "nameKo": "나리타 코히나"
+      },
+      {
+        "nameEn": "Yagi Azuki",
+        "nameKo": "야기 아즈키"
+      },
+      {
+        "nameEn": "Yamaguchi Yui",
+        "nameKo": "야마구치 유이"
+      },
+      {
+        "nameEn": "Ito Momoka",
+        "nameKo": "이토 모모카"
+      },
+      {
+        "nameEn": "Okumoto Kairi",
+        "nameKo": "오쿠모토 카이리"
+      },
+      {
+        "nameEn": "Kawamura Yui",
+        "nameKo": "카와무라 유이"
+      },
+      {
+        "nameEn": "Shiratori Sari",
+        "nameKo": "시라토리 사리"
+      },
+      {
+        "nameEn": "Hanada Mei",
+        "nameKo": "하나다 메이"
+      }
+    ]
+  },
+  {
+    "id": "lightsum",
+    "nameEn": "LIGHTSUM",
+    "nameKo": "라잇썸",
+    "type": "그룹",
+    "labels": [
+      "CUBE Entertainment"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 큐브 엔터테인먼트",
+    "members": [
+      {
+        "nameEn": "SANGAH",
+        "nameKo": "상아"
+      },
+      {
+        "nameEn": "CHOWON",
+        "nameKo": "초원"
+      },
+      {
+        "nameEn": "NAYOUNG",
+        "nameKo": "나영"
+      },
+      {
+        "nameEn": "HINA",
+        "nameKo": "히나"
+      },
+      {
+        "nameEn": "JUHYEON",
+        "nameKo": "주현"
+      },
+      {
+        "nameEn": "YUJEONG",
+        "nameKo": "유정"
+      }
+    ]
+  },
+  {
+    "id": "classy",
+    "nameEn": "CLASSy",
+    "nameKo": "클라씨",
+    "type": "그룹",
+    "labels": [
+      "M25"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 엠이오\n시트에 그룹 대표 행이 없어 그룹명 열을 영문 표기로 사용함. 한글명 확인 필요.",
+    "members": [
+      {
+        "nameEn": "HYUNGSEO",
+        "nameKo": "형서"
+      },
+      {
+        "nameEn": "CHAEWON",
+        "nameKo": "채원"
+      },
+      {
+        "nameEn": "HYEJU",
+        "nameKo": "혜주"
+      },
+      {
+        "nameEn": "RIWON",
+        "nameKo": "리원"
+      },
+      {
+        "nameEn": "JIMIN",
+        "nameKo": "지민"
+      },
+      {
+        "nameEn": "BOEUN",
+        "nameKo": "보은"
+      },
+      {
+        "nameEn": "SEONYOU",
+        "nameKo": "선유"
+      }
+    ]
+  },
+  {
+    "id": "moonchild",
+    "nameEn": "MOONCHILD",
+    "nameKo": "문차일드",
+    "type": "그룹",
+    "labels": [
+      "CDL entertainment"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: CDL entertainment(LDH)\n시트에 그룹 대표 행이 없어 그룹명 열을 영문 표기로 사용함. 한글명 확인 필요.",
+    "members": [
+      {
+        "nameEn": "ANRI",
+        "nameKo": "ANRI"
+      },
+      {
+        "nameEn": "UWA",
+        "nameKo": "UWA"
+      },
+      {
+        "nameEn": "RUAN",
+        "nameKo": "RUAN"
+      },
+      {
+        "nameEn": "MIRANO",
+        "nameKo": "MIRANO"
+      },
+      {
+        "nameEn": "HANA",
+        "nameKo": "HANA"
+      }
+    ]
+  },
+  {
+    "id": "zico",
+    "nameEn": "ZICO",
+    "nameKo": "지코",
+    "type": "솔로",
+    "labels": [
+      "KOZ ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: KOZ 엔터테인먼트",
+    "members": []
+  },
+  {
+    "id": "boynextdoor",
+    "nameEn": "BOYNEXTDOOR",
+    "nameKo": "BOYNEXTDOOR",
+    "type": "그룹",
+    "labels": [
+      "KOZ ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: KOZ 엔터테인먼트",
+    "members": [
+      {
+        "nameEn": "SUNGHO",
+        "nameKo": "성호"
+      },
+      {
+        "nameEn": "RIWOO",
+        "nameKo": "리우"
+      },
+      {
+        "nameEn": "JAEHYUN",
+        "nameKo": "명재현"
+      },
+      {
+        "nameEn": "TAESAN",
+        "nameKo": "태산"
+      },
+      {
+        "nameEn": "LEEHAN",
+        "nameKo": "이한"
+      },
+      {
+        "nameEn": "WOONHAK",
+        "nameKo": "운학"
+      }
+    ]
+  },
+  {
+    "id": "lee-soo-hyuk",
+    "nameEn": "LEE SOO HYUK",
+    "nameKo": "이수혁",
+    "type": "솔로",
+    "labels": [
+      "YG Entertainment"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: YG엔터테인먼트",
+    "members": []
+  },
+  {
+    "id": "lee-jin-hyuk",
+    "nameEn": "LEE JIN HYUK",
+    "nameKo": "이진혁",
+    "type": "솔로",
+    "labels": [
+      "Bill Entertainment"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 빌엔터테인먼트",
+    "members": []
+  },
+  {
+    "id": "son-na-eun",
+    "nameEn": "SON NA EUN",
+    "nameKo": "손나은",
+    "type": "솔로",
+    "labels": [
+      "YG Entertainment"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: YG엔터테인먼트",
+    "members": []
+  },
+  {
+    "id": "lun8",
+    "nameEn": "LUN8",
+    "nameKo": "루네이트",
+    "type": "그룹",
+    "labels": [
+      "fantagio"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 판타지오",
+    "members": [
+      {
+        "nameEn": "JinSu",
+        "nameKo": "진수"
+      },
+      {
+        "nameEn": "Chael",
+        "nameKo": "카엘"
+      },
+      {
+        "nameEn": "Takuma",
+        "nameKo": "타쿠마"
+      },
+      {
+        "nameEn": "JunWoo",
+        "nameKo": "준우"
+      },
+      {
+        "nameEn": "DoHyun",
+        "nameKo": "도현"
+      },
+      {
+        "nameEn": "Ian",
+        "nameKo": "이안"
+      },
+      {
+        "nameEn": "JiEunHo",
+        "nameKo": "지은호"
+      },
+      {
+        "nameEn": "EunSeop",
+        "nameKo": "은섭"
+      }
+    ]
+  },
+  {
+    "id": "kim-jaejoong",
+    "nameEn": "Kim Jaejoong",
+    "nameKo": "김재중",
+    "type": "솔로",
+    "labels": [
+      "iNKODE Entertainment"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "choi-soo-ho",
+    "nameEn": "CHOI SOO HO",
+    "nameKo": "최수호",
+    "type": "솔로",
+    "labels": [
+      "FOURGO ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 포고엔터테인먼트",
+    "members": []
+  },
+  {
+    "id": "chuu",
+    "nameEn": "CHUU",
+    "nameKo": "츄",
+    "type": "솔로",
+    "labels": [
+      "ATRP"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "kim-seon-ho",
+    "nameEn": "KIM SEON HO",
+    "nameKo": "김선호",
+    "type": "솔로",
+    "labels": [
+      "Salt Entertainment"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 솔트 엔터테인먼트",
+    "members": []
+  },
+  {
+    "id": "hi-fi-un-corn",
+    "nameEn": "Hi-Fi Un!corn",
+    "nameKo": "하이파이유니콘",
+    "type": "솔로",
+    "labels": [
+      "FNC ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "jang-ki-yong",
+    "nameEn": "JANG KI YONG",
+    "nameKo": "장기용",
+    "type": "솔로",
+    "labels": [
+      "YG Entertainment"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: YG엔터테인먼트",
+    "members": []
+  },
+  {
+    "id": "weki-meki",
+    "nameEn": "Weki Meki",
+    "nameKo": "위키미키",
+    "type": "그룹",
+    "labels": [
+      "fantagio"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "JI SUYEON",
+        "nameKo": "지수연"
+      },
+      {
+        "nameEn": "ELLY",
+        "nameKo": "엘리"
+      },
+      {
+        "nameEn": "CHOI YOOJUNG",
+        "nameKo": "최유정"
+      },
+      {
+        "nameEn": "KIM DOYEON",
+        "nameKo": "김도연"
+      },
+      {
+        "nameEn": "SEI",
+        "nameKo": "세이"
+      },
+      {
+        "nameEn": "LUA",
+        "nameKo": "루아"
+      },
+      {
+        "nameEn": "RINA",
+        "nameKo": "리나"
+      },
+      {
+        "nameEn": "LUCY",
+        "nameKo": "루시"
+      }
+    ]
+  },
+  {
+    "id": "chanmina",
+    "nameEn": "CHANMINA",
+    "nameKo": "CHANMINA",
+    "type": "솔로",
+    "labels": [
+      "RAINBOW ENTERTAINMENT CO., LTD. / NO LABEL MUSIC / Warner Music Japan"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "katseye",
+    "nameEn": "KATSEYE",
+    "nameKo": "KATSEYE",
+    "type": "그룹",
+    "labels": [
+      "HYBE UMG LLC"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "Manon Bannerman",
+        "nameKo": "마농 바너만"
+      },
+      {
+        "nameEn": "Sophia Laforteza",
+        "nameKo": "소피아 라포르테자"
+      },
+      {
+        "nameEn": "Megan Skiendiel",
+        "nameKo": "메간 스킨델"
+      },
+      {
+        "nameEn": "Daniela Avanzini",
+        "nameKo": "다니엘라 아반지니"
+      },
+      {
+        "nameEn": "Yoonchae Jeong",
+        "nameKo": "정윤채"
+      },
+      {
+        "nameEn": "Lara Rajagopalan",
+        "nameKo": "라라 라자고팔란"
+      }
+    ]
+  },
+  {
+    "id": "kangta",
+    "nameEn": "KANGTA",
+    "nameKo": "강타",
+    "type": "솔로",
+    "labels": [
+      "SM ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "red-velvet",
+    "nameEn": "Red Velvet",
+    "nameKo": "레드벨벳",
+    "type": "그룹",
+    "labels": [
+      "SM ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "IRENE",
+        "nameKo": "아이린"
+      },
+      {
+        "nameEn": "SEULGI",
+        "nameKo": "슬기"
+      },
+      {
+        "nameEn": "WENDY",
+        "nameKo": "웬디"
+      },
+      {
+        "nameEn": "JOY",
+        "nameKo": "조이"
+      },
+      {
+        "nameEn": "YERI",
+        "nameKo": "예리"
+      }
+    ]
+  },
+  {
+    "id": "aespa",
+    "nameEn": "aespa",
+    "nameKo": "에스파",
+    "type": "그룹",
+    "labels": [
+      "SM ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "KARINA",
+        "nameKo": "카리나"
+      },
+      {
+        "nameEn": "GISELLE",
+        "nameKo": "지젤"
+      },
+      {
+        "nameEn": "WINTER",
+        "nameKo": "윈터"
+      },
+      {
+        "nameEn": "NINGNING",
+        "nameKo": "닝닝"
+      }
+    ]
+  },
+  {
+    "id": "tvxq",
+    "nameEn": "TVXQ!",
+    "nameKo": "동방신기",
+    "type": "그룹",
+    "labels": [
+      "SM ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "U-KNOW",
+        "nameKo": "유노윤호"
+      },
+      {
+        "nameEn": "MAX CHANGMIN",
+        "nameKo": "최강창민"
+      }
+    ]
+  },
+  {
+    "id": "shinee",
+    "nameEn": "SHINee",
+    "nameKo": "샤이니",
+    "type": "그룹",
+    "labels": [
+      "SM ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "ONEW",
+        "nameKo": "온유"
+      },
+      {
+        "nameEn": "TAEMIN",
+        "nameKo": "태민"
+      },
+      {
+        "nameEn": "MINHO",
+        "nameKo": "민호"
+      },
+      {
+        "nameEn": "KEY",
+        "nameKo": "키"
+      }
+    ]
+  },
+  {
+    "id": "nct-127",
+    "nameEn": "NCT 127",
+    "nameKo": "NCT 127",
+    "type": "그룹",
+    "labels": [
+      "SM ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "TAEIL",
+        "nameKo": "태일"
+      },
+      {
+        "nameEn": "JOHNNY",
+        "nameKo": "쟈니"
+      },
+      {
+        "nameEn": "TAEYONG",
+        "nameKo": "태용"
+      },
+      {
+        "nameEn": "YUTA",
+        "nameKo": "유타"
+      },
+      {
+        "nameEn": "DOYOUNG",
+        "nameKo": "도영"
+      },
+      {
+        "nameEn": "JAEHYUN",
+        "nameKo": "재현"
+      },
+      {
+        "nameEn": "JUNGWOO",
+        "nameKo": "정우"
+      },
+      {
+        "nameEn": "MARK",
+        "nameKo": "마크"
+      },
+      {
+        "nameEn": "HAECHAN",
+        "nameKo": "해찬"
+      }
+    ]
+  },
+  {
+    "id": "super-junior",
+    "nameEn": "SUPER JUNIOR",
+    "nameKo": "슈퍼주니어",
+    "type": "그룹",
+    "labels": [
+      "SM ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "LEETEUK",
+        "nameKo": "이특"
+      },
+      {
+        "nameEn": "HEECHUL",
+        "nameKo": "희철"
+      },
+      {
+        "nameEn": "YESUNG",
+        "nameKo": "예성"
+      },
+      {
+        "nameEn": "SHINDONG",
+        "nameKo": "신동"
+      },
+      {
+        "nameEn": "EUNHYUK",
+        "nameKo": "은혁"
+      },
+      {
+        "nameEn": "DONGHAE",
+        "nameKo": "동해"
+      },
+      {
+        "nameEn": "SIWON",
+        "nameKo": "시원"
+      },
+      {
+        "nameEn": "RYEOWOOK",
+        "nameKo": "려욱"
+      },
+      {
+        "nameEn": "KYUHYUN",
+        "nameKo": "규현"
+      },
+      {
+        "nameEn": "SUNGMIN",
+        "nameKo": "성민"
+      }
+    ]
+  },
+  {
+    "id": "girls-generation",
+    "nameEn": "Girls' Generation",
+    "nameKo": "소녀시대",
+    "type": "그룹",
+    "labels": [
+      "SM ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "TAEYEON",
+        "nameKo": "태연"
+      },
+      {
+        "nameEn": "HYOYEON",
+        "nameKo": "효연"
+      },
+      {
+        "nameEn": "YURI",
+        "nameKo": "유리"
+      },
+      {
+        "nameEn": "YOONA",
+        "nameKo": "윤아"
+      }
+    ]
+  },
+  {
+    "id": "nct-dream",
+    "nameEn": "NCT DREAM",
+    "nameKo": "엔시티드림",
+    "type": "그룹",
+    "labels": [
+      "SM ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "MARK",
+        "nameKo": "마크"
+      },
+      {
+        "nameEn": "RENJUN",
+        "nameKo": "런쥔"
+      },
+      {
+        "nameEn": "JENO",
+        "nameKo": "제노"
+      },
+      {
+        "nameEn": "HAECHAN",
+        "nameKo": "해찬"
+      },
+      {
+        "nameEn": "JAEMIN",
+        "nameKo": "재민"
+      },
+      {
+        "nameEn": "CHENLE",
+        "nameKo": "천러"
+      },
+      {
+        "nameEn": "JISUNG",
+        "nameKo": "지성"
+      }
+    ]
+  },
+  {
+    "id": "wayv",
+    "nameEn": "WayV",
+    "nameKo": "웨이션브이",
+    "type": "그룹",
+    "labels": [
+      "SM ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "KUN",
+        "nameKo": "쿤"
+      },
+      {
+        "nameEn": "TEN",
+        "nameKo": "텐"
+      },
+      {
+        "nameEn": "WINWIN",
+        "nameKo": "윈윈"
+      },
+      {
+        "nameEn": "XIAOJUN",
+        "nameKo": "샤오쥔"
+      },
+      {
+        "nameEn": "HENDERY",
+        "nameKo": "헨드리"
+      },
+      {
+        "nameEn": "YANGYANG",
+        "nameKo": "양양"
+      }
+    ]
+  },
+  {
+    "id": "boa",
+    "nameEn": "BoA",
+    "nameKo": "보아",
+    "type": "솔로",
+    "labels": [
+      "SM ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "exo",
+    "nameEn": "EXO",
+    "nameKo": "엑소",
+    "type": "그룹",
+    "labels": [
+      "SM ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "SUHO",
+        "nameKo": "수호"
+      },
+      {
+        "nameEn": "XIUMIN",
+        "nameKo": "시우민"
+      },
+      {
+        "nameEn": "BAEKHYUN",
+        "nameKo": "백현"
+      },
+      {
+        "nameEn": "CHANYEOL",
+        "nameKo": "찬열"
+      },
+      {
+        "nameEn": "CHEN",
+        "nameKo": "첸"
+      },
+      {
+        "nameEn": "D.O.",
+        "nameKo": "디오"
+      },
+      {
+        "nameEn": "KAI",
+        "nameKo": "카이"
+      },
+      {
+        "nameEn": "SEHUN",
+        "nameKo": "세훈"
+      }
+    ]
+  },
+  {
+    "id": "riize",
+    "nameEn": "RIIZE",
+    "nameKo": "라이즈",
+    "type": "그룹",
+    "labels": [
+      "SM ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "SHOTARO",
+        "nameKo": "쇼타로"
+      },
+      {
+        "nameEn": "EUNSEOK",
+        "nameKo": "은석"
+      },
+      {
+        "nameEn": "SUNGCHAN",
+        "nameKo": "성찬"
+      },
+      {
+        "nameEn": "WONBIN",
+        "nameKo": "원빈"
+      },
+      {
+        "nameEn": "SOHEE",
+        "nameKo": "소희"
+      },
+      {
+        "nameEn": "ANTON",
+        "nameKo": "앤톤"
+      }
+    ]
+  },
+  {
+    "id": "hearts2hearts",
+    "nameEn": "Hearts2Hearts",
+    "nameKo": "하츠투하츠",
+    "type": "그룹",
+    "labels": [
+      "SM ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n시트에 그룹 대표 행이 없어 그룹명 열을 영문 표기로 사용함. 한글명 확인 필요.",
+    "members": [
+      {
+        "nameEn": "CARMEN",
+        "nameKo": "카르멘"
+      },
+      {
+        "nameEn": "JIWOO",
+        "nameKo": "지우"
+      },
+      {
+        "nameEn": "YUHA",
+        "nameKo": "유하"
+      },
+      {
+        "nameEn": "STELLA",
+        "nameKo": "스텔라"
+      },
+      {
+        "nameEn": "JUUN",
+        "nameKo": "주은"
+      },
+      {
+        "nameEn": "A-NA",
+        "nameKo": "에이나"
+      },
+      {
+        "nameEn": "IAN",
+        "nameKo": "이안"
+      },
+      {
+        "nameEn": "YE-ON",
+        "nameKo": "예온"
+      }
+    ]
+  },
+  {
+    "id": "kim-myungsoo-l",
+    "nameEn": "KIM MYUNGSOO(L)",
+    "nameKo": "김명수(엘)",
+    "type": "솔로",
+    "labels": [
+      "LOOKMEDIA"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 루크미디어",
+    "members": []
+  },
+  {
+    "id": "lee-sung-kyoung",
+    "nameEn": "LEE SUNG KYOUNG",
+    "nameKo": "이성경",
+    "type": "솔로",
+    "labels": [
+      "YG Entertainment"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: YG 엔터테인먼트",
+    "members": []
+  },
+  {
+    "id": "ahn-hyo-seop",
+    "nameEn": "AHN HYO SEOP",
+    "nameKo": "안효섭",
+    "type": "솔로",
+    "labels": [
+      "THE PRESENT COMPANY"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 그룹명/아티스트명",
+    "members": []
+  },
+  {
+    "id": "qwer",
+    "nameEn": "QWER",
+    "nameKo": "QWER",
+    "type": "그룹",
+    "labels": [
+      "3Y CORPORATION / PRISMFILTER"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "Chodan",
+        "nameKo": "쵸단"
+      },
+      {
+        "nameEn": "Magenta",
+        "nameKo": "마젠타"
+      },
+      {
+        "nameEn": "Hina",
+        "nameKo": "히나"
+      },
+      {
+        "nameEn": "Siyeon",
+        "nameKo": "시연"
+      }
+    ]
+  },
+  {
+    "id": "nct-wish",
+    "nameEn": "NCT WISH",
+    "nameKo": "엔시티 위시",
+    "type": "그룹",
+    "labels": [
+      "SM ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "SION",
+        "nameKo": "시온"
+      },
+      {
+        "nameEn": "RIKU",
+        "nameKo": "리쿠"
+      },
+      {
+        "nameEn": "YUSHI",
+        "nameKo": "유우시"
+      },
+      {
+        "nameEn": "JAEHEE",
+        "nameKo": "재희"
+      },
+      {
+        "nameEn": "RYO",
+        "nameKo": "료"
+      },
+      {
+        "nameEn": "SAKUYA",
+        "nameKo": "사쿠야"
+      }
+    ]
+  },
+  {
+    "id": "whib",
+    "nameEn": "WHIB",
+    "nameKo": "휘브",
+    "type": "그룹",
+    "labels": [
+      "CJeS Studios"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 씨제스 스튜디오",
+    "members": [
+      {
+        "nameEn": "JAYDER",
+        "nameKo": "제이더"
+      },
+      {
+        "nameEn": "HASEUNG",
+        "nameKo": "하승"
+      },
+      {
+        "nameEn": "JINBEOM",
+        "nameKo": "진범"
+      },
+      {
+        "nameEn": "UGeon",
+        "nameKo": "유건"
+      },
+      {
+        "nameEn": "LEEJEONG",
+        "nameKo": "이정"
+      },
+      {
+        "nameEn": "JAEHA",
+        "nameKo": "재하"
+      },
+      {
+        "nameEn": "INHONG",
+        "nameKo": "인홍"
+      },
+      {
+        "nameEn": "WONJUN",
+        "nameKo": "원준"
+      }
+    ]
+  },
+  {
+    "id": "ampers-one",
+    "nameEn": "AMPERS&ONE",
+    "nameKo": "앰퍼샌드원",
+    "type": "그룹",
+    "labels": [
+      "FNC ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: (주) 에프엔씨엔터테인먼트",
+    "members": [
+      {
+        "nameEn": "KAMDEN",
+        "nameKo": "나캠든"
+      },
+      {
+        "nameEn": "BRIAN",
+        "nameKo": "브라이언"
+      },
+      {
+        "nameEn": "JIHO",
+        "nameKo": "최지호"
+      },
+      {
+        "nameEn": "SIYUN",
+        "nameKo": "윤시윤"
+      },
+      {
+        "nameEn": "KYRELL",
+        "nameKo": "카이렐"
+      },
+      {
+        "nameEn": "MACKIAH",
+        "nameKo": "마카야"
+      },
+      {
+        "nameEn": "SEUNGMO",
+        "nameKo": "김승모"
+      }
+    ]
+  },
+  {
+    "id": "bullet-train",
+    "nameEn": "BULLET TRAIN",
+    "nameKo": "초특급",
+    "type": "그룹",
+    "labels": [
+      "STARDUST RECORDS"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 주식회사 SDR",
+    "members": [
+      {
+        "nameEn": "KAI",
+        "nameKo": "KAI"
+      },
+      {
+        "nameEn": "RYOGA",
+        "nameKo": "RYOGA"
+      },
+      {
+        "nameEn": "TAKUYA",
+        "nameKo": "TAKUYA"
+      },
+      {
+        "nameEn": "YUKI",
+        "nameKo": "YUKI"
+      },
+      {
+        "nameEn": "TAKASHI",
+        "nameKo": "TAKASHI"
+      },
+      {
+        "nameEn": "SHUYA",
+        "nameKo": "SHUYA"
+      },
+      {
+        "nameEn": "MASAHIRO",
+        "nameKo": "MASAHIRO"
+      },
+      {
+        "nameEn": "ALOHA",
+        "nameKo": "ALOHA"
+      },
+      {
+        "nameEn": "HARU",
+        "nameKo": "HARU"
+      }
+    ]
+  },
+  {
+    "id": "super-dragon",
+    "nameEn": "SUPER★DRAGON",
+    "nameKo": "SUPER★DRAGON",
+    "type": "그룹",
+    "labels": [
+      "STARDUST RECORDS"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 주식회사 SDR",
+    "members": [
+      {
+        "nameEn": "REO SHIMURA",
+        "nameKo": "REO SHIMURA"
+      },
+      {
+        "nameEn": "TSUYOSHI FURUKAWA",
+        "nameKo": "TSUYOSHI FURUKAWA"
+      },
+      {
+        "nameEn": "KAYTO JEAN",
+        "nameKo": "KAYTO JEAN"
+      },
+      {
+        "nameEn": "HAYATE IIJIMA",
+        "nameKo": "HAYATE IIJIMA"
+      },
+      {
+        "nameEn": "SOUGO ITO",
+        "nameKo": "SOUGO ITO"
+      },
+      {
+        "nameEn": "KOKI TANAKA",
+        "nameKo": "KOKI TANAKA"
+      },
+      {
+        "nameEn": "HYOMA IKEDA",
+        "nameKo": "HYOMA IKEDA"
+      },
+      {
+        "nameEn": "TOMOYA MATSUMURA",
+        "nameKo": "TOMOYA MATSUMURA"
+      },
+      {
+        "nameEn": "RAKU SHIBAZAKI",
+        "nameKo": "RAKU SHIBAZAKI"
+      }
+    ]
+  },
+  {
+    "id": "one-n-only",
+    "nameEn": "ONE N' ONLY",
+    "nameKo": "ONE N' ONLY",
+    "type": "그룹",
+    "labels": [
+      "STARDUST RECORDS"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 주식회사 SDR",
+    "members": [
+      {
+        "nameEn": "TETTA",
+        "nameKo": "TETTA"
+      },
+      {
+        "nameEn": "REI",
+        "nameKo": "REI"
+      },
+      {
+        "nameEn": "EIKU",
+        "nameKo": "EIKU"
+      },
+      {
+        "nameEn": "HAYATO",
+        "nameKo": "HAYATO"
+      },
+      {
+        "nameEn": "KENSHIN",
+        "nameKo": "KENSHIN"
+      },
+      {
+        "nameEn": "NAOYA",
+        "nameKo": "NAOYA"
+      }
+    ]
+  },
+  {
+    "id": "lienel",
+    "nameEn": "Lienel",
+    "nameKo": "Lienel",
+    "type": "그룹",
+    "labels": [
+      "STARDUST RECORDS"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 주식회사 SDR",
+    "members": [
+      {
+        "nameEn": "Shuto Haga",
+        "nameKo": "하가 슈토"
+      },
+      {
+        "nameEn": "Shunta Kondo",
+        "nameKo": "콘도 슌타"
+      },
+      {
+        "nameEn": "Milo Takaoka",
+        "nameKo": "타카오카 미로"
+      },
+      {
+        "nameEn": "Riku Morita",
+        "nameKo": "모리타 리쿠"
+      },
+      {
+        "nameEn": "SouseTakeda",
+        "nameKo": "타케다 소우세"
+      },
+      {
+        "nameEn": "Saneyuki Takakuwa",
+        "nameKo": "타카쿠와 사네유키"
+      }
+    ]
+  },
+  {
+    "id": "kyuhyun",
+    "nameEn": "KYUHYUN",
+    "nameKo": "규현",
+    "type": "솔로",
+    "labels": [
+      "Antenna"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 안테나",
+    "members": []
+  },
+  {
+    "id": "jd1",
+    "nameEn": "JD1",
+    "nameKo": "JD1",
+    "type": "솔로",
+    "labels": [
+      "ShowPLAY Entertainment"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 쇼플레이엔터테인먼트",
+    "members": []
+  },
+  {
+    "id": "plave",
+    "nameEn": "PLAVE",
+    "nameKo": "플레이브",
+    "type": "그룹",
+    "labels": [
+      "VLAST"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 블래스트",
+    "members": [
+      {
+        "nameEn": "YEJUN",
+        "nameKo": "예준"
+      },
+      {
+        "nameEn": "NOAH",
+        "nameKo": "노아"
+      },
+      {
+        "nameEn": "BAMBY",
+        "nameKo": "밤비"
+      },
+      {
+        "nameEn": "EUNHO",
+        "nameKo": "은호"
+      },
+      {
+        "nameEn": "HAMIN",
+        "nameKo": "하민"
+      }
+    ]
+  },
+  {
+    "id": "gracie-abrams",
+    "nameEn": "Gracie Abrams",
+    "nameKo": "그레이시 에이브람스",
+    "type": "솔로",
+    "labels": [
+      "Interscope Records"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "alexander-23",
+    "nameEn": "Alexander 23",
+    "nameKo": "알렉산더 23",
+    "type": "솔로",
+    "labels": [
+      "Interscope Records"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "new-hope-club",
+    "nameEn": "New Hope Club",
+    "nameKo": "뉴호프클럽",
+    "type": "그룹",
+    "labels": [
+      "Disney Music Records"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "jeremy-zucker",
+    "nameEn": "Jeremy Zucker",
+    "nameKo": "제레미 주커",
+    "type": "솔로",
+    "labels": [
+      "Republic Records"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "max",
+    "nameEn": "MAX",
+    "nameKo": "맥스",
+    "type": "솔로",
+    "labels": [
+      "Warner Records"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "tws",
+    "nameEn": "TWS",
+    "nameKo": "TWS",
+    "type": "그룹",
+    "labels": [
+      "PLEDIS Entertainment"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "SHINYU",
+        "nameKo": "신유"
+      },
+      {
+        "nameEn": "DOHOON",
+        "nameKo": "도훈"
+      },
+      {
+        "nameEn": "YOUNGJAE",
+        "nameKo": "영재"
+      },
+      {
+        "nameEn": "HANJIN",
+        "nameKo": "한진"
+      },
+      {
+        "nameEn": "JIHOON",
+        "nameKo": "지훈"
+      },
+      {
+        "nameEn": "KYUNGMIN",
+        "nameKo": "경민"
+      }
+    ]
+  },
+  {
+    "id": "nightly",
+    "nameEn": "nightly",
+    "nameKo": "nightly",
+    "type": "그룹",
+    "labels": [
+      "Neon Coast"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "jonny",
+        "nameKo": "jonny"
+      },
+      {
+        "nameEn": "joey",
+        "nameKo": "joey"
+      },
+      {
+        "nameEn": "nick",
+        "nameKo": "nick"
+      }
+    ]
+  },
+  {
+    "id": "babymonster",
+    "nameEn": "BABYMONSTER",
+    "nameKo": "BABYMONSTER",
+    "type": "그룹",
+    "labels": [
+      "YG Entertainment"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "RUKA",
+        "nameKo": "RUKA"
+      },
+      {
+        "nameEn": "PHARITA",
+        "nameKo": "PHARITA"
+      },
+      {
+        "nameEn": "ASA",
+        "nameKo": "ASA"
+      },
+      {
+        "nameEn": "AHYEON",
+        "nameKo": "AHYEON"
+      },
+      {
+        "nameEn": "RAMI",
+        "nameKo": "RAMI"
+      },
+      {
+        "nameEn": "RORA",
+        "nameKo": "RORA"
+      },
+      {
+        "nameEn": "CHIQUITA",
+        "nameKo": "CHIQUITA"
+      }
+    ]
+  },
+  {
+    "id": "bang-yedam",
+    "nameEn": "BANG YEDAM",
+    "nameKo": "방예담",
+    "type": "솔로",
+    "labels": [
+      "GF ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "unis",
+    "nameEn": "UNIS",
+    "nameKo": "유니스",
+    "type": "그룹",
+    "labels": [
+      "F&F Entertainment"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "HYEONJU",
+        "nameKo": "진현주"
+      },
+      {
+        "nameEn": "NANA",
+        "nameKo": "나나"
+      },
+      {
+        "nameEn": "GEHLEE",
+        "nameKo": "젤리당카"
+      },
+      {
+        "nameEn": "KOTOKO",
+        "nameKo": "코토코"
+      },
+      {
+        "nameEn": "YUNHA",
+        "nameKo": "방윤하"
+      },
+      {
+        "nameEn": "ELISIA",
+        "nameKo": "엘리시아"
+      },
+      {
+        "nameEn": "YOONA",
+        "nameKo": "오윤아"
+      },
+      {
+        "nameEn": "SEOWON",
+        "nameKo": "임서원"
+      }
+    ]
+  },
+  {
+    "id": "lucas",
+    "nameEn": "LUCAS",
+    "nameKo": "LUCAS",
+    "type": "솔로",
+    "labels": [
+      "SM ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "conan-gray",
+    "nameEn": "Conan Gray",
+    "nameKo": "코난 그레이",
+    "type": "솔로",
+    "labels": [
+      "Republic Records"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "syudou",
+    "nameEn": "syudou",
+    "nameKo": "syudou",
+    "type": "솔로",
+    "labels": [
+      "syudou shouten"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: syudou상점",
+    "members": []
+  },
+  {
+    "id": "ayumu-imazu",
+    "nameEn": "Ayumu Imazu",
+    "nameKo": "아유무 이마즈",
+    "type": "솔로",
+    "labels": [
+      "A-Sketch Inc."
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 주식회사 A-Sketch",
+    "members": []
+  },
+  {
+    "id": "thuy",
+    "nameEn": "thuy",
+    "nameKo": "thuy",
+    "type": "솔로",
+    "labels": [
+      "12th House"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "nowadays",
+    "nameEn": "NOWADAYS",
+    "nameKo": "NOWADAYS",
+    "type": "그룹",
+    "labels": [
+      "CUBE Entertainment"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "HYEONBIN",
+        "nameKo": "현빈"
+      },
+      {
+        "nameEn": "YOON",
+        "nameKo": "윤"
+      },
+      {
+        "nameEn": "YEONWOO",
+        "nameKo": "연우"
+      },
+      {
+        "nameEn": "JINHYUK",
+        "nameKo": "진혁"
+      },
+      {
+        "nameEn": "SIYUN",
+        "nameKo": "시윤"
+      }
+    ]
+  },
+  {
+    "id": "yungblud",
+    "nameEn": "YUNGBLUD",
+    "nameKo": "영블러드",
+    "type": "솔로",
+    "labels": [
+      "Interscope Records"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "umi",
+    "nameEn": "UMI",
+    "nameKo": "UMI",
+    "type": "솔로",
+    "labels": [
+      "MPH Collective"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "noa",
+    "nameEn": "NOA",
+    "nameKo": "NOA",
+    "type": "솔로",
+    "labels": [
+      "AMUSE Inc."
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 주식회사AMUSE",
+    "members": []
+  },
+  {
+    "id": "girls-on-fire",
+    "nameEn": "GIRLS ON FIRE",
+    "nameKo": "GIRLS ON FIRE",
+    "type": "그룹",
+    "labels": [
+      "STUDIO JAMM"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "eill",
+    "nameEn": "eill",
+    "nameKo": "eill",
+    "type": "솔로",
+    "labels": [
+      "PONY CANYON INC."
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 주식회사 포니캐년",
+    "members": []
+  },
+  {
+    "id": "onew",
+    "nameEn": "ONEW",
+    "nameKo": "온유",
+    "type": "솔로",
+    "labels": [
+      "GRIFFIN Entertainment"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "kim-woojin",
+    "nameEn": "KIM WOOJIN",
+    "nameKo": "김우진",
+    "type": "솔로",
+    "labels": [
+      "Kustomade(KREATION MUSIC RIGHTS)"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 커스터메이드(크리에이션뮤직라이츠)",
+    "members": []
+  },
+  {
+    "id": "10cm",
+    "nameEn": "10CM",
+    "nameKo": "10CM",
+    "type": "그룹",
+    "labels": [
+      "MAGIC STRAWBERRY SOUND"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 매직스트로베리사운드",
+    "members": [
+      {
+        "nameEn": "Jeongyeol",
+        "nameKo": "권정열"
+      }
+    ]
+  },
+  {
+    "id": "lauv",
+    "nameEn": "Lauv",
+    "nameKo": "Lauv",
+    "type": "솔로",
+    "labels": [
+      "AWAL"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "bibi",
+    "nameEn": "BIBI",
+    "nameKo": "비비",
+    "type": "솔로",
+    "labels": [
+      "FEELGHOOD MUSIC"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "kino",
+    "nameEn": "KINO",
+    "nameKo": "키노",
+    "type": "솔로",
+    "labels": [
+      "NAKED"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "hong-seok",
+    "nameEn": "HONG SEOK",
+    "nameKo": "홍석",
+    "type": "솔로",
+    "labels": [
+      "ANDMARQ"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 앤드마크",
+    "members": []
+  },
+  {
+    "id": "82major",
+    "nameEn": "82MAJOR",
+    "nameKo": "82메이저",
+    "type": "그룹",
+    "labels": [
+      "GREAT M ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 그레이트엠 엔터테인먼트",
+    "members": [
+      {
+        "nameEn": "NAM SEONG MO",
+        "nameKo": "남성모"
+      },
+      {
+        "nameEn": "PARK SEOK JOON",
+        "nameKo": "박석준"
+      },
+      {
+        "nameEn": "YOON YE CHAN",
+        "nameKo": "윤예찬"
+      },
+      {
+        "nameEn": "CHO SEONG IL",
+        "nameKo": "조성일"
+      },
+      {
+        "nameEn": "HWANG SEONG BIN",
+        "nameKo": "황성빈"
+      },
+      {
+        "nameEn": "KIM DO GYUN",
+        "nameKo": "김도균"
+      }
+    ]
+  },
+  {
+    "id": "vvup",
+    "nameEn": "VVUP",
+    "nameKo": "비비업",
+    "type": "그룹",
+    "labels": [
+      "egoENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "KIM",
+        "nameKo": "킴"
+      },
+      {
+        "nameEn": "PAAN",
+        "nameKo": "팬"
+      },
+      {
+        "nameEn": "SUYEON",
+        "nameKo": "수연"
+      },
+      {
+        "nameEn": "JIYOON",
+        "nameKo": "지윤"
+      }
+    ]
+  },
+  {
+    "id": "byeon-woo-seok",
+    "nameEn": "BYEON WOO SEOK",
+    "nameKo": "변우석",
+    "type": "솔로",
+    "labels": [
+      "VARO ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 바로엔터테인먼트",
+    "members": []
+  },
+  {
+    "id": "lee-chae-min",
+    "nameEn": "LEE CHAE MIN",
+    "nameKo": "이채민",
+    "type": "솔로",
+    "labels": [
+      "VARO ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 바로엔터테인먼트",
+    "members": []
+  },
+  {
+    "id": "wooseok",
+    "nameEn": "WOOSEOK",
+    "nameKo": "우석",
+    "type": "솔로",
+    "labels": [
+      "UNDFND"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 언디파인드",
+    "members": []
+  },
+  {
+    "id": "baekhyun",
+    "nameEn": "BAEKHYUN",
+    "nameKo": "백현",
+    "type": "솔로",
+    "labels": [
+      "INB100"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 아이앤비100",
+    "members": []
+  },
+  {
+    "id": "xiumin",
+    "nameEn": "XIUMIN",
+    "nameKo": "시우민",
+    "type": "솔로",
+    "labels": [
+      "INB100"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 아이앤비100",
+    "members": []
+  },
+  {
+    "id": "chen",
+    "nameEn": "CHEN",
+    "nameKo": "첸",
+    "type": "솔로",
+    "labels": [
+      "INB100"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 아이앤비100",
+    "members": []
+  },
+  {
+    "id": "wolf-lo",
+    "nameEn": "WOLF'LO",
+    "nameKo": "울플러",
+    "type": "그룹",
+    "labels": [
+      "ASPEKT ENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 아스펙트이엔티",
+    "members": [
+      {
+        "nameEn": "HALO",
+        "nameKo": "할로"
+      },
+      {
+        "nameEn": "Baby slick",
+        "nameKo": "베이비슬릭"
+      },
+      {
+        "nameEn": "Chocol",
+        "nameKo": "초콜"
+      },
+      {
+        "nameEn": "MINI",
+        "nameKo": "미니"
+      },
+      {
+        "nameEn": "YeniCho",
+        "nameKo": "예니초"
+      },
+      {
+        "nameEn": "Haechiwang",
+        "nameKo": "해치왱"
+      }
+    ]
+  },
+  {
+    "id": "yoasobi",
+    "nameEn": "YOASOBI",
+    "nameKo": "YOASOBI",
+    "type": "그룹",
+    "labels": [
+      "Sony Music Entertainment (Japan) Inc."
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 주식회사 소니뮤직엔터테인먼트",
+    "members": [
+      {
+        "nameEn": "Ayase",
+        "nameKo": "Ayase"
+      },
+      {
+        "nameEn": "ikura",
+        "nameKo": "ikura"
+      }
+    ]
+  },
+  {
+    "id": "dxmon",
+    "nameEn": "DXMON",
+    "nameKo": "다이몬",
+    "type": "그룹",
+    "labels": [
+      "H music ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 에이치뮤직엔터테인먼트",
+    "members": [
+      {
+        "nameEn": "MINJAE",
+        "nameKo": "민재"
+      },
+      {
+        "nameEn": "SEITA",
+        "nameKo": "세이타"
+      },
+      {
+        "nameEn": "HEE",
+        "nameKo": "히"
+      },
+      {
+        "nameEn": "TK",
+        "nameKo": "태극"
+      },
+      {
+        "nameEn": "REX",
+        "nameKo": "렉스"
+      }
+    ]
+  },
+  {
+    "id": "tiot",
+    "nameEn": "TIOT",
+    "nameKo": "TIOT",
+    "type": "그룹",
+    "labels": [
+      "Redstart ENM"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 레드스타트이엔엠 주식회사",
+    "members": [
+      {
+        "nameEn": "KIM MIN SEOUNG",
+        "nameKo": "김민성"
+      },
+      {
+        "nameEn": "KUM JUN HYEON",
+        "nameKo": "금준현"
+      },
+      {
+        "nameEn": "HONG KEON HEE",
+        "nameKo": "홍건희"
+      },
+      {
+        "nameEn": "CHOI WOO JIN",
+        "nameKo": "최우진"
+      },
+      {
+        "nameEn": "SHIN YE CHAN",
+        "nameKo": "신예찬"
+      }
+    ]
+  },
+  {
+    "id": "youngtak",
+    "nameEn": "YOUNGTAK",
+    "nameKo": "영탁",
+    "type": "솔로",
+    "labels": [
+      "ABYSS Company"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 어비스컴퍼니",
+    "members": []
+  },
+  {
+    "id": "ariana-grande",
+    "nameEn": "Ariana Grande",
+    "nameKo": "아리아나 그란데",
+    "type": "솔로",
+    "labels": [
+      "Republic Records"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "jvke",
+    "nameEn": "JVKE",
+    "nameKo": "JVKE",
+    "type": "솔로",
+    "labels": [
+      "Plush Management"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "ro-woon",
+    "nameEn": "RO WOON",
+    "nameKo": "로운",
+    "type": "솔로",
+    "labels": [
+      "FNC ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 주식회사 에프엔씨엔터테인먼트",
+    "members": []
+  },
+  {
+    "id": "son-dong-pyo",
+    "nameEn": "SON DONG PYO",
+    "nameKo": "손동표",
+    "type": "솔로",
+    "labels": [
+      "DSP MEDIA"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 디에스피 미디어",
+    "members": []
+  },
+  {
+    "id": "jeong-sun-ah",
+    "nameEn": "JEONG SUN AH",
+    "nameKo": "정선아",
+    "type": "솔로",
+    "labels": [
+      "PALMTREE ISLAND"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 팜트리아일랜드",
+    "members": []
+  },
+  {
+    "id": "arrc",
+    "nameEn": "ARrC",
+    "nameKo": "아크",
+    "type": "그룹",
+    "labels": [
+      "MYSTIC STORY"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 미스틱 스토리",
+    "members": [
+      {
+        "nameEn": "CHOI HAN",
+        "nameKo": "최한"
+      },
+      {
+        "nameEn": "DOHA",
+        "nameKo": "도하"
+      },
+      {
+        "nameEn": "HYUNMIN",
+        "nameKo": "현민"
+      },
+      {
+        "nameEn": "JIBEEN",
+        "nameKo": "지빈"
+      },
+      {
+        "nameEn": "KIEN",
+        "nameKo": "끼엔"
+      },
+      {
+        "nameEn": "RIOTO",
+        "nameKo": "리오토"
+      },
+      {
+        "nameEn": "ZIWOO",
+        "nameKo": "지우"
+      }
+    ]
+  },
+  {
+    "id": "fifty-fifty",
+    "nameEn": "FIFTY FIFTY",
+    "nameKo": "피프티피프티",
+    "type": "그룹",
+    "labels": [
+      "ATTRAKT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 어트랙트",
+    "members": [
+      {
+        "nameEn": "KEENA",
+        "nameKo": "키나"
+      },
+      {
+        "nameEn": "CHANELLE MOON",
+        "nameKo": "문샤넬"
+      },
+      {
+        "nameEn": "YEWON",
+        "nameKo": "예원"
+      },
+      {
+        "nameEn": "HANA",
+        "nameKo": "하나"
+      },
+      {
+        "nameEn": "ATHENA",
+        "nameKo": "아테나"
+      }
+    ]
+  },
+  {
+    "id": "shin-sae-kyeong",
+    "nameEn": "SHIN SAE KYEONG",
+    "nameKo": "신세경",
+    "type": "솔로",
+    "labels": [
+      "THE PRESENT COMPANY"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 더프레젠트컴퍼니",
+    "members": []
+  },
+  {
+    "id": "tempest",
+    "nameEn": "TEMPEST",
+    "nameKo": "템페스트",
+    "type": "그룹",
+    "labels": [
+      "Yuehua Entertainment Korea"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 위에화엔터테인먼트코리아",
+    "members": [
+      {
+        "nameEn": "HANBIN",
+        "nameKo": "한빈"
+      },
+      {
+        "nameEn": "HYEONGSEOP",
+        "nameKo": "형섭"
+      },
+      {
+        "nameEn": "HYUK",
+        "nameKo": "혁"
+      },
+      {
+        "nameEn": "EUNCHAN",
+        "nameKo": "은찬"
+      },
+      {
+        "nameEn": "LEW",
+        "nameKo": "루"
+      },
+      {
+        "nameEn": "TAERAE",
+        "nameKo": "태래"
+      }
+    ]
+  },
+  {
+    "id": "dragon-pony",
+    "nameEn": "Dragon Pony",
+    "nameKo": "드래곤포니",
+    "type": "그룹",
+    "labels": [
+      "Antenna"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 안테나",
+    "members": [
+      {
+        "nameEn": "An Tae Gyu",
+        "nameKo": "안태규"
+      },
+      {
+        "nameEn": "Pyun Sung Hyun",
+        "nameKo": "편성현"
+      },
+      {
+        "nameEn": "Kwon Se Hyuk",
+        "nameKo": "권세혁"
+      },
+      {
+        "nameEn": "Ko Gang Hun",
+        "nameKo": "고강훈"
+      }
+    ]
+  },
+  {
+    "id": "megan-thee-stallion",
+    "nameEn": "Megan Thee Stallion",
+    "nameKo": "메간 디 스탈리온",
+    "type": "솔로",
+    "labels": [
+      "Roc Nation"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "min-kyoung-ah",
+    "nameEn": "MIN KYOUNG AH",
+    "nameKo": "민경아",
+    "type": "솔로",
+    "labels": [
+      "GOODMAN STORY"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 굿맨스토리",
+    "members": []
+  },
+  {
+    "id": "project-7",
+    "nameEn": "PROJECT 7",
+    "nameKo": "프로젝트 7",
+    "type": "그룹",
+    "labels": [
+      "SLL JOONGANG CO., Ltd"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 에스엘엘중앙 주식회사",
+    "members": []
+  },
+  {
+    "id": "jennie",
+    "nameEn": "JENNIE",
+    "nameKo": "JENNIE",
+    "type": "솔로",
+    "labels": [
+      "OA ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "the-kid-laroi",
+    "nameEn": "The Kid LAROI",
+    "nameKo": "The Kid LAROI",
+    "type": "솔로",
+    "labels": [
+      "Saiko Entertainment"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "dua-lipa",
+    "nameEn": "Dua Lipa",
+    "nameKo": "Dua Lipa",
+    "type": "솔로",
+    "labels": [
+      "Radical22"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "park-seo-ham",
+    "nameEn": "Park Seo Ham",
+    "nameKo": "박서함",
+    "type": "솔로",
+    "labels": [
+      "npio"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 앤피오 엔터테인먼트",
+    "members": []
+  },
+  {
+    "id": "say-my-name",
+    "nameEn": "SAY MY NAME",
+    "nameKo": "세이마이네임",
+    "type": "그룹",
+    "labels": [
+      "iNKODE Entertainment"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 인코드 엔터테인먼트",
+    "members": [
+      {
+        "nameEn": "HITOMI",
+        "nameKo": "히토미"
+      },
+      {
+        "nameEn": "MEI",
+        "nameKo": "메이"
+      },
+      {
+        "nameEn": "KANNY",
+        "nameKo": "카니"
+      },
+      {
+        "nameEn": "SOHA",
+        "nameKo": "소하"
+      },
+      {
+        "nameEn": "DOHEE",
+        "nameKo": "도희"
+      },
+      {
+        "nameEn": "JUNHWI",
+        "nameKo": "준휘"
+      },
+      {
+        "nameEn": "SEUNGJOO",
+        "nameKo": "승주"
+      }
+    ]
+  },
+  {
+    "id": "dearalice",
+    "nameEn": "dearALICE",
+    "nameKo": "디어엘리스",
+    "type": "그룹",
+    "labels": [
+      "gamma"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "Blaise",
+        "nameKo": "블레이즈"
+      },
+      {
+        "nameEn": "Dexter",
+        "nameKo": "덱스터"
+      },
+      {
+        "nameEn": "James",
+        "nameKo": "제임스"
+      },
+      {
+        "nameEn": "Olly",
+        "nameKo": "올리"
+      },
+      {
+        "nameEn": "Reese",
+        "nameKo": "리스"
+      }
+    ]
+  },
+  {
+    "id": "jueun",
+    "nameEn": "JUEUN",
+    "nameKo": "주은",
+    "type": "솔로",
+    "labels": [
+      "BROTHERHOOD ENTER"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 브라더후드엔터",
+    "members": []
+  },
+  {
+    "id": "dazbee",
+    "nameEn": "DAZBEE",
+    "nameKo": "다즈비",
+    "type": "솔로",
+    "labels": [
+      "Accelers"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 액셀러즈",
+    "members": []
+  },
+  {
+    "id": "axmxp",
+    "nameEn": "AxMxP",
+    "nameKo": "에이엠피",
+    "type": "그룹",
+    "labels": [
+      "FNC ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: (주) 에프엔씨엔터테인먼트",
+    "members": [
+      {
+        "nameEn": "vocal",
+        "nameKo": "보컬"
+      },
+      {
+        "nameEn": "drum",
+        "nameKo": "드럼"
+      },
+      {
+        "nameEn": "Guitar",
+        "nameKo": "기타"
+      },
+      {
+        "nameEn": "Bass",
+        "nameKo": "베이스"
+      }
+    ]
+  },
+  {
+    "id": "mun-ka-young",
+    "nameEn": "MUN KA YOUNG",
+    "nameKo": "문가영",
+    "type": "솔로",
+    "labels": [
+      "PEAK J ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 피크제이엔터테인먼트",
+    "members": []
+  },
+  {
+    "id": "the-boyz",
+    "nameEn": "THE BOYZ",
+    "nameKo": "더보이즈",
+    "type": "그룹",
+    "labels": [
+      "100RED"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 원헌드레드\n시트에 그룹 대표 행이 없어 그룹명 열을 영문 표기로 사용함. 한글명 확인 필요.",
+    "members": [
+      {
+        "nameEn": "SANGYEON",
+        "nameKo": "상연"
+      },
+      {
+        "nameEn": "JACOB",
+        "nameKo": "제이콥"
+      },
+      {
+        "nameEn": "YOUNGHOON",
+        "nameKo": "영훈"
+      },
+      {
+        "nameEn": "HYUNJAE",
+        "nameKo": "현재"
+      },
+      {
+        "nameEn": "JUYEON",
+        "nameKo": "주연"
+      },
+      {
+        "nameEn": "KEVIN",
+        "nameKo": "케빈"
+      },
+      {
+        "nameEn": "NEW",
+        "nameKo": "뉴"
+      },
+      {
+        "nameEn": "Q",
+        "nameKo": "큐"
+      },
+      {
+        "nameEn": "JU HAKNYEON",
+        "nameKo": "주학년"
+      },
+      {
+        "nameEn": "SUNWOO",
+        "nameKo": "선우"
+      },
+      {
+        "nameEn": "ERIC",
+        "nameKo": "에릭"
+      }
+    ]
+  },
+  {
+    "id": "mga",
+    "nameEn": "MGA",
+    "nameKo": "MGA",
+    "type": "그룹",
+    "labels": [
+      "UNIVERSAL MUSIC / EMI Records"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n시트에 그룹 대표 행이 없어 그룹명 열을 영문 표기로 사용함. 한글명 확인 필요.",
+    "members": [
+      {
+        "nameEn": "Motoki Ohmori",
+        "nameKo": "오모리 모토키"
+      },
+      {
+        "nameEn": "Hiloto Wakai",
+        "nameKo": "와카이 히로토"
+      },
+      {
+        "nameEn": "Ryoka Fujisawa",
+        "nameKo": "후지사와 료카"
+      }
+    ]
+  },
+  {
+    "id": "iris",
+    "nameEn": "IRISÉ",
+    "nameKo": "아이리제",
+    "type": "그룹",
+    "labels": [
+      "PARABLE ENTERTAINMENT Inc."
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 주식회사 패러블엔터테인먼트",
+    "members": [
+      {
+        "nameEn": "LUNÉ",
+        "nameKo": "뤼네"
+      },
+      {
+        "nameEn": "SHANA",
+        "nameKo": "샤나"
+      },
+      {
+        "nameEn": "KIIRI",
+        "nameKo": "키리"
+      },
+      {
+        "nameEn": "TIZ",
+        "nameKo": "티즈"
+      },
+      {
+        "nameEn": "ZERØ",
+        "nameKo": "제로"
+      }
+    ]
+  },
+  {
+    "id": "n-ssign",
+    "nameEn": "n.SSign",
+    "nameKo": "엔싸인",
+    "type": "그룹",
+    "labels": [
+      "nCH Entertainment"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 엔씨에이치엔터테인먼트",
+    "members": [
+      {
+        "nameEn": "KAZUTA",
+        "nameKo": "카즈타"
+      },
+      {
+        "nameEn": "DOHA",
+        "nameKo": "도하"
+      },
+      {
+        "nameEn": "SUNGYUN",
+        "nameKo": "성윤"
+      },
+      {
+        "nameEn": "ROBIN",
+        "nameKo": "로빈"
+      },
+      {
+        "nameEn": "HANJUN",
+        "nameKo": "한준"
+      },
+      {
+        "nameEn": "LAURENCE",
+        "nameKo": "로렌스"
+      },
+      {
+        "nameEn": "HUIWON",
+        "nameKo": "희원"
+      }
+    ]
+  },
+  {
+    "id": "hebi",
+    "nameEn": "Hebi",
+    "nameKo": "Hebi",
+    "type": "솔로",
+    "labels": [
+      "3Y CORPORATION"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "close-your-eyes",
+    "nameEn": "CLOSE YOUR EYES",
+    "nameKo": "클로즈 유어 아이즈",
+    "type": "그룹",
+    "labels": [
+      "UNCORE"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 언코어",
+    "members": [
+      {
+        "nameEn": "JEON MINWOOK",
+        "nameKo": "전민욱"
+      },
+      {
+        "nameEn": "MAJING XIANG",
+        "nameKo": "마징시앙"
+      },
+      {
+        "nameEn": "JANG YEOJUN",
+        "nameKo": "장여준"
+      },
+      {
+        "nameEn": "KIM SUNGMIN",
+        "nameKo": "김성민"
+      },
+      {
+        "nameEn": "SONG SEUNGHO",
+        "nameKo": "송승호"
+      },
+      {
+        "nameEn": "KENSHIN",
+        "nameKo": "켄신"
+      },
+      {
+        "nameEn": "SEO KYOUNGBAE",
+        "nameKo": "서경배"
+      }
+    ]
+  },
+  {
+    "id": "aoen",
+    "nameEn": "aoen",
+    "nameKo": "aoen",
+    "type": "그룹",
+    "labels": [
+      "YX LABELS Inc."
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "YUJU",
+        "nameKo": "YUJU"
+      },
+      {
+        "nameEn": "RUKA",
+        "nameKo": "RUKA"
+      },
+      {
+        "nameEn": "HAKU",
+        "nameKo": "HAKU"
+      },
+      {
+        "nameEn": "SOTA",
+        "nameKo": "SOTA"
+      },
+      {
+        "nameEn": "KYOSUKE",
+        "nameKo": "KYOSUKE"
+      }
+    ]
+  },
+  {
+    "id": "shingo-katori",
+    "nameEn": "SHINGO KATORI",
+    "nameKo": "SHINGO KATORI",
+    "type": "솔로",
+    "labels": [
+      "CULEN"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 株式会社CULEN",
+    "members": []
+  },
+  {
+    "id": "hyeri",
+    "nameEn": "Hyeri",
+    "nameKo": "혜리",
+    "type": "솔로",
+    "labels": [
+      "써브라임 주식회사"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "baby-dont-cry",
+    "nameEn": "Baby DONT Cry",
+    "nameKo": "베이비돈크라이",
+    "type": "그룹",
+    "labels": [
+      "P NATION"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "Yihyun",
+        "nameKo": "이현"
+      },
+      {
+        "nameEn": "Kumi",
+        "nameKo": "쿠미"
+      },
+      {
+        "nameEn": "Mia",
+        "nameKo": "미아"
+      },
+      {
+        "nameEn": "Beni",
+        "nameKo": "베니"
+      }
+    ]
+  },
+  {
+    "id": "ahof",
+    "nameEn": "AHOF",
+    "nameKo": "아홉",
+    "type": "그룹",
+    "labels": [
+      "F&F Entertainment"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n시트에 그룹 대표 행이 없어 그룹명 열을 영문 표기로 사용함. 한글명 확인 필요.",
+    "members": [
+      {
+        "nameEn": "STEVEN",
+        "nameKo": "스티븐"
+      },
+      {
+        "nameEn": "JEONGWOO",
+        "nameKo": "서정우"
+      },
+      {
+        "nameEn": "WOONGKI",
+        "nameKo": "차웅기"
+      },
+      {
+        "nameEn": "SHUAIBO",
+        "nameKo": "장슈아이보"
+      },
+      {
+        "nameEn": "HAN",
+        "nameKo": "박한"
+      },
+      {
+        "nameEn": "JL",
+        "nameKo": "제이엘"
+      },
+      {
+        "nameEn": "JUWON",
+        "nameKo": "박주원"
+      },
+      {
+        "nameEn": "CHIHEN",
+        "nameKo": "즈언"
+      },
+      {
+        "nameEn": "DAISUKE",
+        "nameKo": "다이스케"
+      }
+    ]
+  },
+  {
+    "id": "yoon-san-ha",
+    "nameEn": "YOON SAN-HA",
+    "nameKo": "윤산하",
+    "type": "솔로",
+    "labels": [
+      "fantagio"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 판타지오",
+    "members": []
+  },
+  {
+    "id": "yuto-adachi",
+    "nameEn": "YUTO ADACHI",
+    "nameKo": "아다치 유우토",
+    "type": "솔로",
+    "labels": [
+      "HoriPro Inc."
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "kawaii-lab",
+    "nameEn": "KAWAII LAB.",
+    "nameKo": "KAWAII LAB.",
+    "type": "그룹",
+    "labels": [
+      "ASOBISYSTEM"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: アソビシステム株式会社\n시트에 그룹 대표 행이 없어 그룹명 열을 영문 표기로 사용함. 한글명 확인 필요.",
+    "members": [
+      {
+        "nameEn": "FZ Amane Tsukiashi",
+        "nameKo": "FZ Amane Tsukiashi"
+      },
+      {
+        "nameEn": "FZ Suzuka Chinzei",
+        "nameKo": "FZ Suzuka Chinzei"
+      },
+      {
+        "nameEn": "FZ Yui Sakurai",
+        "nameKo": "FZ Yui Sakurai"
+      },
+      {
+        "nameEn": "FZ Luna Nakagawa",
+        "nameKo": "FZ Luna Nakagawa"
+      },
+      {
+        "nameEn": "FZ Mana Manaka",
+        "nameKo": "FZ Mana Manaka"
+      },
+      {
+        "nameEn": "FZ Karen Matsumoto",
+        "nameKo": "FZ Karen Matsumoto"
+      },
+      {
+        "nameEn": "FZ Noel Hayase",
+        "nameKo": "FZ Noel Hayase"
+      },
+      {
+        "nameEn": "CT Bibian Murakawa",
+        "nameKo": "CT Bibian Murakawa"
+      },
+      {
+        "nameEn": "CT Mizuki Kirihara",
+        "nameKo": "CT Mizuki Kirihara"
+      },
+      {
+        "nameEn": "CT Rino Fukuyama",
+        "nameKo": "CT Rino Fukuyama"
+      },
+      {
+        "nameEn": "CT Nanako Ogawa",
+        "nameKo": "CT Nanako Ogawa"
+      },
+      {
+        "nameEn": "CT Natsu Minami",
+        "nameKo": "CT Natsu Minami"
+      },
+      {
+        "nameEn": "CT Shizuka Miyano",
+        "nameKo": "CT Shizuka Miyano"
+      },
+      {
+        "nameEn": "CT Kotomi Tachibana",
+        "nameKo": "CT Kotomi Tachibana"
+      },
+      {
+        "nameEn": "SS Ayu Okuda",
+        "nameKo": "SS Ayu Okuda"
+      },
+      {
+        "nameEn": "SS Yui Otoi",
+        "nameKo": "SS Yui Otoi"
+      },
+      {
+        "nameEn": "SS Natsuka Kurita",
+        "nameKo": "SS Natsuka Kurita"
+      },
+      {
+        "nameEn": "SS Rise Shiokawa",
+        "nameKo": "SS Rise Shiokawa"
+      },
+      {
+        "nameEn": "SS Nagisa Shoji",
+        "nameKo": "SS Nagisa Shoji"
+      },
+      {
+        "nameEn": "SS Mayumi Shiraishi",
+        "nameKo": "SS Mayumi Shiraishi"
+      },
+      {
+        "nameEn": "SS Sakina Yamauchi",
+        "nameKo": "SS Sakina Yamauchi"
+      },
+      {
+        "nameEn": "CS Aika Sano",
+        "nameKo": "CS Aika Sano"
+      },
+      {
+        "nameEn": "CS Kana Itakura",
+        "nameKo": "CS Kana Itakura"
+      },
+      {
+        "nameEn": "CS Ayano Masuda",
+        "nameKo": "CS Ayano Masuda"
+      },
+      {
+        "nameEn": "CS Emiru Kawamoto",
+        "nameKo": "CS Emiru Kawamoto"
+      },
+      {
+        "nameEn": "CS Miyu Umeda",
+        "nameKo": "CS Miyu Umeda"
+      },
+      {
+        "nameEn": "CS Nagisa Manabe",
+        "nameKo": "CS Nagisa Manabe"
+      },
+      {
+        "nameEn": "CS Haruka Sakuraba",
+        "nameKo": "CS Haruka Sakuraba"
+      },
+      {
+        "nameEn": "CS Risa Furusawa",
+        "nameKo": "CS Risa Furusawa"
+      }
+    ]
+  },
+  {
+    "id": "yuju",
+    "nameEn": "YUJU",
+    "nameKo": "유주",
+    "type": "솔로",
+    "labels": [
+      "AT AREA CO.,LTD"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 주식회사 앳에어리어",
+    "members": []
+  },
+  {
+    "id": "xnghan-xoul",
+    "nameEn": "XngHan&Xoul",
+    "nameKo": "XngHan&Xoul",
+    "type": "그룹",
+    "labels": [
+      "SM ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n시트에 그룹 대표 행이 없어 그룹명 열을 영문 표기로 사용함. 한글명 확인 필요.",
+    "members": [
+      {
+        "nameEn": "Xnghan",
+        "nameKo": "Xnghan"
+      }
+    ]
+  },
+  {
+    "id": "santos-bravos",
+    "nameEn": "Santos Bravos",
+    "nameKo": "Santos Bravos",
+    "type": "그룹",
+    "labels": [
+      "HYBE LATIN AMERICA"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "alejandro-aramburu",
+    "nameEn": "Alejandro Aramburu",
+    "nameKo": "Alejandro Aramburu",
+    "type": "솔로",
+    "labels": [
+      "HYBE LATIN AMERICA"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "alex-mandon-rey",
+    "nameEn": "Alex Mandon Rey",
+    "nameKo": "Alex Mandon Rey",
+    "type": "솔로",
+    "labels": [
+      "HYBE LATIN AMERICA"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "drew-venegas",
+    "nameEn": "Drew Venegas",
+    "nameKo": "Drew Venegas",
+    "type": "솔로",
+    "labels": [
+      "HYBE LATIN AMERICA"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "diego-lopez",
+    "nameEn": "Diego Lopez",
+    "nameKo": "Diego Lopez",
+    "type": "솔로",
+    "labels": [
+      "HYBE LATIN AMERICA"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "heider-moreno",
+    "nameEn": "Heider Moreno",
+    "nameKo": "Heider Moreno",
+    "type": "솔로",
+    "labels": [
+      "HYBE LATIN AMERICA"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "iannis",
+    "nameEn": "Iannis",
+    "nameKo": "Iannis",
+    "type": "솔로",
+    "labels": [
+      "HYBE LATIN AMERICA"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "priano",
+    "nameEn": "Priano",
+    "nameKo": "Priano",
+    "type": "솔로",
+    "labels": [
+      "HYBE LATIN AMERICA"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "jesuale",
+    "nameEn": "Jesuale",
+    "nameKo": "Jesuale",
+    "type": "솔로",
+    "labels": [
+      "HYBE LATIN AMERICA"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "jonah-garc-a",
+    "nameEn": "Jonah García",
+    "nameKo": "Jonah García",
+    "type": "솔로",
+    "labels": [
+      "HYBE LATIN AMERICA"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "kau-penna",
+    "nameEn": "Kauê Penna",
+    "nameKo": "Kauê Penna",
+    "type": "솔로",
+    "labels": [
+      "HYBE LATIN AMERICA"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "kenneth-lav-ll",
+    "nameEn": "Kenneth Lavíll",
+    "nameKo": "Kenneth Lavíll",
+    "type": "솔로",
+    "labels": [
+      "HYBE LATIN AMERICA"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "leonardo-lotina",
+    "nameEn": "Leonardo Lotina",
+    "nameKo": "Leonardo Lotina",
+    "type": "솔로",
+    "labels": [
+      "HYBE LATIN AMERICA"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "lucas-burgatti",
+    "nameEn": "Lucas Burgatti",
+    "nameKo": "Lucas Burgatti",
+    "type": "솔로",
+    "labels": [
+      "HYBE LATIN AMERICA"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "luigi-cerrada",
+    "nameEn": "Luigi Cerrada",
+    "nameKo": "Luigi Cerrada",
+    "type": "솔로",
+    "labels": [
+      "HYBE LATIN AMERICA"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "pablo-carns",
+    "nameEn": "Pablo Carns",
+    "nameKo": "Pablo Carns",
+    "type": "솔로",
+    "labels": [
+      "HYBE LATIN AMERICA"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "patricio",
+    "nameEn": "Patricio",
+    "nameKo": "Patricio",
+    "type": "솔로",
+    "labels": [
+      "HYBE LATIN AMERICA"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "pase-a-la-fama",
+    "nameEn": "Pase A La Fama",
+    "nameKo": "Pase A La Fama",
+    "type": "프로젝트",
+    "labels": [
+      "HYBE LATIN AMERICA"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "arin",
+    "nameEn": "Arin",
+    "nameKo": "아린",
+    "type": "솔로",
+    "labels": [
+      "ATRP"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "lee-junho",
+    "nameEn": "LEE JUNHO",
+    "nameKo": "LEE JUNHO",
+    "type": "솔로",
+    "labels": [
+      "주식회사 오쓰리콜렉티브"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "2hollis",
+    "nameEn": "2hollis",
+    "nameKo": "2hollis",
+    "type": "솔로",
+    "labels": [
+      "2hollis LLC"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "christopher",
+    "nameEn": "Christopher",
+    "nameKo": "Christopher",
+    "type": "솔로",
+    "labels": [
+      "Monza Music Management AB"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "crystal-kay",
+    "nameEn": "Crystal Kay",
+    "nameKo": "Crystal Kay",
+    "type": "솔로",
+    "labels": [
+      "LDH JAPAN"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 株式会社LDH JAPAN",
+    "members": []
+  },
+  {
+    "id": "fifth-harmony",
+    "nameEn": "Fifth Harmony",
+    "nameKo": "Fifth Harmony",
+    "type": "그룹",
+    "labels": [
+      "5H Touring Inc"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "Ally",
+        "nameKo": "Ally"
+      },
+      {
+        "nameEn": "Dinah Jane",
+        "nameKo": "Dinah Jane"
+      },
+      {
+        "nameEn": "Lauren",
+        "nameKo": "Lauren"
+      },
+      {
+        "nameEn": "Normani",
+        "nameKo": "Normani"
+      }
+    ]
+  },
+  {
+    "id": "musza",
+    "nameEn": "Musza",
+    "nameKo": "Musza",
+    "type": "솔로",
+    "labels": [
+      "HYBE LATIN AMERICA"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "cynthia-ochoa",
+    "nameEn": "Cynthia Ochoa",
+    "nameKo": "Cynthia Ochoa",
+    "type": "솔로",
+    "labels": [
+      "HYBE LATIN AMERICA"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "rodo-blackmore",
+    "nameEn": "Rodo Blackmore",
+    "nameKo": "Rodo Blackmore",
+    "type": "솔로",
+    "labels": [
+      "HYBE LATIN AMERICA"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "jordi-blanco",
+    "nameEn": "Jordi Blanco",
+    "nameKo": "Jordi Blanco",
+    "type": "솔로",
+    "labels": [
+      "HYBE LATIN AMERICA"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "oscar-campos",
+    "nameEn": "Oscar Campos",
+    "nameKo": "Oscar Campos",
+    "type": "솔로",
+    "labels": [
+      "HYBE LATIN AMERICA"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "jerry-antoni",
+    "nameEn": "Jerry Antoni",
+    "nameKo": "Jerry Antoni",
+    "type": "솔로",
+    "labels": [
+      "HYBE LATIN AMERICA"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "ramiro-z-iga",
+    "nameEn": "Ramiro Zúñiga",
+    "nameKo": "Ramiro Zúñiga",
+    "type": "솔로",
+    "labels": [
+      "HYBE LATIN AMERICA"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "noa-2",
+    "nameEn": "noa",
+    "nameKo": "noa",
+    "type": "솔로",
+    "labels": [
+      "MR8"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 株式会社MR8",
+    "members": []
+  },
+  {
+    "id": "peder-elias",
+    "nameEn": "Peder Elias",
+    "nameKo": "Peder Elias",
+    "type": "솔로",
+    "labels": [
+      "Monza Music Management AB"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "lilas",
+    "nameEn": "Lilas",
+    "nameKo": "Lilas",
+    "type": "솔로",
+    "labels": [
+      "Sony Music Entertainment (Japan) Inc."
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "kim-seol-hyun",
+    "nameEn": "KIM SEOL HYUN",
+    "nameKo": "김설현",
+    "type": "솔로",
+    "labels": [
+      "THE PRESENT COMPANY"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "low-clika",
+    "nameEn": "Low Clika",
+    "nameKo": "Low Clika",
+    "type": "솔로",
+    "labels": [
+      "HYBE LATIN AMERICA"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "raki",
+    "nameEn": "Raki",
+    "nameKo": "Raki",
+    "type": "솔로",
+    "labels": [
+      "HYBE LATIN AMERICA"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "terry",
+    "nameEn": "Terry",
+    "nameKo": "Terry",
+    "type": "솔로",
+    "labels": [
+      "HYBE LATIN AMERICA"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "memo",
+    "nameEn": "Memo",
+    "nameKo": "Memo",
+    "type": "솔로",
+    "labels": [
+      "HYBE LATIN AMERICA"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "ricky",
+    "nameEn": "Ricky",
+    "nameKo": "Ricky",
+    "type": "솔로",
+    "labels": [
+      "HYBE LATIN AMERICA"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "lalito",
+    "nameEn": "Lalito",
+    "nameKo": "Lalito",
+    "type": "솔로",
+    "labels": [
+      "HYBE LATIN AMERICA"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "agust-n",
+    "nameEn": "Agustín",
+    "nameKo": "Agustín",
+    "type": "솔로",
+    "labels": [
+      "HYBE LATIN AMERICA"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "park-so-dam",
+    "nameEn": "PARK SO DAM",
+    "nameKo": "박소담",
+    "type": "솔로",
+    "labels": [
+      "THE PRESENT COMPANY"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "mj",
+    "nameEn": "MJ",
+    "nameKo": "MJ",
+    "type": "솔로",
+    "labels": [
+      "fantagio"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 판타지오",
+    "members": []
+  },
+  {
+    "id": "jinjin",
+    "nameEn": "JINJIN",
+    "nameKo": "진진",
+    "type": "솔로",
+    "labels": [
+      "fantagio"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 판타지오",
+    "members": []
+  },
+  {
+    "id": "kep1er",
+    "nameEn": "Kep1er",
+    "nameKo": "Kep1er",
+    "type": "그룹",
+    "labels": [
+      "KLAP"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 주식회사 클렙",
+    "members": [
+      {
+        "nameEn": "YUJIN",
+        "nameKo": "최유진"
+      },
+      {
+        "nameEn": "XIAOTING",
+        "nameKo": "샤오팅"
+      },
+      {
+        "nameEn": "CHAEHYUN",
+        "nameKo": "김채현"
+      },
+      {
+        "nameEn": "DAYEON",
+        "nameKo": "김다연"
+      },
+      {
+        "nameEn": "HIKARU",
+        "nameKo": "히카루"
+      },
+      {
+        "nameEn": "HUENING BAHIYYIH",
+        "nameKo": "휴닝바히에"
+      },
+      {
+        "nameEn": "YOUNGEUN",
+        "nameKo": "서영은"
+      }
+    ]
+  },
+  {
+    "id": "8turn",
+    "nameEn": "8TURN",
+    "nameKo": "에잇턴",
+    "type": "그룹",
+    "labels": [
+      "MNH ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: (주) 엠앤에이치엔터테인먼트",
+    "members": [
+      {
+        "nameEn": "JAEYUN",
+        "nameKo": "재윤"
+      },
+      {
+        "nameEn": "MYUNGHO",
+        "nameKo": "명호"
+      },
+      {
+        "nameEn": "MINHO",
+        "nameKo": "민호"
+      },
+      {
+        "nameEn": "YOONSUNG",
+        "nameKo": "윤성"
+      },
+      {
+        "nameEn": "HAEMIN",
+        "nameKo": "해민"
+      },
+      {
+        "nameEn": "KYUNGMIN",
+        "nameKo": "경민"
+      },
+      {
+        "nameEn": "YUNGYU",
+        "nameKo": "윤규"
+      },
+      {
+        "nameEn": "SEUNGHEON",
+        "nameKo": "승헌"
+      }
+    ]
+  },
+  {
+    "id": "lngshot",
+    "nameEn": "LNGSHOT",
+    "nameKo": "LNGSHOT",
+    "type": "그룹",
+    "labels": [
+      "주식회사 모어비전"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "OHYUL",
+        "nameKo": "오율"
+      },
+      {
+        "nameEn": "RYUL",
+        "nameKo": "률"
+      },
+      {
+        "nameEn": "WOOJIN",
+        "nameKo": "우진"
+      },
+      {
+        "nameEn": "LOUIS",
+        "nameKo": "루이"
+      }
+    ]
+  },
+  {
+    "id": "ahn-bo-hyun",
+    "nameEn": "AHN BO HYUN",
+    "nameKo": "안보현",
+    "type": "솔로",
+    "labels": [
+      "AM ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 주식회사 에이엠엔터테인먼트",
+    "members": []
+  },
+  {
+    "id": "hui",
+    "nameEn": "HUI",
+    "nameKo": "후이",
+    "type": "솔로",
+    "labels": [
+      "With Us Entertainment Co.,Ltd"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 위드어스엔터테인먼트",
+    "members": []
+  },
+  {
+    "id": "peak-spot",
+    "nameEn": "PEAK SPOT",
+    "nameKo": "PEAK SPOT",
+    "type": "그룹",
+    "labels": [
+      "ASOBISYSTEM"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: アソビシステム株式会社\n시트에 그룹 대표 행이 없어 그룹명 열을 영문 표기로 사용함. 한글명 확인 필요.",
+    "members": [
+      {
+        "nameEn": "Toi Kaori Ichijo",
+        "nameKo": "Toi Kaori Ichijo"
+      },
+      {
+        "nameEn": "Toi Momo Sakura",
+        "nameKo": "Toi Momo Sakura"
+      },
+      {
+        "nameEn": "Toi Kyoka Taniya",
+        "nameKo": "Toi Kyoka Taniya"
+      },
+      {
+        "nameEn": "Toi Moeka Hashimoto",
+        "nameKo": "Toi Moeka Hashimoto"
+      },
+      {
+        "nameEn": "Toi Tina Hoshino",
+        "nameKo": "Toi Tina Hoshino"
+      },
+      {
+        "nameEn": "Toi Sara Maegaki",
+        "nameKo": "Toi Sara Maegaki"
+      },
+      {
+        "nameEn": "Toi Kokoro Hagita",
+        "nameKo": "Toi Kokoro Hagita"
+      },
+      {
+        "nameEn": "Toi Seia Yamada",
+        "nameKo": "Toi Seia Yamada"
+      },
+      {
+        "nameEn": "fav Azusa Onodera",
+        "nameKo": "fav Azusa Onodera"
+      },
+      {
+        "nameEn": "fav Karen Abe",
+        "nameKo": "fav Karen Abe"
+      },
+      {
+        "nameEn": "fav Runa Kawagishi",
+        "nameKo": "fav Runa Kawagishi"
+      },
+      {
+        "nameEn": "fav Marin Seno",
+        "nameKo": "fav Marin Seno"
+      },
+      {
+        "nameEn": "fav Ranna Maruyama",
+        "nameKo": "fav Ranna Maruyama"
+      },
+      {
+        "nameEn": "fav Maika Miokawa",
+        "nameKo": "fav Maika Miokawa"
+      },
+      {
+        "nameEn": "fav Komari Nakamoto",
+        "nameKo": "fav Komari Nakamoto"
+      },
+      {
+        "nameEn": "log Satone Kubo",
+        "nameKo": "log Satone Kubo"
+      },
+      {
+        "nameEn": "log Rena Matsumoto",
+        "nameKo": "log Rena Matsumoto"
+      },
+      {
+        "nameEn": "log Tsukine Takeuchi",
+        "nameKo": "log Tsukine Takeuchi"
+      },
+      {
+        "nameEn": "log Remi Fukumoto",
+        "nameKo": "log Remi Fukumoto"
+      },
+      {
+        "nameEn": "log Natsumi Kohama",
+        "nameKo": "log Natsumi Kohama"
+      },
+      {
+        "nameEn": "log Kanau Ide",
+        "nameKo": "log Kanau Ide"
+      },
+      {
+        "nameEn": "log Umi Yamashita",
+        "nameKo": "log Umi Yamashita"
+      },
+      {
+        "nameEn": "log Kurumi Tsukishiro",
+        "nameKo": "log Kurumi Tsukishiro"
+      }
+    ]
+  },
+  {
+    "id": "owis",
+    "nameEn": "OWIS",
+    "nameKo": "OWIS",
+    "type": "그룹",
+    "labels": [
+      "AMA"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 주식회사 에이엠에이",
+    "members": [
+      {
+        "nameEn": "Serene",
+        "nameKo": "세린"
+      },
+      {
+        "nameEn": "Haru",
+        "nameKo": "하루"
+      },
+      {
+        "nameEn": "Summer",
+        "nameKo": "썸머"
+      },
+      {
+        "nameEn": "Soi",
+        "nameKo": "소이"
+      },
+      {
+        "nameEn": "Yuni",
+        "nameKo": "유니"
+      }
+    ]
+  },
+  {
+    "id": "reply-highschool",
+    "nameEn": "REPLY HIGHSCHOOL",
+    "nameKo": "응답하라 하이스쿨",
+    "type": "솔로",
+    "labels": [
+      "SM ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "daily-direction",
+    "nameEn": "DAILY:DIRECTION",
+    "nameKo": "데일리:디렉션",
+    "type": "그룹",
+    "labels": [
+      "Oddwave"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 오드웨이브",
+    "members": [
+      {
+        "nameEn": "EN KIM",
+        "nameKo": "앤 킴"
+      },
+      {
+        "nameEn": "Kim Joo Hyoung",
+        "nameKo": "김주형"
+      },
+      {
+        "nameEn": "Iim Ji Hwan",
+        "nameKo": "임지환"
+      },
+      {
+        "nameEn": "E-VAN",
+        "nameKo": "이반"
+      },
+      {
+        "nameEn": "Lee Won Woo",
+        "nameKo": "이원우"
+      },
+      {
+        "nameEn": "Jang Yoon Seok",
+        "nameKo": "장윤석"
+      }
+    ]
+  },
+  {
+    "id": "kim-woo-bin",
+    "nameEn": "KIM WOO BIN",
+    "nameKo": "김우빈",
+    "type": "솔로",
+    "labels": [
+      "AM ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 주식회사 에이엠엔터테인먼트",
+    "members": []
+  },
+  {
+    "id": "shin-ye-eun",
+    "nameEn": "SHIN YE EUN",
+    "nameKo": "신예은",
+    "type": "솔로",
+    "labels": [
+      "npio"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 앤피오엔터테인먼트",
+    "members": []
+  },
+  {
+    "id": "hyde",
+    "nameEn": "HYDE",
+    "nameKo": "HYDE",
+    "type": "솔로",
+    "labels": [
+      "VAMPROSE"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 株式会社VAMPROSE",
+    "members": []
+  },
+  {
+    "id": "bini",
+    "nameEn": "BINI",
+    "nameKo": "BINI",
+    "type": "그룹",
+    "labels": [
+      "ABS-CBN Corporation"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "Aiah Arceta",
+        "nameKo": "Aiah Arceta"
+      },
+      {
+        "nameEn": "Colet Vergara",
+        "nameKo": "Colet Vergara"
+      },
+      {
+        "nameEn": "Gwen Apuli",
+        "nameKo": "Gwen Apuli"
+      },
+      {
+        "nameEn": "Maloi Ricalde",
+        "nameKo": "Maloi Ricalde"
+      },
+      {
+        "nameEn": "Jhoanna Robles",
+        "nameKo": "Jhoanna Robles"
+      },
+      {
+        "nameEn": "Mikha Lim",
+        "nameKo": "Mikha Lim"
+      },
+      {
+        "nameEn": "Sheena Catacutan",
+        "nameKo": "Sheena Catacutan"
+      }
+    ]
+  },
+  {
+    "id": "saint-satine",
+    "nameEn": "SAINT SATINE",
+    "nameKo": "SAINT SATINE",
+    "type": "그룹",
+    "labels": [
+      "HYBE UMG LLC"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "EMILY",
+        "nameKo": "EMILY"
+      },
+      {
+        "nameEn": "LEXIE",
+        "nameKo": "LEXIE"
+      },
+      {
+        "nameEn": "SAKURA",
+        "nameKo": "SAKURA"
+      },
+      {
+        "nameEn": "SAMARA",
+        "nameKo": "SAMARA"
+      }
+    ]
+  },
+  {
+    "id": "sb19",
+    "nameEn": "SB19",
+    "nameKo": "에스비19",
+    "type": "그룹",
+    "labels": [
+      "Onez Entertainment Corp."
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "Pablo",
+        "nameKo": "Pablo"
+      },
+      {
+        "nameEn": "Josh",
+        "nameKo": "Josh"
+      },
+      {
+        "nameEn": "Stell",
+        "nameKo": "Stell"
+      },
+      {
+        "nameEn": "Ken",
+        "nameKo": "Ken"
+      },
+      {
+        "nameEn": "Justin",
+        "nameKo": "Justin"
+      }
+    ]
+  },
+  {
+    "id": "min-jiwoon",
+    "nameEn": "Min Jiwoon",
+    "nameKo": "민지운",
+    "type": "솔로",
+    "labels": [
+      "SM ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "b-dawn",
+    "nameEn": "B:DAWN",
+    "nameKo": "비던",
+    "type": "그룹",
+    "labels": [
+      "두리엔터테인먼트"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "SEO DOJIN",
+        "nameKo": "서도진"
+      },
+      {
+        "nameEn": "IM ION",
+        "nameKo": "임이온"
+      },
+      {
+        "nameEn": "KANG HO",
+        "nameKo": "강호"
+      },
+      {
+        "nameEn": "SONG WOORIM",
+        "nameKo": "송우림"
+      },
+      {
+        "nameEn": "LEE HANSOL",
+        "nameKo": "이한솔"
+      }
+    ]
+  },
+  {
+    "id": "and2ble",
+    "nameEn": "AND2BLE",
+    "nameKo": "앤더블",
+    "type": "그룹",
+    "labels": [
+      "YH ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "ZHANGHAO",
+        "nameKo": "장하오"
+      },
+      {
+        "nameEn": "YOOSEUNGEON",
+        "nameKo": "유승언"
+      },
+      {
+        "nameEn": "RICKY",
+        "nameKo": "리키"
+      },
+      {
+        "nameEn": "KIMGYUVIN",
+        "nameKo": "김규빈"
+      },
+      {
+        "nameEn": "HANYUJIN",
+        "nameKo": "한유진"
+      }
+    ]
+  },
+  {
+    "id": "choi-yoojung",
+    "nameEn": "CHOI YOOJUNG",
+    "nameKo": "최유정",
+    "type": "솔로",
+    "labels": [
+      "fantagio"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 판타지오",
+    "members": []
+  },
+  {
+    "id": "mark-lee",
+    "nameEn": "Mark Lee",
+    "nameKo": "Mark Lee",
+    "type": "솔로",
+    "labels": [
+      "UPPER ROOM Inc."
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 주식회사 어퍼룸",
+    "members": []
+  },
+  {
+    "id": "tuide",
+    "nameEn": "TUIDE",
+    "nameKo": "TUIDE",
+    "type": "그룹",
+    "labels": [
+      "ABD"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 에이비디",
+    "members": [
+      {
+        "nameEn": "SEOHEE",
+        "nameKo": "서희"
+      },
+      {
+        "nameEn": "SEOYEON",
+        "nameKo": "서연"
+      },
+      {
+        "nameEn": "ELENA",
+        "nameKo": "엘레나"
+      },
+      {
+        "nameEn": "JIA",
+        "nameKo": "지아"
+      },
+      {
+        "nameEn": "SAKI",
+        "nameKo": "사키"
+      },
+      {
+        "nameEn": "SEAH",
+        "nameKo": "세아"
+      },
+      {
+        "nameEn": "YI HANI",
+        "nameKo": "이하늬"
+      }
+    ]
+  },
+  {
+    "id": "sf9",
+    "nameEn": "SF9",
+    "nameKo": "SF9",
+    "type": "그룹",
+    "labels": [
+      "FNC ENTERTAINMENT"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "YOUNG BIN",
+        "nameKo": "영빈"
+      },
+      {
+        "nameEn": "IN SEONG",
+        "nameKo": "인성"
+      },
+      {
+        "nameEn": "JAE YOON",
+        "nameKo": "재윤"
+      },
+      {
+        "nameEn": "DA WON",
+        "nameKo": "다원"
+      },
+      {
+        "nameEn": "YOO TAE YANG",
+        "nameKo": "유태양"
+      },
+      {
+        "nameEn": "HWI YOUNG",
+        "nameKo": "휘영"
+      },
+      {
+        "nameEn": "CHA NI",
+        "nameKo": "찬희"
+      }
+    ]
+  },
+  {
+    "id": "girls-archives",
+    "nameEn": "Girls Archives.",
+    "nameKo": "Girls Archives.",
+    "type": "그룹",
+    "labels": [
+      "INCS toenter Co.,ltd."
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 株式会社インクストゥエンター",
+    "members": [
+      {
+        "nameEn": "YUISA",
+        "nameKo": "YUISA"
+      },
+      {
+        "nameEn": "ENA",
+        "nameKo": "ENA"
+      },
+      {
+        "nameEn": "SEOYEON",
+        "nameKo": "SEOYEON"
+      },
+      {
+        "nameEn": "HINARI",
+        "nameKo": "HINARI"
+      },
+      {
+        "nameEn": "SOJEONG",
+        "nameKo": "SOJEONG"
+      }
+    ]
+  },
+  {
+    "id": "whollin",
+    "nameEn": "WhOLLiN",
+    "nameKo": "홀린",
+    "type": "그룹",
+    "labels": [
+      "플레이리스트주식회사"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "SiO",
+        "nameKo": "시오"
+      },
+      {
+        "nameEn": "TAEI",
+        "nameKo": "태이"
+      },
+      {
+        "nameEn": "IISO",
+        "nameKo": "이소"
+      },
+      {
+        "nameEn": "KANGWOO",
+        "nameKo": "강우"
+      },
+      {
+        "nameEn": "DO-EON",
+        "nameKo": "도언"
+      }
+    ]
+  },
+  {
+    "id": "ten",
+    "nameEn": "TEN",
+    "nameKo": "TEN",
+    "type": "솔로",
+    "labels": [
+      "일리멘트코리아 주식회사"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": []
+  },
+  {
+    "id": "runidre",
+    "nameEn": "RUNIDRE",
+    "nameKo": "RUNIDRE",
+    "type": "그룹",
+    "labels": [
+      "blowout"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 株式会社blowout",
+    "members": [
+      {
+        "nameEn": "Sakutaro",
+        "nameKo": ""
+      },
+      {
+        "nameEn": "Yamato",
+        "nameKo": ""
+      },
+      {
+        "nameEn": "Daisuke",
+        "nameKo": ""
+      },
+      {
+        "nameEn": "Yuta",
+        "nameKo": ""
+      },
+      {
+        "nameEn": "Yua",
+        "nameKo": ""
+      }
+    ]
+  },
+  {
+    "id": "3skm",
+    "nameEn": "3SKM",
+    "nameKo": "3SKM",
+    "type": "그룹",
+    "labels": [
+      "ANYCOLOR"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: ANYCOLOR株式会社",
+    "members": [
+      {
+        "nameEn": "Kitami Yusei",
+        "nameKo": "키타미유우세이"
+      },
+      {
+        "nameEn": "Kaisei",
+        "nameKo": "카이세이"
+      },
+      {
+        "nameEn": "Sakaki Ness",
+        "nameKo": "사카키네스"
+      }
+    ]
+  },
+  {
+    "id": "kiiikiii",
+    "nameEn": "KiiiKiii",
+    "nameKo": "키키",
+    "type": "그룹",
+    "labels": [
+      "STARSHIP Entertainment"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 스타쉽엔터테인먼트",
+    "members": [
+      {
+        "nameEn": "JIYU",
+        "nameKo": "지유"
+      },
+      {
+        "nameEn": "LEESOL",
+        "nameKo": "이솔"
+      },
+      {
+        "nameEn": "SUI",
+        "nameKo": "수이"
+      },
+      {
+        "nameEn": "HAUM",
+        "nameKo": "하음"
+      },
+      {
+        "nameEn": "KYA",
+        "nameKo": "키야"
+      }
+    ]
+  },
+  {
+    "id": "lee-seyoung",
+    "nameEn": "LEE SEYOUNG",
+    "nameKo": "이세영",
+    "type": "솔로",
+    "labels": [
+      "fantagio"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 판타지오",
+    "members": []
+  },
+  {
+    "id": "eric",
+    "nameEn": "ERIC",
+    "nameKo": "ERIC",
+    "type": "솔로",
+    "labels": [
+      "GRID Entertainment"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 그리드 엔터테인먼트",
+    "members": []
+  },
+  {
+    "id": "adap",
+    "nameEn": "ADAP",
+    "nameKo": "에이댑",
+    "type": "그룹",
+    "labels": [
+      "FC ENM"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 에프씨이엔엠",
+    "members": [
+      {
+        "nameEn": "JUNSEOK",
+        "nameKo": "준석"
+      },
+      {
+        "nameEn": "HYOTAE",
+        "nameKo": "효태"
+      },
+      {
+        "nameEn": "JAEYOUNG",
+        "nameKo": "재영"
+      },
+      {
+        "nameEn": "DOWON",
+        "nameKo": "도원"
+      },
+      {
+        "nameEn": "JONGHO",
+        "nameKo": "종호"
+      },
+      {
+        "nameEn": "HYUNSUNG",
+        "nameKo": "현성"
+      }
+    ]
+  },
+  {
+    "id": "b-the-hood",
+    "nameEn": "B THE HOOD",
+    "nameKo": "비더후드",
+    "type": "그룹",
+    "labels": [
+      "레벨스 인크 (영업소)"
+    ],
+    "aliases": [],
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "members": [
+      {
+        "nameEn": "Eon",
+        "nameKo": "이언"
+      },
+      {
+        "nameEn": "Jace",
+        "nameKo": "제이스"
+      },
+      {
+        "nameEn": "PER B",
+        "nameKo": "퍼비"
+      },
+      {
+        "nameEn": "Kyryu",
+        "nameKo": "기류"
+      },
+      {
+        "nameEn": "Luan",
+        "nameKo": "루안"
+      }
+    ]
+  }
+]

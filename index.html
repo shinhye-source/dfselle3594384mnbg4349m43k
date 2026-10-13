@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>아티스트 표기 사전</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔤</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#F3F5FA; --surface:#FFFFFF; --ink:#16203A; --ink-2:#4A5472; --ink-3:#8590AD;
+  --line:#DDE2EE; --accent:#3D4BD8; --accent-ink:#FFFFFF; --accent-soft:#E6E9FF;
+  --strike:#C2405A; --strike-soft:#FBE9EE; --ok:#1E7F5C; --ok-soft:#E1F4EC;
+  --shadow:0 12px 40px rgba(22,32,58,.16);
+  color-scheme:light;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#10141F; --surface:#181D2B; --ink:#E9ECF6; --ink-2:#AEB5CC; --ink-3:#737C98;
+    --line:#2A3146; --accent:#8C96FF; --accent-ink:#10141F; --accent-soft:#252B4A;
+    --strike:#F08AA0; --strike-soft:#3A1F29; --ok:#6FD3A9; --ok-soft:#173329;
+    --shadow:0 12px 40px rgba(0,0,0,.5); color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#10141F; --surface:#181D2B; --ink:#E9ECF6; --ink-2:#AEB5CC; --ink-3:#737C98;
+  --line:#2A3146; --accent:#8C96FF; --accent-ink:#10141F; --accent-soft:#252B4A;
+  --strike:#F08AA0; --strike-soft:#3A1F29; --ok:#6FD3A9; --ok-soft:#173329;
+  --shadow:0 12px 40px rgba(0,0,0,.5); color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"IBM Plex Sans KR",system-ui,-apple-system,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased}
+button,input,textarea,select{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wrap{max-width:1180px;margin:0 auto;padding:28px 24px 64px}
+
+header.top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px;margin-bottom:22px}
+header.top h1{margin:0;font-size:28px;line-height:1.2;font-weight:700;letter-spacing:-.02em}
+header.top p{margin:4px 0 0;color:var(--ink-2);font-size:14px}
+.status{font-size:12px;color:var(--ink-3)}
+
+.tabs{display:flex;gap:4px;border-bottom:1px solid var(--line);margin-bottom:22px;overflow-x:auto}
+.tab{background:none;border:0;padding:10px 14px;color:var(--ink-2);font-weight:500;border-bottom:2px solid transparent;margin-bottom:-1px;white-space:nowrap}
+.tab[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent);font-weight:600}
+
+.btn{display:inline-flex;align-items:center;gap:6px;border-radius:8px;border:1px solid var(--line);background:var(--surface);padding:8px 14px;font-weight:500;font-size:14px}
+.btn:hover{border-color:var(--ink-3)}
+.btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.btn.primary:hover{filter:brightness(1.07)}
+.btn.danger{color:var(--strike)}
+.btn.small{padding:4px 10px;font-size:13px}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+
+.layout{display:grid;grid-template-columns:220px minmax(0,1fr);gap:28px}
+@media (max-width:820px){.layout{grid-template-columns:minmax(0,1fr)}}
+aside,.layout>div{min-width:0}
+[hidden]{display:none!important}
+
+aside h2{font-size:13px;font-weight:600;color:var(--ink-3);margin:0 0 8px}
+.labels{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:2px}
+@media (max-width:820px){.labels{flex-direction:row;flex-wrap:nowrap;overflow-x:auto;gap:6px;padding-bottom:6px;scrollbar-width:thin}.labels li{flex:0 0 auto}.labels button{white-space:nowrap}}
+.labels button{width:100%;display:flex;justify-content:space-between;gap:8px;background:none;border:0;border-radius:6px;padding:7px 10px;text-align:left;color:var(--ink-2)}
+@media (max-width:820px){.labels button{width:auto;border:1px solid var(--line);background:var(--surface)}}
+.labels button:hover{background:var(--surface)}
+.labels button[aria-pressed="true"]{background:var(--accent-soft);color:var(--ink);font-weight:600}
+.labels .n{color:var(--ink-3);font-variant-numeric:tabular-nums}
+
+.search{position:relative;margin-bottom:6px}
+.search input{width:100%;padding:14px 16px 14px 44px;border-radius:10px;border:1px solid var(--line);background:var(--surface);font-size:16px}
+.search input:focus{border-color:var(--accent);outline:none;box-shadow:0 0 0 3px var(--accent-soft)}
+.search svg{position:absolute;left:15px;top:50%;transform:translateY(-50%);color:var(--ink-3)}
+.hint{font-size:13px;color:var(--ink-3);margin:0 0 14px}
+
+.entries{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.entry{border-bottom:1px solid var(--line)}
+.entry button.row{all:unset;box-sizing:border-box;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 16px;width:100%;padding:16px 8px;cursor:pointer;border-radius:6px}
+.entry button.row:hover{background:var(--surface)}
+.entry button.row:focus-visible{outline:2px solid var(--accent)}
+.canon{font-size:22px;font-weight:700;letter-spacing:-.01em;line-height:1.25;word-break:keep-all}
+.ko{font-size:14px;color:var(--ink-2);font-weight:500;margin-left:8px}
+.meta{grid-column:2;grid-row:1/3;align-self:center;text-align:right;font-size:13px;color:var(--ink-3);white-space:nowrap}
+.sub{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.alias{font-size:13px;color:var(--strike);background:var(--strike-soft);text-decoration:line-through;text-decoration-thickness:1.5px;padding:1px 7px;border-radius:4px}
+.tag{font-size:12px;color:var(--ink-2);border:1px solid var(--line);padding:1px 8px;border-radius:999px}
+mark{background:var(--accent-soft);color:inherit;border-radius:2px;padding:0 1px}
+.empty{padding:48px 8px;text-align:center;color:var(--ink-2)}
+.empty strong{display:block;color:var(--ink);font-size:16px;margin-bottom:6px}
+
+/* drawer */
+.scrim{position:fixed;inset:0;background:rgba(10,14,28,.38);opacity:0;pointer-events:none;transition:opacity .18s;z-index:20}
+.scrim.open{opacity:1;pointer-events:auto}
+.drawer{position:fixed;top:0;right:0;bottom:0;width:min(560px,100%);background:var(--surface);box-shadow:var(--shadow);transform:translateX(100%);transition:transform .22s ease;z-index:21;display:flex;flex-direction:column;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+.drawer.open{transform:none}
+.drawer .hd{display:flex;justify-content:space-between;align-items:center;padding:14px 20px;border-bottom:1px solid var(--line);gap:8px}
+.drawer .bd{overflow-y:auto;padding:22px 24px 40px;flex:1}
+.big{font-size:38px;font-weight:700;letter-spacing:-.025em;line-height:1.1;margin:0;word-break:keep-all}
+.big-ko{font-size:17px;color:var(--ink-2);margin:6px 0 16px}
+.sec{margin-top:26px}
+.sec h3{font-size:13px;font-weight:600;color:var(--ink-3);margin:0 0 8px}
+.note{background:var(--bg);border-left:3px solid var(--accent);padding:12px 14px;border-radius:0 8px 8px 0;white-space:pre-wrap;font-size:14px}
+table.members{width:100%;border-collapse:collapse;font-size:14px}
+table.members th{font-weight:500;color:var(--ink-3);text-align:left;font-size:12px;padding:6px 8px;border-bottom:1px solid var(--line)}
+table.members td{padding:8px;border-bottom:1px solid var(--line)}
+table.members td.o{color:var(--ink-3);width:36px;font-variant-numeric:tabular-nums}
+table.members td.en{font-weight:600}
+.copy{background:none;border:1px solid var(--line);border-radius:6px;padding:2px 8px;font-size:12px;color:var(--ink-2)}
+
+/* history */
+.timeline{list-style:none;margin:0;padding:0}
+.ev{padding:14px 0;border-bottom:1px solid var(--line)}
+.ev .h{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:baseline;font-size:14px}
+.ev .who{font-weight:600}
+.ev .when{color:var(--ink-3);font-size:12px}
+.badge{font-size:11px;font-weight:600;padding:1px 7px;border-radius:4px}
+.badge.create{background:var(--ok-soft);color:var(--ok)}
+.badge.update{background:var(--accent-soft);color:var(--accent)}
+.badge.delete{background:var(--strike-soft);color:var(--strike)}
+.reason{margin:6px 0 0;font-size:14px;color:var(--ink-2)}
+.diff{margin-top:8px;display:grid;gap:6px}
+.diff .f{font-size:12px;color:var(--ink-3)}
+.diff .b{font-size:13px;color:var(--strike);text-decoration:line-through;white-space:pre-wrap}
+.diff .a{font-size:13px;color:var(--ok);white-space:pre-wrap}
+.ev .link{background:none;border:0;padding:0;color:var(--accent);font-weight:600}
+
+/* modal */
+dialog{border:0;border-radius:14px;padding:0;width:min(680px,calc(100% - 24px));max-height:calc(100% - 40px);background:var(--surface);color:var(--ink);box-shadow:var(--shadow)}
+dialog::backdrop{background:rgba(10,14,28,.45)}
+dialog form{display:flex;flex-direction:column;max-height:calc(100vh - 40px)}
+dialog .hd{padding:18px 22px;border-bottom:1px solid var(--line);font-weight:700;font-size:18px}
+dialog .bd{padding:18px 22px;overflow-y:auto;display:grid;gap:16px}
+dialog .ft{padding:14px 22px;border-top:1px solid var(--line);display:flex;justify-content:flex-end;gap:8px}
+.field label{display:block;font-size:13px;font-weight:600;margin-bottom:5px}
+.field .help{font-size:12px;color:var(--ink-3);margin-top:4px}
+.field input,.field textarea,.field select{width:100%;padding:9px 11px;border:1px solid var(--line);border-radius:8px;background:var(--bg)}
+.field input:focus,.field textarea:focus,.field select:focus{outline:none;border-color:var(--accent)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:560px){.two{grid-template-columns:1fr}}
+.mrow{display:grid;grid-template-columns:28px 1fr 1fr auto;gap:6px;align-items:center;margin-bottom:6px}
+.mrow .o{color:var(--ink-3);font-size:13px;text-align:center}
+.mrow .ops{display:flex;gap:2px}
+.mrow .ops button{background:none;border:1px solid var(--line);border-radius:6px;width:28px;height:30px;padding:0;color:var(--ink-2)}
+.err{color:var(--strike);font-size:13px;min-height:1em}
+.warn{background:var(--strike-soft);color:var(--strike);padding:10px 12px;border-radius:8px;font-size:13px}
+
+/* proofreader */
+.proof{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+@media (max-width:820px){.proof{grid-template-columns:1fr}}
+.proof textarea{width:100%;min-height:300px;padding:14px;border:1px solid var(--line);border-radius:10px;background:var(--surface);resize:vertical;line-height:1.7}
+.out{min-height:300px;padding:14px;border:1px solid var(--line);border-radius:10px;background:var(--surface);white-space:pre-wrap;line-height:1.7;word-break:break-word}
+.out .bad{background:var(--strike-soft);color:var(--strike);text-decoration:line-through;border-radius:3px;padding:0 2px}
+.out .fix{background:var(--ok-soft);color:var(--ok);font-weight:600;border-radius:3px;padding:0 3px;margin-left:2px}
+.fixes{list-style:none;padding:0;margin:12px 0 0;font-size:14px}
+.fixes li{padding:4px 0}
+
+.toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));transform:translateX(-50%) translateY(20px);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:8px;font-size:14px;opacity:0;transition:.2s;z-index:50;pointer-events:none}
+.toast.show{opacity:1;transform:translateX(-50%)}
+.readonly{background:var(--accent-soft);padding:10px 14px;border-radius:8px;font-size:13px;margin-bottom:16px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+.pending{position:sticky;bottom:calc(12px + env(safe-area-inset-bottom,0px));margin-top:24px;background:var(--surface);border:1px solid var(--accent);border-radius:12px;box-shadow:var(--shadow);padding:14px 16px;display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;justify-content:space-between;z-index:10}
+.pending p{margin:0;font-size:14px}
+.pending .acts{display:flex;flex-wrap:wrap;gap:6px}
+.steps{margin:0;padding-left:20px;display:grid;gap:10px;font-size:14px}
+.steps code,.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:13px;background:var(--bg);padding:1px 6px;border-radius:4px}
+.msgbox{width:100%;min-height:90px;padding:10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:13px}
+.ghlink{color:var(--accent);font-weight:500;text-decoration:none}
+.ghlink:hover{text-decoration:underline}
+.banner{background:var(--strike-soft);color:var(--strike);padding:10px 14px;border-radius:8px;font-size:13px;margin-bottom:16px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div>
+      <h1>아티스트 표기 사전</h1>
+      <p>기획안과 디자인 시안에는 여기 등록된 영문 표기만 씁니다.</p>
+    </div>
+    <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+      <span class="status" id="status">불러오는 중…</span>
+      <button class="btn" id="exportBtn">CSV 내려받기</button>
+      <button class="btn primary" id="addBtn">아티스트 등록</button>
+    </div>
+  </header>
+
+  <div class="tabs" role="tablist">
+    <button class="tab" role="tab" data-tab="dict" aria-selected="true">표기 사전</button>
+    <button class="tab" role="tab" data-tab="proof" aria-selected="false">기획안 표기 검사</button>
+    <button class="tab" role="tab" data-tab="history" aria-selected="false">변경 이력</button>
+  </div>
+
+  <div id="staleBanner" class="banner" hidden></div>
+
+  <section id="view-dict">
+    <div class="layout">
+      <aside>
+        <h2>레이블</h2>
+        <ul class="labels" id="labels"></ul>
+      </aside>
+      <div>
+        <div class="search">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <input id="q" type="search" placeholder="방탄, Svt, 세븐틴, 정국… 어떻게 써도 찾아드려요" autocomplete="off" aria-label="아티스트 검색">
+        </div>
+        <p class="hint" id="count"></p>
+        <ul class="entries" id="entries"></ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="view-proof" hidden>
+    <p class="hint" style="font-size:14px;color:var(--ink-2)">기획안 문구를 붙여넣으면 사전에 없는 표기를 찾아 정식 영문 표기로 고쳐 드립니다.</p>
+    <div class="proof">
+      <div><textarea id="proofIn" placeholder="예: 이번 시즌 방탄소년단과 Svt 협업 굿즈 디자인 요청드립니다."></textarea></div>
+      <div>
+        <div class="out" id="proofOut"><span style="color:var(--ink-3)">검사 결과가 여기에 표시됩니다.</span></div>
+        <div style="display:flex;gap:8px;margin-top:10px"><button class="btn small" id="copyFixed" disabled>고친 문구 복사</button></div>
+        <ul class="fixes" id="fixes"></ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="view-history" hidden>
+    <p class="hint" style="font-size:14px;color:var(--ink-2)">표기 데이터는 GitHub 저장소의 <span class="mono">data/artists.json</span>에 있고, 모든 변경은 커밋으로 남습니다. 커밋 메시지가 곧 수정 사유예요.</p>
+    <p id="ghHistLink"></p>
+    <ul class="timeline" id="timeline"></ul>
+  </section>
+
+  <div class="pending" id="pending" hidden>
+    <p id="pendingText"></p>
+    <div class="acts">
+      <button class="btn small" id="discardBtn">변경 취소</button>
+      <button class="btn small primary" id="publishBtn">GitHub에 반영하기</button>
+    </div>
+  </div>
+</div>
+
+<div class="scrim" id="scrim"></div>
+<aside class="drawer" id="drawer" aria-hidden="true">
+  <div class="hd">
+    <button class="btn small" id="closeDrawer">닫기</button>
+    <div style="display:flex;gap:6px">
+      <button class="btn small danger" id="delBtn">삭제</button>
+      <button class="btn small primary" id="editBtn">수정</button>
+    </div>
+  </div>
+  <div class="bd" id="drawerBody"></div>
+</aside>
+
+<dialog id="dlg">
+  <form method="dialog" id="form">
+    <div class="hd" id="formTitle">아티스트 등록</div>
+    <div class="bd">
+      <div class="two">
+        <div class="field"><label for="f-en">정식 영문 표기 *</label><input id="f-en" required placeholder="SEVENTEEN"><div class="help">대소문자·띄어쓰기까지 이대로 씁니다.</div></div>
+        <div class="field"><label for="f-ko">한글명 *</label><input id="f-ko" required placeholder="세븐틴"></div>
+      </div>
+      <div class="field"><label for="f-alias">쓰지 않는 표기</label><input id="f-alias" placeholder="Svt, Seventeen, 세봉이"><div class="help">쉼표로 구분. 검색과 기획안 표기 검사에 쓰입니다.</div></div>
+      <div class="two">
+        <div class="field"><label for="f-labels">레이블</label><input id="f-labels" list="labelList" placeholder="PLEDIS Entertainment"><datalist id="labelList"></datalist><div class="help">여러 개면 쉼표로 구분.</div></div>
+        <div class="field"><label for="f-type">유형</label><select id="f-type"><option>그룹</option><option>솔로</option><option>유닛</option><option>프로젝트</option></select></div>
+      </div>
+      <div class="field"><label for="f-note">표기 결정 이유</label><textarea id="f-note" rows="3" placeholder="공식 로고·앨범 크레딧 기준 대문자 표기로 협의 (2026.10 마케팅·디자인팀)"></textarea><div class="help">공개 사이트에 그대로 보입니다. 대외비 내용은 적지 마세요.</div></div>
+      <div class="field">
+        <label>멤버 (표기 순서대로)</label>
+        <div id="members"></div>
+        <button type="button" class="btn small" id="addMember">멤버 추가</button>
+      </div>
+      <div class="field"><label for="f-reason">수정 사유 *</label><input id="f-reason" required placeholder="예: 활동명 변경 공지 반영"><div class="help">GitHub 커밋 메시지로 들어갑니다.</div></div>
+      <div id="dupWarn"></div>
+      <div class="err" id="formErr"></div>
+    </div>
+    <div class="ft">
+      <button type="button" class="btn" id="cancelForm">취소</button>
+      <button type="submit" class="btn primary" id="saveBtn">변경에 추가</button>
+    </div>
+  </form>
+</dialog>
+
+<dialog id="pubDlg">
+  <div style="display:flex;flex-direction:column;max-height:calc(100vh - 40px)">
+    <div class="hd">GitHub에 반영하기</div>
+    <div class="bd">
+      <ol class="steps">
+        <li><button class="btn small primary" id="dlJson">artists.json 내려받기</button> 를 눌러 변경이 반영된 파일을 받으세요.</li>
+        <li><a class="ghlink" id="uploadLink" target="_blank" rel="noopener">저장소의 data 폴더 업로드 화면</a>을 열고, 받은 파일을 끌어다 놓으세요. 같은 이름이라 기존 파일을 덮어씁니다.</li>
+        <li>아래 커밋 메시지를 붙여넣고 <b>Commit changes</b>를 누르세요. 1~2분 뒤 사이트에 반영됩니다.
+          <textarea class="msgbox" id="commitMsg" readonly style="margin-top:8px"></textarea>
+          <button class="btn small" id="copyMsg" style="margin-top:6px">커밋 메시지 복사</button>
+        </li>
+      </ol>
+      <p class="hint" id="noRepoHint" hidden>저장소 주소를 찾지 못했어요. index.html 상단의 CONFIG에 owner와 repo를 적어 주세요.</p>
+    </div>
+    <div class="ft"><button class="btn" id="pubDone">반영했어요</button><button class="btn" id="pubClose">닫기</button></div>
+  </div>
+</dialog>
+
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+/* ===== 설정: GitHub Pages(사용자명.github.io/저장소명)에서는 자동으로 채워집니다 ===== */
+const CONFIG = { owner: '', repo: '', branch: 'main', dataPath: 'data/artists.json' };
+
+(function(){
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const norm = s => String(s ?? '').toLowerCase().replace(/[\s\-_.·・'’"()\[\]!&]/g,'');
+const splitList = s => String(s||'').split(/[,，\n]/).map(x=>x.trim()).filter(Boolean);
+const uniq = a => [...new Set(a)];
+const clone = o => JSON.parse(JSON.stringify(o));
+const DRAFT_KEY = 'artist-naming-draft-v1';
+
+if(!CONFIG.owner && location.hostname.endsWith('.github.io')){
+  CONFIG.owner = location.hostname.split('.')[0];
+  CONFIG.repo = location.pathname.split('/').filter(Boolean)[0] || location.hostname;
+}
+const HAS_REPO = !!(CONFIG.owner && CONFIG.repo);
+const GH = `https://github.com/${CONFIG.owner}/${CONFIG.repo}`;
+const dataDir = CONFIG.dataPath.split('/').slice(0,-1).join('/');
+
+const S = { raw:'', base:[], list:[], changes:[], label:null, q:'', tab:'dict', openId:null, editing:null, ready:false, commits:null };
+
+let tt; function toast(m){ const t=$('#toast'); t.textContent=m; t.classList.add('show'); clearTimeout(tt); tt=setTimeout(()=>t.classList.remove('show'),2200); }
+function hash(s){ let h=0; for(let i=0;i<s.length;i++){ h=(h*31+s.charCodeAt(i))|0; } return String(h); }
+const fmt = t => { if(!t) return ''; const d=new Date(t); const p=n=>String(n).padStart(2,'0'); return `${d.getFullYear()}.${p(d.getMonth()+1)}.${p(d.getDate())} ${p(d.getHours())}:${p(d.getMinutes())}`; };
+function lineOf(id){ const i=S.raw.indexOf(`"id": ${JSON.stringify(id)}`); return i<0?null:S.raw.slice(0,i).split('\n').length-1; }
+function slug(en){ let s=String(en).toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')||'artist'; const b=s; let i=2; while(S.list.some(a=>a.id===s)) s=`${b}-${i++}`; return s; }
+
+/* ---------- 초안(브라우저에만 저장) ---------- */
+function saveDraft(){ try{ if(S.changes.length) localStorage.setItem(DRAFT_KEY,JSON.stringify({baseHash:hash(S.raw),list:S.list,changes:S.changes})); else localStorage.removeItem(DRAFT_KEY); }catch(e){} }
+function loadDraft(){ try{ const d=JSON.parse(localStorage.getItem(DRAFT_KEY)||'null'); return d&&Array.isArray(d.list)?d:null; }catch(e){ return null; } }
+
+/* ---------- 검색 ---------- */
+function matchScore(a,q){
+  if(!q) return 1; const nq=norm(q);
+  const fields=[a.nameEn,a.nameKo,...(a.aliases||[]),...(a.labels||[]),...(a.members||[]).flatMap(m=>[m.nameEn,m.nameKo])];
+  let best=0;
+  for(const f of fields){ const nf=norm(f); if(!nf) continue; if(nf===nq) best=Math.max(best,3); else if(nf.startsWith(nq)) best=Math.max(best,2); else if(nf.includes(nq)) best=Math.max(best,1); }
+  return best;
+}
+function hl(text,q){ const t=String(text||''); const k=q.trim(); if(!k) return esc(t); const i=t.toLowerCase().indexOf(k.toLowerCase()); if(i<0) return esc(t); return esc(t.slice(0,i))+'<mark>'+esc(t.slice(i,i+k.length))+'</mark>'+esc(t.slice(i+k.length)); }
+function memberHit(a,q){ if(!q) return null; const nq=norm(q); return (a.members||[]).find(m=>norm(m.nameEn).includes(nq)||norm(m.nameKo).includes(nq)); }
+
+/* ---------- 사전 ---------- */
+function allLabels(){ const m=new Map(); S.list.forEach(a=>(a.labels||[]).forEach(l=>m.set(l,(m.get(l)||0)+1))); return [...m.entries()].sort((x,y)=>x[0].localeCompare(y[0])); }
+function renderLabels(){
+  const ls=allLabels();
+  $('#labels').innerHTML=[[null,'전체',S.list.length],...ls.map(([l,n])=>[l,l,n])].map(([v,t,n])=>`<li><button data-label="${esc(v??'')}" aria-pressed="${S.label===v}"><span>${esc(t)}</span><span class="n">${n}</span></button></li>`).join('');
+  $('#labelList').innerHTML=ls.map(([l])=>`<option value="${esc(l)}">`).join('');
+}
+function renderEntries(){
+  const q=S.q.trim();
+  const list=S.list.filter(a=>!S.label||(a.labels||[]).includes(S.label)).map(a=>({a,s:matchScore(a,q)})).filter(x=>x.s>0)
+    .sort((x,y)=>y.s-x.s||String(x.a.nameEn).localeCompare(String(y.a.nameEn)));
+  $('#count').textContent=!S.ready?'':(q||S.label)?`${list.length}팀 찾음`:`등록된 아티스트 ${S.list.length}팀`;
+  if(!S.ready){ $('#entries').innerHTML=''; return; }
+  if(!list.length){ $('#entries').innerHTML=`<li class="empty"><strong>‘${esc(q)}’로 등록된 아티스트가 없어요</strong>협의된 표기가 있다면 ‘아티스트 등록’으로 추가해 주세요.</li>`; return; }
+  $('#entries').innerHTML=list.map(({a})=>{ const mh=memberHit(a,q); return `<li class="entry"><button class="row" data-open="${esc(a.id)}">
+    <div><span class="canon">${hl(a.nameEn,q)}</span><span class="ko">${hl(a.nameKo,q)}</span></div>
+    <div class="meta">${esc(a.type||'')}${(a.members||[]).length?` · ${a.members.length}명`:''}</div>
+    <div class="sub">${(a.aliases||[]).map(x=>`<span class="alias" title="쓰지 않는 표기">${hl(x,q)}</span>`).join('')}${(a.labels||[]).map(l=>`<span class="tag">${esc(l)}</span>`).join('')}${mh?`<span class="tag" style="border-color:var(--accent)">멤버 ${hl(mh.nameEn,q)} (${hl(mh.nameKo,q)})</span>`:''}</div>
+  </button></li>`; }).join('');
+}
+
+/* ---------- 상세 ---------- */
+function openDrawer(id){
+  S.openId=id; const a=S.list.find(x=>x.id===id); if(!a) return closeDrawer();
+  const ln=lineOf(id);
+  history.replaceState(null,'','#'+encodeURIComponent(id));
+  $('#drawerBody').innerHTML=`
+    <p class="big">${esc(a.nameEn)}</p>
+    <p class="big-ko">${esc(a.nameKo)} <button class="copy" data-copy="${esc(a.nameEn)}">영문 표기 복사</button></p>
+    <div class="sub">${(a.labels||[]).map(l=>`<span class="tag">${esc(l)}</span>`).join('')}<span class="tag">${esc(a.type||'')}</span></div>
+    ${(a.aliases||[]).length?`<div class="sec"><h3>이렇게 쓰지 않아요</h3><div class="sub">${a.aliases.map(x=>`<span class="alias">${esc(x)}</span>`).join('')}</div></div>`:''}
+    <div class="sec"><h3>표기 결정 이유</h3>${a.note?`<div class="note">${esc(a.note)}</div>`:`<p class="hint">아직 적힌 내용이 없어요.</p>`}</div>
+    ${(a.members||[]).length?`<div class="sec"><h3>멤버 ${a.members.length}명 · 표기 순서</h3>
+      <table class="members"><thead><tr><th>순서</th><th>영문</th><th>한글</th><th></th></tr></thead><tbody>
+      ${a.members.map((m,i)=>`<tr><td class="o">${i+1}</td><td class="en">${esc(m.nameEn)}</td><td>${esc(m.nameKo)}</td><td style="text-align:right"><button class="copy" data-copy="${esc(m.nameEn)}">복사</button></td></tr>`).join('')}
+      </tbody></table>
+      <div style="margin-top:8px"><button class="copy" data-copy="${esc(a.members.map(m=>m.nameEn).join(', '))}">멤버 전체 영문 복사</button></div></div>`:''}
+    <div class="sec"><h3>변경 이력</h3>
+      ${HAS_REPO&&ln?`<p style="margin:0;font-size:14px"><a class="ghlink" target="_blank" rel="noopener" href="${GH}/blame/${CONFIG.branch}/${CONFIG.dataPath}#L${ln}">이 항목을 누가 언제 바꿨는지 GitHub에서 보기</a></p>`:'<p class="hint">새로 추가된 항목이라 아직 이력이 없어요.</p>'}
+    </div>`;
+  $('#drawer').classList.add('open'); $('#scrim').classList.add('open'); $('#drawer').setAttribute('aria-hidden','false');
+}
+function closeDrawer(){ S.openId=null; $('#drawer').classList.remove('open'); $('#scrim').classList.remove('open'); $('#drawer').setAttribute('aria-hidden','true'); if(location.hash) history.replaceState(null,'',location.pathname+location.search); }
+
+/* ---------- 이력 (GitHub 커밋) ---------- */
+async function renderHistory(){
+  $('#ghHistLink').innerHTML=HAS_REPO?`<a class="ghlink" target="_blank" rel="noopener" href="${GH}/commits/${CONFIG.branch}/${CONFIG.dataPath}">GitHub에서 전체 이력과 변경 내용 보기</a>`:'';
+  const tl=$('#timeline');
+  if(!HAS_REPO){ tl.innerHTML='<li class="empty"><strong>저장소 정보가 없어요</strong>GitHub Pages에 배포하면 커밋 이력이 여기에 보입니다.</li>'; return; }
+  if(S.commits){ drawCommits(); return; }
+  tl.innerHTML='<li class="hint">이력을 불러오는 중…</li>';
+  const ck='artist-naming-commits';
+  try{ const c=JSON.parse(sessionStorage.getItem(ck)||'null'); if(c&&Date.now()-c.t<10*60*1000){ S.commits=c.v; drawCommits(); return; } }catch(e){}
+  try{
+    const r=await fetch(`https://api.github.com/repos/${CONFIG.owner}/${CONFIG.repo}/commits?path=${encodeURIComponent(CONFIG.dataPath)}&sha=${CONFIG.branch}&per_page=50`);
+    if(!r.ok) throw new Error(r.status);
+    S.commits=(await r.json()).map(c=>({sha:c.sha,msg:c.commit.message,who:(c.author&&c.author.login)||c.commit.author.name,at:c.commit.author.date,url:c.html_url}));
+    try{ sessionStorage.setItem(ck,JSON.stringify({t:Date.now(),v:S.commits})); }catch(e){}
+    drawCommits();
+  }catch(e){ tl.innerHTML='<li class="empty"><strong>지금은 이력을 불러올 수 없어요</strong>GitHub 조회 한도(시간당 60회)에 걸렸을 수 있어요. 위 링크에서 바로 확인할 수 있습니다.</li>'; }
+}
+function drawCommits(){
+  $('#timeline').innerHTML=S.commits.length?S.commits.map(c=>{ const [title,...rest]=c.msg.split('\n'); return `<li class="ev">
+    <div class="h"><span class="who">${esc(c.who)}</span><span class="when">${fmt(c.at)}</span><a class="ghlink" style="font-size:13px" target="_blank" rel="noopener" href="${esc(c.url)}">변경 내용 보기</a></div>
+    <p class="reason" style="color:var(--ink);font-weight:500">${esc(title)}</p>${rest.join('\n').trim()?`<p class="reason" style="white-space:pre-wrap">${esc(rest.join('\n').trim())}</p>`:''}</li>`; }).join(''):'<li class="hint">아직 기록이 없어요.</li>';
+}
+
+/* ---------- 표기 검사 ---------- */
+let fixedText='';
+function proofread(){
+  const text=$('#proofIn').value;
+  if(!text.trim()){ $('#proofOut').innerHTML='<span style="color:var(--ink-3)">검사 결과가 여기에 표시됩니다.</span>'; $('#fixes').innerHTML=''; $('#copyFixed').disabled=true; return; }
+  const pats=[]; S.list.forEach(a=>uniq([a.nameKo,...(a.aliases||[]),a.nameEn].filter(v=>v&&v.length>=2)).forEach(v=>pats.push({v,canon:a.nameEn})));
+  pats.sort((x,y)=>y.v.length-x.v.length);
+  const found=[]; const taken=new Uint8Array(text.length);
+  S.list.forEach(a=>{ const c=a.nameEn; if(!c||c.length<2) return; let i=text.indexOf(c); while(i>=0){ taken.fill(1,i,i+c.length); i=text.indexOf(c,i+c.length); } });
+  for(const p of pats){
+    const latin=/^[\x00-\x7F]+$/.test(p.v); const src=p.v.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+    const re=new RegExp(latin?`(?<![A-Za-z0-9])${src}(?![A-Za-z0-9])`:src,'gi'); let m;
+    while((m=re.exec(text))){ const s=m.index,e=s+m[0].length; let free=true; for(let i=s;i<e;i++) if(taken[i]){free=false;break;} if(!free) continue; taken.fill(1,s,e); if(m[0]===p.canon) continue; found.push({s,e,orig:m[0],canon:p.canon}); }
+  }
+  found.sort((x,y)=>x.s-y.s);
+  let html='',out='',pos=0;
+  for(const f of found){ html+=esc(text.slice(pos,f.s))+`<span class="bad">${esc(f.orig)}</span><span class="fix">${esc(f.canon)}</span>`; out+=text.slice(pos,f.s)+f.canon; pos=f.e; }
+  html+=esc(text.slice(pos)); out+=text.slice(pos); fixedText=out; $('#proofOut').innerHTML=html;
+  const agg=new Map(); found.forEach(f=>{ const k=f.orig+'→'+f.canon; agg.set(k,{...f,n:(agg.get(k)?.n||0)+1}); });
+  $('#fixes').innerHTML=found.length?[...agg.values()].map(f=>`<li><span class="alias">${esc(f.orig)}</span> → <strong>${esc(f.canon)}</strong>${f.n>1?` <span class="hint">(${f.n}곳)</span>`:''}</li>`).join(''):'<li style="color:var(--ok)">사전 기준으로 모두 정식 표기예요.</li>';
+  $('#copyFixed').disabled=!found.length;
+}
+
+/* ---------- 등록·수정 폼 ---------- */
+function memberRow(m={},i){ return `<div class="mrow"><span class="o">${i+1}</span>
+  <input placeholder="영문 (S.COUPS)" value="${esc(m.nameEn||'')}" data-m="en" aria-label="멤버 영문명">
+  <input placeholder="한글 (에스쿱스)" value="${esc(m.nameKo||'')}" data-m="ko" aria-label="멤버 한글명">
+  <span class="ops"><button type="button" data-mv="up" aria-label="위로">↑</button><button type="button" data-mv="down" aria-label="아래로">↓</button><button type="button" data-mv="del" aria-label="삭제">✕</button></span></div>`; }
+function readMembersRaw(){ return [...document.querySelectorAll('#members .mrow')].map(r=>({nameEn:r.querySelector('[data-m=en]').value,nameKo:r.querySelector('[data-m=ko]').value})); }
+const readMembers=()=>readMembersRaw().map(m=>({nameEn:m.nameEn.trim(),nameKo:m.nameKo.trim()})).filter(m=>m.nameEn||m.nameKo);
+const drawMembers=ms=>{ $('#members').innerHTML=ms.map(memberRow).join(''); };
+function openForm(a){
+  S.editing=a||null;
+  $('#formTitle').textContent=a?`${a.nameEn} 수정`:'아티스트 등록';
+  $('#f-en').value=a?.nameEn||''; $('#f-ko').value=a?.nameKo||''; $('#f-alias').value=(a?.aliases||[]).join(', ');
+  $('#f-labels').value=(a?.labels||[]).join(', '); $('#f-type').value=a?.type||'그룹'; $('#f-note').value=a?.note||''; $('#f-reason').value=a?'':'';
+  drawMembers(a?.members?.length?a.members:[{}]); $('#formErr').textContent=''; $('#dupWarn').innerHTML=''; $('#dupWarn').dataset.ack='';
+  $('#dlg').showModal(); $('#f-en').focus();
+}
+function readForm(){ return { nameEn:$('#f-en').value.trim(), nameKo:$('#f-ko').value.trim(), type:$('#f-type').value,
+  labels:uniq(splitList($('#f-labels').value)), aliases:uniq(splitList($('#f-alias').value)), note:$('#f-note').value.trim(), members:readMembers() }; }
+const FIELDS=['nameEn','nameKo','type','labels','aliases','note','members'];
+const same=(a,b)=>JSON.stringify(FIELDS.map(k=>a[k]))===JSON.stringify(FIELDS.map(k=>b[k]));
+function conflicts(d,selfId){
+  const hard=[],soft=[];
+  S.list.filter(a=>a.id!==selfId).forEach(a=>{
+    const theirs=[a.nameEn,a.nameKo,...(a.aliases||[])].map(norm);
+    if(a.nameEn===d.nameEn) hard.push(`‘${d.nameEn}’은(는) 이미 등록된 정식 표기예요.`);
+    else if(theirs.includes(norm(d.nameEn))) soft.push(`‘${d.nameEn}’은(는) ${a.nameEn}의 표기와 비슷해요. 다른 아티스트가 맞나요?`);
+    d.aliases.forEach(x=>{ if(theirs.includes(norm(x))) soft.push(`‘${x}’은(는) ${a.nameEn}에도 등록된 표기예요.`); });
+  });
+  return {hard,soft};
+}
+function save(){
+  const d=readForm(), err=$('#formErr');
+  if(!d.nameEn||!d.nameKo){ err.textContent='정식 영문 표기와 한글명은 꼭 적어 주세요.'; return; }
+  if(d.members.some(m=>!m.nameEn)){ err.textContent='멤버 영문명이 비어 있는 줄이 있어요.'; return; }
+  d.aliases=d.aliases.filter(x=>x!==d.nameEn);
+  const reason=$('#f-reason').value.trim(); if(!reason){ err.textContent='수정 사유를 적어 주세요. 커밋 메시지로 남습니다.'; return; }
+  const c=conflicts(d,S.editing?.id); if(c.hard.length){ err.textContent=c.hard[0]; return; }
+  if(c.soft.length&&$('#dupWarn').dataset.ack!=='1'){ $('#dupWarn').innerHTML=`<div class="warn">${c.soft.map(esc).join('<br>')}<br>그래도 진행하려면 한 번 더 눌러 주세요.</div>`; $('#dupWarn').dataset.ack='1'; return; }
+  if(S.editing){
+    if(same(S.editing,d)){ err.textContent='바뀐 내용이 없어요.'; return; }
+    const i=S.list.findIndex(a=>a.id===S.editing.id); S.list[i]={id:S.editing.id,...d};
+    S.changes.push({action:'수정',name:d.nameEn,reason});
+  } else {
+    const id=slug(d.nameEn); S.list.push({id,...d}); S.changes.push({action:'추가',name:d.nameEn,reason});
+  }
+  $('#dlg').close(); afterChange(); toast('변경에 추가했어요. 아래 ‘GitHub에 반영하기’로 저장하세요.');
+}
+function remove(a){
+  const reason=prompt(`${a.nameEn}을(를) 사전에서 삭제할까요?\n삭제 사유를 적어 주세요. (커밋 메시지로 남습니다)`);
+  if(reason===null) return; if(!reason.trim()){ toast('삭제 사유를 적어야 삭제돼요'); return; }
+  S.list=S.list.filter(x=>x.id!==a.id); S.changes.push({action:'삭제',name:a.nameEn,reason:reason.trim()});
+  closeDrawer(); afterChange(); toast('삭제를 변경에 추가했어요');
+}
+function afterChange(){ saveDraft(); renderPending(); renderLabels(); renderEntries(); if(S.tab==='proof') proofread(); if(S.openId) openDrawer(S.openId); }
+function renderPending(){
+  const n=S.changes.length; $('#pending').hidden=!n;
+  if(n) $('#pendingText').innerHTML=`<b>아직 GitHub에 반영되지 않은 변경 ${n}건</b> · ${S.changes.slice(-3).map(c=>esc(`${c.action} ${c.name}`)).join(', ')}${n>3?' 외':''}`;
+}
+function commitMessage(){
+  const c=S.changes; if(!c.length) return '';
+  const title=c.length===1?`${c[0].action}: ${c[0].name} - ${c[0].reason}`:`표기 사전 변경 ${c.length}건`;
+  return c.length===1?title:title+'\n\n'+c.map(x=>`- ${x.action}: ${x.name} - ${x.reason}`).join('\n');
+}
+function serialize(){ return JSON.stringify(S.list.map(a=>({id:a.id,nameEn:a.nameEn,nameKo:a.nameKo,type:a.type,labels:a.labels||[],aliases:a.aliases||[],note:a.note||'',members:(a.members||[]).map(m=>({nameEn:m.nameEn,nameKo:m.nameKo||''}))})),null,2)+'\n'; }
+function download(name,text,type){ const u=URL.createObjectURL(new Blob([text],{type})); const l=document.createElement('a'); l.href=u; l.download=name; document.body.appendChild(l); l.click(); l.remove(); setTimeout(()=>URL.revokeObjectURL(u),1000); }
+
+function exportCSV(){
+  const q=v=>`"${String(v??'').replace(/"/g,'""')}"`;
+  const rows=[['정식 영문 표기','한글명','쓰지 않는 표기','레이블','유형','멤버(영문, 순서대로)','멤버(한글)','표기 결정 이유']];
+  [...S.list].sort((a,b)=>a.nameEn.localeCompare(b.nameEn)).forEach(a=>rows.push([a.nameEn,a.nameKo,(a.aliases||[]).join(', '),(a.labels||[]).join(', '),a.type,(a.members||[]).map(m=>m.nameEn).join(', '),(a.members||[]).map(m=>m.nameKo).join(', '),a.note]));
+  download('artist-naming-guide.csv','\uFEFF'+rows.map(r=>r.map(q).join(',')).join('\r\n'),'text/csv;charset=utf-8');
+}
+
+/* ---------- 이벤트 ---------- */
+document.addEventListener('click',e=>{
+  const t=e.target.closest('button'); if(!t) return;
+  if(t.dataset.tab!==undefined){ S.tab=t.dataset.tab; document.querySelectorAll('.tab').forEach(b=>b.setAttribute('aria-selected',b===t)); ['dict','proof','history'].forEach(v=>$('#view-'+v).hidden=v!==S.tab); if(S.tab==='history') renderHistory(); if(S.tab==='proof') proofread(); return; }
+  if(t.dataset.label!==undefined){ S.label=t.dataset.label||null; renderLabels(); renderEntries(); return; }
+  if(t.dataset.open){ openDrawer(t.dataset.open); return; }
+  if(t.dataset.copy!==undefined){ navigator.clipboard?.writeText(t.dataset.copy).then(()=>toast(`‘${t.dataset.copy.length>30?t.dataset.copy.slice(0,30)+'…':t.dataset.copy}’ 복사됨`),()=>toast('복사하지 못했어요')); return; }
+  if(t.dataset.mv){ const rows=readMembersRaw(); const row=t.closest('.mrow'); const i=[...row.parentNode.children].indexOf(row);
+    if(t.dataset.mv==='del') rows.splice(i,1); else { const j=t.dataset.mv==='up'?i-1:i+1; if(j<0||j>=rows.length) return; [rows[i],rows[j]]=[rows[j],rows[i]]; }
+    drawMembers(rows.length?rows:[{}]); }
+});
+$('#addMember').onclick=()=>{ const r=readMembersRaw(); r.push({}); drawMembers(r); const ins=document.querySelectorAll('#members [data-m=en]'); ins[ins.length-1].focus(); };
+$('#q').addEventListener('input',e=>{ S.q=e.target.value; renderEntries(); });
+$('#closeDrawer').onclick=closeDrawer; $('#scrim').onclick=closeDrawer;
+document.addEventListener('keydown',e=>{ if(e.key==='Escape'&&S.openId&&!$('#dlg').open) closeDrawer(); if(e.key==='/'&&!['INPUT','TEXTAREA'].includes(document.activeElement.tagName)&&S.tab==='dict'){ e.preventDefault(); $('#q').focus(); } });
+$('#addBtn').onclick=()=>openForm(null);
+$('#editBtn').onclick=()=>{ const a=S.list.find(x=>x.id===S.openId); if(a) openForm(clone(a)); };
+$('#delBtn').onclick=()=>{ const a=S.list.find(x=>x.id===S.openId); if(a) remove(a); };
+$('#cancelForm').onclick=()=>$('#dlg').close();
+$('#form').addEventListener('submit',e=>{ e.preventDefault(); save(); });
+$('#form').addEventListener('input',e=>{ if(e.target.id==='f-alias'||e.target.id==='f-en'){ $('#dupWarn').innerHTML=''; $('#dupWarn').dataset.ack=''; } });
+let pt; $('#proofIn').addEventListener('input',()=>{ clearTimeout(pt); pt=setTimeout(proofread,200); });
+$('#copyFixed').onclick=()=>navigator.clipboard?.writeText(fixedText).then(()=>toast('고친 문구 복사됨'));
+$('#exportBtn').onclick=exportCSV;
+$('#discardBtn').onclick=()=>{ if(!confirm('반영하지 않은 변경을 모두 취소할까요?')) return; S.list=clone(S.base); S.changes=[]; afterChange(); toast('변경을 취소했어요'); };
+$('#publishBtn').onclick=()=>{
+  $('#commitMsg').value=commitMessage();
+  $('#uploadLink').href=HAS_REPO?`${GH}/upload/${CONFIG.branch}/${dataDir}`:'#';
+  $('#noRepoHint').hidden=HAS_REPO; $('#pubDlg').showModal();
+};
+$('#dlJson').onclick=()=>download(CONFIG.dataPath.split('/').pop(),serialize(),'application/json');
+$('#copyMsg').onclick=()=>navigator.clipboard?.writeText($('#commitMsg').value).then(()=>toast('커밋 메시지 복사됨'));
+$('#pubClose').onclick=()=>$('#pubDlg').close();
+$('#pubDone').onclick=()=>{ if(!confirm('GitHub에 커밋했나요? 이 브라우저의 임시 변경 기록을 비웁니다.')) return; S.changes=[]; S.base=clone(S.list); saveDraft(); renderPending(); $('#pubDlg').close(); sessionStorage.removeItem('artist-naming-commits'); S.commits=null; toast('반영 완료. 1~2분 뒤 새로고침하면 사이트에 보여요.'); };
+
+/* ---------- 시작 ---------- */
+(async()=>{
+  renderLabels(); renderEntries();
+  try{
+    const r=await fetch(CONFIG.dataPath+'?t='+Date.now(),{cache:'no-store'}); if(!r.ok) throw new Error(r.status);
+    S.raw=await r.text(); S.base=JSON.parse(S.raw); S.list=clone(S.base);
+  }catch(e){ $('#status').textContent='데이터를 불러오지 못했어요. data/artists.json을 확인해 주세요.'; S.ready=true; renderEntries(); return; }
+  const d=loadDraft();
+  if(d&&d.changes&&d.changes.length){
+    S.list=d.list; S.changes=d.changes;
+    if(d.baseHash!==hash(S.raw)){ const b=$('#staleBanner'); b.hidden=false; b.textContent=`작업 중이던 변경 ${d.changes.length}건이 있는데, 그사이 GitHub의 데이터가 바뀌었어요. 그대로 올리면 다른 사람의 수정이 덮어써질 수 있으니, 변경을 취소하고 최신 데이터에서 다시 수정해 주세요.`; }
+  }
+  S.ready=true; $('#status').textContent=HAS_REPO?`${CONFIG.owner}/${CONFIG.repo}`:'로컬 미리보기';
+  renderLabels(); renderEntries(); renderPending();
+  const h=decodeURIComponent(location.hash.slice(1)); if(h&&S.list.some(a=>a.id===h)) openDrawer(h);
+})();
+})();
+
+</script>
+</body>
+</html>
