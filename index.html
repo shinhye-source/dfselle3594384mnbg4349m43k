@@ -45,7 +45,8 @@ header.top h1{margin:0;font-size:28px;line-height:1.2;font-weight:700;letter-spa
 header.top p{margin:4px 0 0;color:var(--ink-2);font-size:14px}
 .status{font-size:12px;color:var(--ink-3)}
 
-.tabs{display:flex;gap:4px;border-bottom:1px solid var(--line);margin-bottom:22px;overflow-x:auto}
+.tabs{display:flex;gap:4px;border-bottom:1px solid var(--line);margin-bottom:22px;overflow-x:auto;overflow-y:hidden;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
 .tab{background:none;border:0;padding:10px 14px;color:var(--ink-2);font-weight:500;border-bottom:2px solid transparent;margin-bottom:-1px;white-space:nowrap}
 .tab[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent);font-weight:600}
 
@@ -555,7 +556,7 @@ $('#pubDone').onclick=()=>{ if(!confirm('GitHub에 커밋했나요? 이 브라�
     S.list=d.list; S.changes=d.changes;
     if(d.baseHash!==hash(S.raw)){ const b=$('#staleBanner'); b.hidden=false; b.textContent=`작업 중이던 변경 ${d.changes.length}건이 있는데, 그사이 GitHub의 데이터가 바뀌었어요. 그대로 올리면 다른 사람의 수정이 덮어써질 수 있으니, 변경을 취소하고 최신 데이터에서 다시 수정해 주세요.`; }
   }
-  S.ready=true; $('#status').textContent=HAS_REPO?`${CONFIG.owner}/${CONFIG.repo}`:'로컬 미리보기';
+  S.ready=true; $('#status').textContent='';
   renderLabels(); renderEntries(); renderPending();
   const h=decodeURIComponent(location.hash.slice(1)); if(h&&S.list.some(a=>a.id===h)) openDrawer(h);
 })();
