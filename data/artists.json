@@ -226,7 +226,7 @@
   },
   {
     "id": "jeonghan-x-wonwoo",
-    "nameEn": "JEONGHAN X WONWOO",
+    "nameEn": "JxW",
     "nameKo": "정한X원우",
     "type": "유닛",
     "parent": "seventeen",
@@ -234,9 +234,9 @@
       "PLEDIS Entertainment"
     ],
     "aliases": [
-      "JxW"
+      "JEONGHAN X WONWOO"
     ],
-    "note": "SEVENTEEN 유닛. 멤버 표기는 SEVENTEEN 멤버 표기를 그대로 따름.\n'JxW'는 약칭이라 기획안에는 풀네임 사용 (협의 필요).",
+    "note": "SEVENTEEN 유닛. 멤버 표기는 SEVENTEEN 멤버 표기를 그대로 따름.\n공식 약칭 JxW을(를) 정식 표기로 사용. 풀네임(JEONGHAN X WONWOO)은 쓰지 않음.",
     "members": [
       {
         "nameEn": "JEONGHAN",
@@ -250,7 +250,7 @@
   },
   {
     "id": "hoshi-x-woozi",
-    "nameEn": "HOSHI X WOOZI",
+    "nameEn": "HxW",
     "nameKo": "호시X우지",
     "type": "유닛",
     "parent": "seventeen",
@@ -258,9 +258,9 @@
       "PLEDIS Entertainment"
     ],
     "aliases": [
-      "HxW"
+      "HOSHI X WOOZI"
     ],
-    "note": "SEVENTEEN 유닛. 멤버 표기는 SEVENTEEN 멤버 표기를 그대로 따름.\n'HxW'는 약칭이라 기획안에는 풀네임 사용 (협의 필요).",
+    "note": "SEVENTEEN 유닛. 멤버 표기는 SEVENTEEN 멤버 표기를 그대로 따름.\n공식 약칭 HxW을(를) 정식 표기로 사용. 풀네임(HOSHI X WOOZI)은 쓰지 않음.",
     "members": [
       {
         "nameEn": "HOSHI",
@@ -274,7 +274,7 @@
   },
   {
     "id": "s-coups-x-mingyu",
-    "nameEn": "S.COUPS X MINGYU",
+    "nameEn": "CxM",
     "nameKo": "에스쿱스X민규",
     "type": "유닛",
     "parent": "seventeen",
@@ -282,9 +282,9 @@
       "PLEDIS Entertainment"
     ],
     "aliases": [
-      "CxM"
+      "S.COUPS X MINGYU"
     ],
-    "note": "SEVENTEEN 유닛. 멤버 표기는 SEVENTEEN 멤버 표기를 그대로 따름.\n'CxM'은 약칭이라 기획안에는 풀네임 사용 (협의 필요).",
+    "note": "SEVENTEEN 유닛. 멤버 표기는 SEVENTEEN 멤버 표기를 그대로 따름.\n공식 약칭 CxM을(를) 정식 표기로 사용. 풀네임(S.COUPS X MINGYU)은 쓰지 않음.",
     "members": [
       {
         "nameEn": "S.COUPS",
@@ -298,7 +298,7 @@
   },
   {
     "id": "dk-x-seungkwan",
-    "nameEn": "DK X SEUNGKWAN",
+    "nameEn": "DxS",
     "nameKo": "도겸X승관",
     "type": "유닛",
     "parent": "seventeen",
@@ -306,9 +306,9 @@
       "PLEDIS Entertainment"
     ],
     "aliases": [
-      "DxS"
+      "DK X SEUNGKWAN"
     ],
-    "note": "SEVENTEEN 유닛. 멤버 표기는 SEVENTEEN 멤버 표기를 그대로 따름.\n'DxS'는 약칭이라 기획안에는 풀네임 사용 (협의 필요).",
+    "note": "SEVENTEEN 유닛. 멤버 표기는 SEVENTEEN 멤버 표기를 그대로 따름.\n공식 약칭 DxS을(를) 정식 표기로 사용. 풀네임(DK X SEUNGKWAN)은 쓰지 않음.",
     "members": [
       {
         "nameEn": "DK",
@@ -342,6 +342,30 @@
       {
         "nameEn": "VERNON",
         "nameKo": "버논"
+      }
+    ]
+  },
+  {
+    "id": "jxj",
+    "nameEn": "JxJ",
+    "nameKo": "정한X조슈아",
+    "type": "유닛",
+    "parent": "seventeen",
+    "labels": [
+      "PLEDIS Entertainment"
+    ],
+    "aliases": [
+      "JEONGHAN X JOSHUA"
+    ],
+    "note": "SEVENTEEN 유닛. 멤버 표기는 SEVENTEEN 멤버 표기를 그대로 따름.\n공식 약칭 JxJ을(를) 정식 표기로 사용. 풀네임(JEONGHAN X JOSHUA)은 쓰지 않음.",
+    "members": [
+      {
+        "nameEn": "JEONGHAN",
+        "nameKo": "정한"
+      },
+      {
+        "nameEn": "JOSHUA",
+        "nameKo": "조슈아"
       }
     ]
   },
@@ -2743,7 +2767,7 @@
       "SM ENTERTAINMENT"
     ],
     "aliases": [],
-    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\nMARK는 2026년 4월 SM 전속계약 종료와 함께 NCT를 탈퇴해 멤버에서 제외함.",
     "members": [
       {
         "nameEn": "TAEIL",
@@ -2772,10 +2796,6 @@
       {
         "nameEn": "JUNGWOO",
         "nameKo": "정우"
-      },
-      {
-        "nameEn": "MARK",
-        "nameKo": "마크"
       },
       {
         "nameEn": "HAECHAN",
@@ -2874,12 +2894,8 @@
       "SM ENTERTAINMENT"
     ],
     "aliases": [],
-    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.",
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\nMARK는 2026년 4월 SM 전속계약 종료와 함께 NCT를 탈퇴해 멤버에서 제외함.",
     "members": [
-      {
-        "nameEn": "MARK",
-        "nameKo": "마크"
-      },
       {
         "nameEn": "RENJUN",
         "nameKo": "런쥔"
@@ -5187,17 +5203,17 @@
   {
     "id": "xnghan-xoul",
     "nameEn": "XngHan&Xoul",
-    "nameKo": "XngHan&Xoul",
+    "nameKo": "승한앤소울",
     "type": "그룹",
     "labels": [
       "SM ENTERTAINMENT"
     ],
     "aliases": [],
-    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n시트에 그룹 대표 행이 없어 그룹명 열을 영문 표기로 사용함. 한글명 확인 필요.",
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n한글명은 음반 발매 정보 기준(승한앤소울). 승한(XngHan)의 아티스트 브랜드로, Xoul은 활동별로 함께하는 크리에이터 크루.",
     "members": [
       {
         "nameEn": "Xnghan",
-        "nameKo": "Xnghan"
+        "nameKo": "승한"
       }
     ]
   },
@@ -6322,7 +6338,7 @@
       "UPPER ROOM Inc."
     ],
     "aliases": [],
-    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 주식회사 어퍼룸",
+    "note": "위버스 입점 커뮤니티 아티스트 공식 표기법 시트 기준.\n레이블 국문: 주식회사 어퍼룸\n전 NCT 127·NCT DREAM 멤버(MARK). 2026년 4월 SM 계약 종료 및 NCT 탈퇴 후 UPPER ROOM에서 솔로 활동.",
     "members": []
   },
   {
