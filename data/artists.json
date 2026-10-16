@@ -6685,5 +6685,471 @@
         "nameKo": "루안"
       }
     ]
+  },
+  {
+    "id": "weverse-company-inc",
+    "category": "기업",
+    "nameEn": "Weverse Company Inc.",
+    "nameKo": "위버스 컴퍼니",
+    "type": "법인",
+    "labels": [],
+    "aliases": [
+      "Weverse company inc.",
+      "WEVERSE COMPANY INC.",
+      "WeverseCompanyInc.",
+      "WeverseCompany Inc."
+    ],
+    "note": "브랜드 네이밍 가이드(2024.10.02) 기준.\n문장·텍스트에서는 Weverse Company Inc.로 씀(System Text).\n로고(Brand Mark)는 대문자 WEVERSE COMPANY 원본 로고 파일(ai·svg·png·jpg)을 변형 없이 쓰고, Primary Logo를 우선 사용.\nWeverse(서비스)를 나타낼 때 Weverse Company 로고를 쓰면 안 됨.",
+    "members": []
+  },
+  {
+    "id": "weverse-america",
+    "category": "기업",
+    "nameEn": "Weverse America",
+    "nameKo": "위버스 아메리카",
+    "type": "법인",
+    "labels": [],
+    "aliases": [
+      "Weverse america",
+      "WEVERSE AMERICA",
+      "WeverseAmerica"
+    ],
+    "note": "브랜드 네이밍 가이드(2024.10.02) 기준.\n문장·텍스트에서는 Weverse America로 씀(System Text).\n로고(Brand Mark)는 대문자 WEVERSE AMERICA 원본 로고 파일을 변형 없이 사용, Primary Logo 우선.",
+    "members": []
+  },
+  {
+    "id": "weverse-japan",
+    "category": "기업",
+    "nameEn": "Weverse Japan",
+    "nameKo": "위버스 재팬",
+    "type": "법인",
+    "labels": [],
+    "aliases": [
+      "Weverse japan",
+      "WEVERSE JAPAN",
+      "WeverseJapan"
+    ],
+    "note": "브랜드 네이밍 가이드(2024.10.02) 기준.\n문장·텍스트에서는 Weverse Japan으로 씀(System Text).\n로고(Brand Mark)는 대문자 WEVERSE JAPAN 원본 로고 파일을 변형 없이 사용, Primary Logo 우선.",
+    "members": []
+  },
+  {
+    "id": "weverse",
+    "category": "서비스",
+    "nameEn": "Weverse",
+    "nameKo": "위버스",
+    "type": "서비스",
+    "labels": [
+      "Weverse Company Inc."
+    ],
+    "aliases": [
+      "WEVERSE",
+      "weverse",
+      "WEverse",
+      "weVERSE",
+      "We verse"
+    ],
+    "note": "브랜드 네이밍 가이드(2024.10.02) 기준.\n예외: 도메인 주소는 소문자로 씀(예: weverse.io).\n로고(BI)는 Weverse 3.0 BI 원본 파일을 변형 없이 사용. 새 서비스명이 생기면 유관 부서와 협의해 표기.",
+    "members": []
+  },
+  {
+    "id": "weverse-live",
+    "category": "서비스",
+    "nameEn": "Weverse LIVE",
+    "nameKo": "위버스 라이브",
+    "type": "서비스",
+    "parent": "weverse",
+    "labels": [
+      "Weverse Company Inc."
+    ],
+    "aliases": [],
+    "note": "브랜드 네이밍 가이드(2024.10.02) 기준. HYBE Services & Content IP List 기준.\nLIVE는 대문자.",
+    "members": []
+  },
+  {
+    "id": "weverse-dm",
+    "category": "서비스",
+    "nameEn": "Weverse DM",
+    "nameKo": "위버스 DM",
+    "type": "서비스",
+    "parent": "weverse",
+    "labels": [
+      "Weverse Company Inc."
+    ],
+    "aliases": [],
+    "note": "브랜드 네이밍 가이드(2024.10.02) 기준. HYBE Services & Content IP List 기준.",
+    "members": []
+  },
+  {
+    "id": "weverse-tv",
+    "category": "서비스",
+    "nameEn": "Weverse TV",
+    "nameKo": "위버스 TV",
+    "type": "서비스",
+    "parent": "weverse",
+    "labels": [
+      "Weverse Company Inc."
+    ],
+    "aliases": [],
+    "note": "브랜드 네이밍 가이드(2024.10.02) 기준.\n한글명은 가이드에 없어 임시로 적음. 확인 필요.",
+    "members": []
+  },
+  {
+    "id": "weverse-by-fans",
+    "category": "서비스",
+    "nameEn": "Weverse by Fans",
+    "nameKo": "위버스 바이 팬즈",
+    "type": "서비스",
+    "parent": "weverse",
+    "labels": [
+      "Weverse Company Inc."
+    ],
+    "aliases": [],
+    "note": "브랜드 네이밍 가이드(2024.10.02) 기준.\n한글명은 가이드에 없어 임시로 적음. 확인 필요.",
+    "members": []
+  },
+  {
+    "id": "weverse-account",
+    "category": "서비스",
+    "nameEn": "Weverse Account",
+    "nameKo": "위버스 계정",
+    "type": "서비스",
+    "parent": "weverse",
+    "labels": [
+      "Weverse Company Inc."
+    ],
+    "aliases": [],
+    "note": "브랜드 네이밍 가이드(2024.10.02) 기준.\n한글명은 ‘위버스 계정’으로 임시 표기.\n한글명은 가이드에 없어 임시로 적음. 확인 필요.",
+    "members": []
+  },
+  {
+    "id": "weverse-shop",
+    "category": "서비스",
+    "nameEn": "Weverse Shop",
+    "nameKo": "위버스샵",
+    "type": "서비스",
+    "parent": "weverse",
+    "labels": [
+      "Weverse Company Inc."
+    ],
+    "aliases": [],
+    "note": "브랜드 네이밍 가이드(2024.10.02) 기준. HYBE Services & Content IP List 기준.",
+    "members": []
+  },
+  {
+    "id": "weverse-magazine",
+    "category": "서비스",
+    "nameEn": "Weverse Magazine",
+    "nameKo": "위버스 매거진",
+    "type": "서비스",
+    "parent": "weverse",
+    "labels": [
+      "Weverse Company Inc."
+    ],
+    "aliases": [],
+    "note": "브랜드 네이밍 가이드(2024.10.02) 기준. HYBE Services & Content IP List 기준.",
+    "members": []
+  },
+  {
+    "id": "weverse-backstage",
+    "category": "서비스",
+    "nameEn": "Weverse Backstage",
+    "nameKo": "위버스 백스테이지",
+    "type": "서비스",
+    "parent": "weverse",
+    "labels": [
+      "Weverse Company Inc."
+    ],
+    "aliases": [],
+    "note": "브랜드 네이밍 가이드(2024.10.02) 기준.\n한글명은 가이드에 없어 임시로 적음. 확인 필요.",
+    "members": []
+  },
+  {
+    "id": "weverse-concerts",
+    "category": "서비스",
+    "nameEn": "Weverse Concerts",
+    "nameKo": "위버스 콘서트",
+    "type": "서비스",
+    "parent": "weverse",
+    "labels": [
+      "Weverse Company Inc."
+    ],
+    "aliases": [],
+    "note": "브랜드 네이밍 가이드(2024.10.02) 기준.\n한글명은 가이드에 없어 임시로 적음. 확인 필요.",
+    "members": []
+  },
+  {
+    "id": "weverse-insight",
+    "category": "서비스",
+    "nameEn": "Weverse Insight",
+    "nameKo": "위버스 인사이트",
+    "type": "서비스",
+    "parent": "weverse",
+    "labels": [
+      "Weverse Company Inc."
+    ],
+    "aliases": [],
+    "note": "브랜드 네이밍 가이드(2024.10.02) 기준.\n한글명은 가이드에 없어 임시로 적음. 확인 필요.",
+    "members": []
+  },
+  {
+    "id": "weverse-albums",
+    "category": "서비스",
+    "nameEn": "Weverse Albums",
+    "nameKo": "위버스앨범",
+    "type": "서비스",
+    "parent": "weverse",
+    "labels": [
+      "Weverse Company Inc."
+    ],
+    "aliases": [],
+    "note": "브랜드 네이밍 가이드(2024.10.02) 기준. HYBE Services & Content IP List 기준.",
+    "members": []
+  },
+  {
+    "id": "weverse-lens",
+    "category": "서비스",
+    "nameEn": "Weverse Lens",
+    "nameKo": "위버스 렌즈",
+    "type": "서비스",
+    "parent": "weverse",
+    "labels": [
+      "Weverse Company Inc."
+    ],
+    "aliases": [],
+    "note": "브랜드 네이밍 가이드(2024.10.02) 기준.\n한글명은 가이드에 없어 임시로 적음. 확인 필요.",
+    "members": []
+  },
+  {
+    "id": "weverse-queues",
+    "category": "서비스",
+    "nameEn": "Weverse Queues",
+    "nameKo": "위버스 큐즈",
+    "type": "서비스",
+    "parent": "weverse",
+    "labels": [
+      "Weverse Company Inc."
+    ],
+    "aliases": [],
+    "note": "브랜드 네이밍 가이드(2024.10.02) 기준.\n한글명은 가이드에 없어 임시로 적음. 확인 필요.",
+    "members": []
+  },
+  {
+    "id": "weverse-zone",
+    "category": "서비스",
+    "nameEn": "Weverse Zone",
+    "nameKo": "위버스 존",
+    "type": "서비스",
+    "parent": "weverse",
+    "labels": [
+      "Weverse Company Inc."
+    ],
+    "aliases": [],
+    "note": "브랜드 네이밍 가이드(2024.10.02) 기준.\n한글명은 가이드에 없어 임시로 적음. 확인 필요.",
+    "members": []
+  },
+  {
+    "id": "weverse-jelly",
+    "category": "서비스",
+    "nameEn": "Weverse Jelly",
+    "nameKo": "위버스 젤리",
+    "type": "서비스",
+    "parent": "weverse",
+    "labels": [
+      "Weverse Company Inc."
+    ],
+    "aliases": [],
+    "note": "브랜드 네이밍 가이드(2024.10.02) 기준.\n한글명은 가이드에 없어 임시로 적음. 확인 필요.",
+    "members": []
+  },
+  {
+    "id": "weverse-survey",
+    "category": "서비스",
+    "nameEn": "Weverse Survey",
+    "nameKo": "위버스 서베이",
+    "type": "서비스",
+    "parent": "weverse",
+    "labels": [
+      "Weverse Company Inc."
+    ],
+    "aliases": [],
+    "note": "브랜드 네이밍 가이드(2024.10.02) 기준.\n한글명은 가이드에 없어 임시로 적음. 확인 필요.",
+    "members": []
+  },
+  {
+    "id": "weverse-membership",
+    "category": "서비스",
+    "nameEn": "Weverse Membership",
+    "nameKo": "위버스 멤버십",
+    "type": "서비스",
+    "parent": "weverse",
+    "labels": [
+      "Weverse Company Inc."
+    ],
+    "aliases": [],
+    "note": "브랜드 네이밍 가이드(2024.10.02) 기준.\n한글명은 가이드에 없어 임시로 적음. 확인 필요.",
+    "members": []
+  },
+  {
+    "id": "weverse-collection",
+    "category": "서비스",
+    "nameEn": "Weverse Collection",
+    "nameKo": "위버스 컬렉션",
+    "type": "서비스",
+    "parent": "weverse",
+    "labels": [
+      "Weverse Company Inc."
+    ],
+    "aliases": [],
+    "note": "브랜드 네이밍 가이드(2024.10.02) 기준. HYBE Services & Content IP List 기준.",
+    "members": []
+  },
+  {
+    "id": "weverse-community",
+    "category": "서비스",
+    "nameEn": "Weverse Community",
+    "nameKo": "위버스 커뮤니티",
+    "type": "서비스",
+    "parent": "weverse",
+    "labels": [
+      "Weverse Company Inc."
+    ],
+    "aliases": [],
+    "note": "브랜드 네이밍 가이드(2024.10.02) 기준.\n한글명은 가이드에 없어 임시로 적음. 확인 필요.",
+    "members": []
+  },
+  {
+    "id": "weverse-albums-ver",
+    "category": "서비스",
+    "nameEn": "Weverse Albums ver.",
+    "nameKo": "위버스앨범 버전",
+    "type": "서비스",
+    "parent": "weverse",
+    "labels": [
+      "Weverse Company Inc."
+    ],
+    "aliases": [],
+    "note": "브랜드 네이밍 가이드(2024.10.02) 기준.\n앨범 버전명에 쓰는 예외 표기.\n한글명은 가이드에 없어 임시로 적음. 확인 필요.",
+    "members": []
+  },
+  {
+    "id": "rhythm-hive",
+    "category": "게임",
+    "nameEn": "Rhythm Hive",
+    "nameKo": "리듬하이브",
+    "type": "하이브 제작",
+    "labels": [],
+    "aliases": [],
+    "note": "HYBE Services & Content IP List 기준.",
+    "members": []
+  },
+  {
+    "id": "bts-island-in-the-seom",
+    "category": "게임",
+    "nameEn": "BTS Island: In the SEOM",
+    "nameKo": "인더섬 with BTS",
+    "type": "하이브 제작",
+    "labels": [],
+    "aliases": [],
+    "note": "HYBE Services & Content IP List 기준.\n영문명과 한글명의 구성이 다름(영문은 BTS Island가 앞).",
+    "members": []
+  },
+  {
+    "id": "astra-knights-of-veda",
+    "category": "게임",
+    "nameEn": "ASTRA: Knights of Veda",
+    "nameKo": "별이되어라2: 베다의 기사들",
+    "type": "퍼블리싱",
+    "labels": [],
+    "aliases": [],
+    "note": "HYBE Services & Content IP List 기준.",
+    "members": []
+  },
+  {
+    "id": "7fates-chakho",
+    "category": "오리지널 스토리",
+    "nameEn": "7FATES: CHAKHO",
+    "nameKo": "7FATES: CHAKHO",
+    "type": "오리지널 스토리",
+    "labels": [],
+    "aliases": [],
+    "note": "HYBE Services & Content IP List 기준.\n한글 표기에서도 7FATES: CHAKHO를 그대로 씀.",
+    "members": []
+  },
+  {
+    "id": "dark-moon-the-blood-altar",
+    "category": "오리지널 스토리",
+    "nameEn": "DARK MOON: THE BLOOD ALTAR",
+    "nameKo": "DARK MOON: 달의 제단",
+    "type": "오리지널 스토리",
+    "labels": [],
+    "aliases": [],
+    "note": "HYBE Services & Content IP List 기준.",
+    "members": []
+  },
+  {
+    "id": "the-star-seekers",
+    "category": "오리지널 스토리",
+    "nameEn": "THE STAR SEEKERS",
+    "nameKo": "별을 쫓는 소년들",
+    "type": "오리지널 스토리",
+    "labels": [],
+    "aliases": [],
+    "note": "HYBE Services & Content IP List 기준.",
+    "members": []
+  },
+  {
+    "id": "crimson-heart",
+    "category": "오리지널 스토리",
+    "nameEn": "Crimson Heart",
+    "nameKo": "크림슨 하트",
+    "type": "오리지널 스토리",
+    "labels": [],
+    "aliases": [],
+    "note": "HYBE Services & Content IP List 기준.",
+    "members": []
+  },
+  {
+    "id": "dark-moon-the-grey-city",
+    "category": "오리지널 스토리",
+    "nameEn": "DARK MOON: THE GREY CITY",
+    "nameKo": "DARK MOON: 회색 도시",
+    "type": "오리지널 스토리",
+    "labels": [],
+    "aliases": [],
+    "note": "HYBE Services & Content IP List 기준.",
+    "members": []
+  },
+  {
+    "id": "in-the-soop",
+    "category": "콘텐츠",
+    "nameEn": "IN THE SOOP",
+    "nameKo": "인더숲",
+    "type": "콘텐츠",
+    "labels": [],
+    "aliases": [],
+    "note": "HYBE Services & Content IP List 기준.\n국문 문서에서는 인더숲(IN THE SOOP)처럼 영문을 병기.",
+    "members": []
+  },
+  {
+    "id": "hybe-insight",
+    "category": "프로젝트",
+    "nameEn": "HYBE INSIGHT",
+    "nameKo": "하이브 인사이트",
+    "type": "사업형 프로젝트",
+    "labels": [],
+    "aliases": [],
+    "note": "HYBE Services & Content IP List 기준.",
+    "members": []
+  },
+  {
+    "id": "the-city",
+    "category": "프로젝트",
+    "nameEn": "THE CITY",
+    "nameKo": "더 시티",
+    "type": "사업형 프로젝트",
+    "labels": [],
+    "aliases": [],
+    "note": "HYBE Services & Content IP List 기준.",
+    "members": []
   }
 ]

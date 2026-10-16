@@ -14,6 +14,7 @@ try {
 if (!Array.isArray(list)) { console.error('✗ 최상위는 배열이어야 해요.'); process.exit(1); }
 
 const TYPES = ['그룹', '솔로', '유닛', '프로젝트'];
+const CATEGORIES = ['아티스트', '기업', '서비스', '게임', '오리지널 스토리', '콘텐츠', '프로젝트'];
 const ids = new Map(), names = new Map();
 list.forEach((a, i) => {
   const at = `${i + 1}번째 항목${a && a.nameEn ? ` (${a.nameEn})` : ''}`;
@@ -21,7 +22,9 @@ list.forEach((a, i) => {
   if (!a.id || !/^[a-z0-9-]+$/.test(a.id)) errors.push(`${at}: id는 영문 소문자·숫자·하이픈만 쓸 수 있어요.`);
   if (!a.nameEn?.trim()) errors.push(`${at}: nameEn(정식 영문 표기)이 비어 있어요.`);
   if (!a.nameKo?.trim()) errors.push(`${at}: nameKo(한글명)가 비어 있어요.`);
-  if (!TYPES.includes(a.type)) errors.push(`${at}: type은 ${TYPES.join('/')} 중 하나여야 해요.`);
+  if (a.category !== undefined && !CATEGORIES.includes(a.category)) errors.push(`${at}: category는 ${CATEGORIES.join('/')} 중 하나여야 해요.`);
+  if (!a.category || a.category === '아티스트') { if (!TYPES.includes(a.type)) errors.push(`${at}: 아티스트의 type은 ${TYPES.join('/')} 중 하나여야 해요.`); }
+  else if (!a.type?.trim()) errors.push(`${at}: type이 비어 있어요.`);
   for (const k of ['labels', 'aliases', 'members']) if (!Array.isArray(a[k])) errors.push(`${at}: ${k}는 배열이어야 해요.`);
   (a.members || []).forEach((m, j) => {
     if (!m || typeof m !== 'object') errors.push(`${at}: ${j + 1}번째 멤버 형식이 잘못됐어요.`);
@@ -42,4 +45,4 @@ list.forEach((a, i) => {
 });
 
 if (errors.length) { errors.forEach(e => console.error('✗ ' + e)); process.exit(1); }
-console.log(`✓ ${list.length}팀 검사 통과${warnings.length ? ` (확인 필요 ${warnings.length}건)` : ''}`);
+console.log(`✓ ${list.length}개 항목 검사 통과${warnings.length ? ` (확인 필요 ${warnings.length}건)` : ''}`);
